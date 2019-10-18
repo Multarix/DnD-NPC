@@ -1,2 +1,5 @@
-# D&D
-Generate Random D&D NPCs
+# D&D-NPC
+Generate random D&D NPCs</br>
+</br>
+</br>
+Documentation coming "soon".

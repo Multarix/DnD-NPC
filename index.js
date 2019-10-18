@@ -1,7 +1,7 @@
-const nameGen = require("../name/nameGen.js");
-const rolePicker = require("../functions/rolePicker.js");
-const racePicker = require("../functions/racePicker.js");
-const generateNPC = require("../functions/generateNPC.js");
+const nameGen = require("./name/nameGen.js");
+const rolePicker = require("./functions/rolePicker.js");
+const racePicker = require("./functions/racePicker.js");
+const generateNPC = require("./functions/generateNPC.js");
 module.exports = class npc {
 	constructor(obj){
 		this.role = undefined;
