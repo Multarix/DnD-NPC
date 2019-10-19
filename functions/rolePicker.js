@@ -1,7 +1,7 @@
 module.exports = (obj) => {
 	let role = "invalid";
 	if(typeof obj === "string") role = obj.toLowerCase();
-	if(obj.role) role = obj.role.toString().toLowerCase();
+	if(obj.roleType) role = obj.roleType.toString().toLowerCase();
 	if(Array.isArray(obj)){
 		if(obj[0]) role = obj[0].toString().toLowerCase();
 	}

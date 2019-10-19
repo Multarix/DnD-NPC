@@ -8,21 +8,24 @@ module.exports = class npc {
 		this.race = undefined;
 		if(obj){
 			if(obj.raceType) this.race = racePicker([obj.raceType, obj.subRace]);
-			if(obj.role) this.role = rolePicker({ role: obj.role });
+			if(obj.roleType) this.roleType = rolePicker({ roleType: obj.roleType });
 		}
 	}
 
-	roleType(obj){
-		this.role = rolePicker(obj);
-		return this;
-	}
-
 	raceType(...obj){
+		if(this.character) return;
 		this.race = racePicker(obj);
 		return this;
 	}
 
+	roleType(obj){
+		if(this.character) return;
+		this.role = rolePicker(obj);
+		return this;
+	}
+
 	generate(){
+		if(this.character) return;
 		return generateNPC(this);
 	}
 };

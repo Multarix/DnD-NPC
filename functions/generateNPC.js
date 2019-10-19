@@ -3,7 +3,7 @@ const roleGen = require("./chosenRole.js");
 const nameGen = require("../name/nameGen.js");
 module.exports = (data) => {
 	const race = raceGen(data.race);
-	const role = roleGen(data.role, race);
+	const role = roleGen(data.roleType, race);
 	const character = nameGen(race.name);
 
 	return {
