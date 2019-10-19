@@ -17,12 +17,15 @@ module.exports = (obj) => {
 	case "aarakocra":
 		raceName = "aarakocra";
 		break;
+
 	case "aasimar":
 		raceName = "aasimar";
 		break;
+
 	case "changeling":
 		raceName = "changeling";
 		break;
+
 	case "dragonborn":
 		raceName = "dragonborn";
 		break;
@@ -102,10 +105,13 @@ module.exports = (obj) => {
 	case "gnome":
 		raceName = "gnome";
 		break;
+
 	case "goliath":
 		raceName = "goliath";
 		break;
-	case "halfelf" || "half-elf":
+
+	case "half-elf":
+	case "halfelf":
 		raceName = "halfelf";
 		break;
 
@@ -127,13 +133,17 @@ module.exports = (obj) => {
 		raceName = "halfling-stout";
 		break;
 
-	case "halforc" || "half-orc":
+	case "half-orc":
+	case "halforc":
 		raceName = "halforc";
 		break;
+
 	case "human":
 		raceName = "human";
 		break;
-	case "kalashtar" || "quori":
+
+	case "quori":
+	case "kalashtar":
 		raceName = "kalashtar";
 		break;
 
