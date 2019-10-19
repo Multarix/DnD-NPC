@@ -1,7 +1,6 @@
 [
 	{
 		"name": "Club",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/club",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d4",
@@ -12,7 +11,6 @@
 	},
 	{
 		"name": "Dagger",
-		"aliases": ["knife"],
 		"link": "https://www.dndbeyond.com/equipment/dagger",
 		"damageType": "piercing",
 		"damageAmount": "1×d4",
@@ -23,7 +21,6 @@
 	},
 	{
 		"name": "Greatclub",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/greatclub",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d8",
@@ -34,7 +31,6 @@
 	},
 	{
 		"name": "Handaxe",
-		"aliases": ["axe"],
 		"link": "https://www.dndbeyond.com/equipment/handaxe",
 		"damageType": "slashing",
 		"damageAmount": "1×d6",
@@ -45,7 +41,6 @@
 	},
 	{
 		"name": "Javelin",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/javelin",
 		"damageType": "piercing",
 		"damageAmount": "1×d6",
@@ -56,7 +51,6 @@
 	},
 	{
 		"name": "Light Hammer",
-		"aliases": ["lighthammer", "light-hammer", "smallhammer", "small-hammer"],
 		"link": "https://www.dndbeyond.com/equipment/light-hammer",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d4",
@@ -67,7 +61,6 @@
 	},
 	{
 		"name": "Mace",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/mace",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d6",
@@ -78,7 +71,6 @@
 	},
 	{
 		"name": "Quarterstaff",
-		"aliases": ["staff"],
 		"link": "https://www.dndbeyond.com/equipment/quarterstaff",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d6",
@@ -90,7 +82,6 @@
 	},
 	{
 		"name": "Sickle",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/sickle",
 		"damageType": "slashing",
 		"damageAmount": "1×d4",
@@ -101,7 +92,6 @@
 	},
 	{
 		"name": "Spear",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/spear",
 		"damageType": "piercing",
 		"damageAmount": "1×d6",
@@ -113,7 +103,6 @@
 	},
 	{
 		"name": "Yklwa",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/yklwa",
 		"damageType": "piercing",
 		"damageAmount": "1×d8",
@@ -124,7 +113,6 @@
 	},
 	{
 		"name": "Boomerang",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/boomerang",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d4",
@@ -146,7 +134,6 @@
 	},
 	{
 		"name": "Dart",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/dart",
 		"damageType": "piercing",
 		"damageAmount": "1×d4",
@@ -157,7 +144,6 @@
 	},
 	{
 		"name": "Shortbow",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/shortbow",
 		"damageType": "piercing",
 		"damageAmount": "1×d6",
@@ -168,7 +154,6 @@
 	},
 	{
 		"name": "Sling",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/sling",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d4",
@@ -179,7 +164,6 @@
 	},
 	{
 		"name": "Battleaxe",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/battleaxe",
 		"damageType": "slashing",
 		"damageAmount": "1×d8",
@@ -191,7 +175,6 @@
 	},
 	{
 		"name": "Flail",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/flail",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d8",
@@ -202,7 +185,6 @@
 	},
 	{
 		"name": "Glaive",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/glaive",
 		"damageType": "slashing",
 		"damageAmount": "1×d10",
@@ -213,7 +195,6 @@
 	},
 	{
 		"name": "Greataxe",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/greataxe",
 		"damageType": "slashing",
 		"damageAmount": "1×d12",
@@ -224,7 +205,6 @@
 	},
 	{
 		"name": "Greatsword",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/greatsword",
 		"damageType": "slashing",
 		"damageAmount": "2×d6",
@@ -235,7 +215,6 @@
 	},
 	{
 		"name": "Halberd",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/halberd",
 		"damageType": "slashing",
 		"damageAmount": "1×d10",
@@ -246,7 +225,6 @@
 	},
 	{
 		"name": "Lance",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/lance",
 		"damageType": "piercing",
 		"damageAmount": "1×d12",
@@ -257,7 +235,6 @@
 	},
 	{
 		"name": "Longsword",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/longsword",
 		"damageType": "slashing",
 		"damageAmount": "1×d10",
@@ -269,7 +246,6 @@
 	},
 	{
 		"name": "Maul",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/maul",
 		"damageType": "bludgeoning",
 		"damageAmount": "2×d6",
@@ -280,7 +256,6 @@
 	},
 	{
 		"name": "Morningstar",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/morningstar",
 		"damageType": "piercing",
 		"damageAmount": "1×d8",
@@ -291,7 +266,6 @@
 	},
 	{
 		"name": "Pike",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/pike",
 		"damageType": "slashing",
 		"damageAmount": "1×d10",
@@ -302,7 +276,6 @@
 	},
 	{
 		"name": "Rapier",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/rapier",
 		"damageType": "piercing",
 		"damageAmount": "1×d8",
@@ -313,7 +286,6 @@
 	},
 	{
 		"name": "Scimitar",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/scimitar",
 		"damageType": "slashing",
 		"damageAmount": "1×d6",
@@ -324,7 +296,6 @@
 	},
 	{
 		"name": "Shortsword",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/shortsword",
 		"damageType": "piercing",
 		"damageAmount": "1×d6",
@@ -335,7 +306,6 @@
 	},
 	{
 		"name": "Trident",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/trident",
 		"damageType": "piercing",
 		"damageAmount": "1×d6",
@@ -347,7 +317,6 @@
 	},
 	{
 		"name": "War Pick",
-		"aliases": ["warpick"],
 		"link": "https://www.dndbeyond.com/equipment/war-pick",
 		"damageType": "slashing",
 		"damageAmount": "1×d8",
@@ -358,7 +327,6 @@
 	},
 	{
 		"name": "Warhammer",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/warhammer",
 		"damageType": "bludgeoning",
 		"damageAmount": "1×d8",
@@ -370,7 +338,6 @@
 	},
 	{
 		"name": "Whip",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/whip",
 		"damageType": "slashing",
 		"damageAmount": "1×d4",
@@ -381,7 +348,6 @@
 	},
 	{
 		"name": "Blowgun",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/blowgun",
 		"damageType": "piercing",
 		"damageAmount": "1×1",
@@ -392,7 +358,6 @@
 	},
 	{
 		"name": "Hand Crossbow",
-		"aliases": ["handcrossbow", "hand-crossbow"],
 		"link": "https://www.dndbeyond.com/equipment/crossbow-hand",
 		"damageType": "piercing",
 		"damageAmount": "1×d6",
@@ -403,7 +368,6 @@
 	},
 	{
 		"name": "Heavy Crossbow",
-		"aliases": ["heavycrossbow", "heavy-crossbow"],
 		"link": "https://www.dndbeyond.com/equipment/crossbow-heavy",
 		"damageType": "piercing",
 		"damageAmount": "1×d10",
@@ -414,7 +378,6 @@
 	},
 	{
 		"name": "Longbow",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/longbow",
 		"damageType": "piercing",
 		"damageAmount": "1×d8",
@@ -425,7 +388,6 @@
 	},
 	{
 		"name": "Net",
-		"aliases": [],
 		"link": "https://www.dndbeyond.com/equipment/net",
 		"damageType": null,
 		"damageAmount": "0×0",
