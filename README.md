@@ -22,30 +22,30 @@ const dnd = require('dnd-npc');
 const npc = new dnd({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
 	.raceType({ raceType: "human" })
 	.roleType("bard")
-	.generate(); // Generates a Human Bard (why u make bard tho?)
+	.generate(); // Generates a Human Bard (why u make Bard tho?)
 ```
 Leaving the raceType or role blank, or passing an invalid type to it, will result in that thing being randomly generated.
 ```js
 const dnd = require('dnd-npc');
 const npc = new dnd({ raceType: "warforged" })
-	.generate(); // Generates a warforged with a random subrace and role.
+	.generate(); // Generates a Warforged with a random sub-race and role.
 ```
-You can also pass a sub race as the raceType and it will generate with the correct race and subrace.
+You can also pass a sub-race as the raceType and it will generate with the correct race and sub-race.
 ```js
 const dnd = require('dnd-npc');
 const npc = new dnd({ raceType: "juggernaut" })
-	.generate(); // Generates a warforged-Juggernaut with a random role.
+	.generate(); // Generates a Warforged-Juggernaut with a random role.
 ```
 ---
 ## Information
-After calling generate() you'll receive an object like this with all the details of the NPC.
-Without calling generate() all you'll have is an object with a raceType and roleType property.
+After using the generate() method, you'll receive an object like this with all the details of the NPC.
+Without using generate() all you'll have is an object with a raceType and roleType property.
 
 ```js
 {
 	"character": {
-		"name": String, // The name of the npc
-		"gender": String // The gender of the npc
+		"name": String, // The name of the NPC
+		"gender": String // The gender of the NPC
 	},
 	"race": {
 		"name": String, // The name of the race
@@ -85,8 +85,13 @@ Without calling generate() all you'll have is an object with a raceType and role
 			"strength": Number, // The strength requirement for the armor
 			"metal": Boolean, // Whether or not the armor is made of metal
 			"stealth": Boolean // Whether or not the armor impedes the stealth of the NPC
-		}, // Can also be undefined
-		"tools": Array // May be empty
+		},
+		"tools": [ // May be empty
+			{
+				"name": String, // Name of the tool
+				"link": String // Link to the tool on D&D Beyond
+			}
+		]
 	}
 };
 ```
