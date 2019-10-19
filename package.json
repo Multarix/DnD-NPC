@@ -1,7 +1,7 @@
 {
   "author": "Multarix",
-  "name": "@multarix/dnd-npc",
-  "version": "1.0.0",
+  "name": "dnd-npc",
+  "version": "1.0.1",
   "description": "Generate random D&D NPCs",
   "repository": {
     "type": "git",
