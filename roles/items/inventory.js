@@ -3,7 +3,7 @@ const armorList = require("./armor.json");
 module.exports = (race, strength, wTags, aTags) => {
 	const gear = {
 		weapon: undefined,
-		shield: false,
+		shield: undefined,
 		armor: undefined,
 		tools: [],
 	};
@@ -20,7 +20,7 @@ module.exports = (race, strength, wTags, aTags) => {
 	const weapon = viableWeapons[n];
 	const shieldLink = "https://www.dndbeyond.com/equipment/shield";
 	gear.weapon = weapon;
-	gear.shield = (aTags.shield && weapon.allowShield && Math.random() >= 0.5) ? true : false;
+	gear.shield = (aTags.shield && weapon.allowShield && Math.random() >= 0.5) ? "https://www.dndbeyond.com/equipment/shield" : false;
 
 	const viableArmor = [];
 	const armorLength = armorList.length;
