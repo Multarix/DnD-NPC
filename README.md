@@ -13,7 +13,7 @@ const npc = new dnd({ raceType: "warforged", subRace: "juggernaut", roleType: "f
 const dnd = require('dnd-npc');
 const npc = new dnd()
 	.raceType({ raceType: "warforged", subRace: "juggernaut"})
-	.role("fighter")
+	.roleType("fighter")
 	.generate(); // Generates a Warforged-Juggernaut Fighter
 ```
 You can also overwrite settings that you have already input.
@@ -21,7 +21,7 @@ You can also overwrite settings that you have already input.
 const dnd = require('dnd-npc');
 const npc = new dnd({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
 	.raceType({ raceType: "human" })
-	.role("bard")
+	.roleType("bard")
 	.generate(); // Generates a Human Bard (why u make bard tho?)
 ```
 Leaving the raceType or role blank, or passing an invalid type to it, will result in that thing being randomly generated.
