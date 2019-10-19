@@ -7,10 +7,7 @@ module.exports = (data) => {
 	const character = nameGen(race.name);
 
 	return {
-		character: {
-			name: character.name,
-			gender: character.gender,
-		},
+		character: character,
 		race: {
 			name: race.name,
 			link: `https://www.dndbeyond.com/races/${race.link}`,
@@ -28,10 +25,6 @@ module.exports = (data) => {
 				charisma: role.stats.charisma + race.stats.charisma,
 			},
 		},
-		inventory: {
-			armor: role.inventory.armor,
-			weapon: role.inventory.weapon,
-			tools: role.inventory.tools,
-		},
+		inventory: role.inventory,
 	};
 };
