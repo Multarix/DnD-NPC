@@ -4,23 +4,23 @@ const racePicker = require("./functions/racePicker.js");
 const generateNPC = require("./functions/generateNPC.js");
 module.exports = class npc {
 	constructor(obj){
-		this.role = undefined;
-		this.race = undefined;
+		this.roleType = undefined;
+		this.raceType = undefined;
 		if(obj){
-			if(obj.raceType) this.race = racePicker([obj.raceType, obj.subRace]);
+			if(obj.raceType) this.raceType = racePicker([obj.raceType, obj.subRace]);
 			if(obj.roleType) this.roleType = rolePicker({ roleType: obj.roleType });
 		}
 	}
 
 	raceType(...obj){
 		if(this.character) return;
-		this.race = racePicker(obj);
+		this.raceType = racePicker(obj);
 		return this;
 	}
 
 	roleType(obj){
 		if(this.character) return;
-		this.role = rolePicker(obj);
+		this.roleType = rolePicker(obj);
 		return this;
 	}
 

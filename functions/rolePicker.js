@@ -1,13 +1,13 @@
 module.exports = (obj) => {
-	let role = "invalid";
-	if(typeof obj === "string") role = obj.toLowerCase();
-	if(obj.roleType) role = obj.roleType.toString().toLowerCase();
+	let roleType = "invalid";
+	if(typeof obj === "string") roleType = obj.toLowerCase();
+	if(obj.roleType) roleType = obj.roleType.toString().toLowerCase();
 	if(Array.isArray(obj)){
-		if(obj[0]) role = obj[0].toString().toLowerCase();
+		if(obj[0]) roleType = obj[0].toString().toLowerCase();
 	}
 
 	let roleName;
-	switch (role){
+	switch (roleType){
 	case "barb":
 	case "barbarian":
 		roleName = "barbarian";
