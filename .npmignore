@@ -1,0 +1,6 @@
+node_modules
+docs
+.github
+.eslintrc.json
+.git
+test.js
