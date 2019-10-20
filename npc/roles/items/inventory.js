@@ -7,7 +7,7 @@ module.exports = (race, strength, wTags, aTags) => {
 		armor: undefined,
 		tools: [],
 	};
-	if(race.small) weaponList.filter(x => !x.properties.includes("heavy"));
+	if(race.size === "Small") weaponList.filter(x => !x.properties.includes("heavy"));
 
 	const weaponLength = weaponList.length;
 	const viableWeapons = [];
