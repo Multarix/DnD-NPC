@@ -13,7 +13,7 @@ module.exports = (data) => {
 		race: {
 			name: race.name,
 			link: race.link,
-			small: race.small,
+			size: race.size,
 			speed: race.speed,
 		},
 		class: {
