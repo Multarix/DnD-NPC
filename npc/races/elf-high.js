@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/elf#HighElf",
 		disposition: ["Good", "Good", "Neutral"],
 		speed: 30,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 0,
 			dexterity: 2,

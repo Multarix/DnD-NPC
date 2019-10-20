@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/elf#WoodElf",
 		disposition: ["Good", "Good", "Neutral"],
 		speed: 35,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 0,
 			dexterity: 2,

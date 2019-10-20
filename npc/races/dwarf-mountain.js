@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/dwarf#MountainDwarf",
 		disposition: ["Good", "Good", "Neutral"],
 		speed: 25,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 2,
 			dexterity: 0,

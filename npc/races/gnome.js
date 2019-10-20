@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/gnome#RockGnome",
 		disposition: ["Good", "Neutral"],
 		speed: 25,
-		small: true,
+		size: "Small",
 		stats: {
 			strength: 0,
 			dexterity: 0,

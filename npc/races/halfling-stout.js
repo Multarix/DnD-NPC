@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/halfling#StoutHalfling",
 		disposition: ["Good", "Good", "Neutral"],
 		speed: 25,
-		small: true,
+		size: "Small",
 		stats: {
 			strength: 0,
 			dexterity: 2,

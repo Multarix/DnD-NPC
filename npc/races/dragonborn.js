@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/dragonborn",
 		disposition: ["Good", "Evil"],
 		speed: 30,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 2,
 			dexterity: 0,

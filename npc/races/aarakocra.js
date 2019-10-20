@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/aarakocra",
 		disposition: ["Good", "Neutral", "Neutral", "Evil"],
 		speed: 25,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 0,
 			dexterity: 2,

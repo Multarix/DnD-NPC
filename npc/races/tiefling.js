@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/tiefling",
 		disposition: ["Neutral", "Evil", "Evil"],
 		speed: 30,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 0,
 			dexterity: 0,

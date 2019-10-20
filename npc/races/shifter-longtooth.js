@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/shifter#Longtooth",
 		disposition: ["Neutral"],
 		speed: 30,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 2,
 			dexterity: 1,

@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/genasi#EarthGenasi",
 		disposition: ["Neutral"],
 		speed: 30,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 1,
 			dexterity: 0,

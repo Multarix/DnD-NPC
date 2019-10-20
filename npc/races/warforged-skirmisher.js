@@ -4,7 +4,7 @@ module.exports = () => {
 		link: "https://www.dndbeyond.com/races/warforged#Skirmisher",
 		disposition: ["Good", "Good", "Neutral", "Neutral", "Evil"],
 		speed: 35,
-		small: false,
+		size: "Medium",
 		stats: {
 			strength: 0,
 			dexterity: 2,
