@@ -64,7 +64,7 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 	"race": {
 		"name": String, // The name of the race
 		"link": String, // Link to the race on D&D Beyond
-		"Size": String, // The size of the race Small, Medium etc.
+		"size": String, // The size of the race Small, Medium etc.
 		"speed": Number // The base movement speed of the race
 	},
 	"class": {
