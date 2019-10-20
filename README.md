@@ -6,12 +6,12 @@ DnD-NPC is a [Node.js](https://nodejs.org) module allows you to easily create ra
 You can create a new npc in several ways.</br>
 ```js
 const dnd = require('dnd-npc');
-const npc = new dnd({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
+const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
 	.generate(); // Generates a Warforged-Juggernaut Fighter
 ```
 ```js
 const dnd = require('dnd-npc');
-const npc = new dnd()
+const npc = new dnd.npc()
 	.raceType({ raceType: "warforged", subRace: "juggernaut"})
 	.roleType("fighter")
 	.generate(); // Generates a Warforged-Juggernaut Fighter
@@ -19,7 +19,7 @@ const npc = new dnd()
 You can also overwrite settings that you have already input.
 ```js
 const dnd = require('dnd-npc');
-const npc = new dnd({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
+const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
 	.raceType({ raceType: "human" })
 	.roleType("bard")
 	.generate(); // Generates a Human Bard (why u make Bard tho?)
@@ -27,25 +27,26 @@ const npc = new dnd({ raceType: "warforged", subRace: "juggernaut", roleType: "f
 Leaving the raceType or role blank, or passing an invalid type to it, will result in that thing being randomly generated.
 ```js
 const dnd = require('dnd-npc');
-const npc = new dnd({ raceType: "warforged" })
+const npc = new dnd.npc({ raceType: "warforged" })
 	.generate(); // Generates a Warforged with a random sub-race and role.
 ```
 You can also pass a sub-race as the raceType and it will generate with the correct race and sub-race.
 ```js
 const dnd = require('dnd-npc');
-const npc = new dnd({ raceType: "juggernaut" })
+const npc = new dnd.npc({ raceType: "juggernaut" })
 	.generate(); // Generates a Warforged-Juggernaut with a random role.
 ```
 ---
-## Information
-After using the generate() method, you'll receive an object like this with all the details of the NPC.
-Without using generate() all you'll have is an object with a raceType and roleType property.
+## Output
+After using the #generate() method, you'll receive an object like this with all the details of the NPC.
+Without using #generate() all you'll have is an object with a raceType and roleType property.
 
 ```js
 {
 	"character": {
 		"name": String, // The name of the NPC
-		"gender": String // The gender of the NPC
+		"gender": String, // The gender of the NPC
+		"alignment": String // The alignment of the NPC
 	},
 	"race": {
 		"name": String, // The name of the race
@@ -66,19 +67,19 @@ Without using generate() all you'll have is an object with a raceType and roleTy
 		},
 	},
 	"inventory": {
-		"weapon": {
+		"weapon": { // The weapon that the NPC is carrying.
 			"name": String, // The name of the weapon
 			"link": String, // The link to the weapon on D&D Beyond
 			"damageType": String, // What type of damage the weapon does. Bludgeoning, Piercing, Slashing etc.
 			"damageAmount": String, // The damage done by the weapon.
-			"vDamage": String, // The damage done if it's versatile being used two-handed
+			"vDamage": String, // The damage done if it's versatile weapon being used two-handed
 			"simple": Boolean, // Whether this weapon is classified as martial or simple
 			"ranged": Boolean, // Whether or not the weapon is a ranged weapon
 			"allowShield": Boolean, // Whether or not the weapon allows the use of a shield
-			"properties": Array
+			"properties": Array // The properties of the weapon, such as versatile, heavy etc. May be Empty.
 		},
 		"shield": Boolean, // Whether or not the NPC has a shield, if it does, this will instead be String with a link to shields on D&D Beyond
-		"armor": { // Can also be undefined.
+		"armor": { // The armor that the NPC is wearing, this may be undefined.
 			"name": String, // The name of the armor
 			"type": String, // The armor class
 			"link": String, // Link to the armor on D&D Beyond
@@ -86,7 +87,7 @@ Without using generate() all you'll have is an object with a raceType and roleTy
 			"metal": Boolean, // Whether or not the armor is made of metal
 			"stealth": Boolean // Whether or not the armor impedes the stealth of the NPC
 		},
-		"tools": [ // May be empty
+		"tools": [ // The tools that the NPC has. May be empty.
 			{
 				"name": String, // Name of the tool
 				"link": String // Link to the tool on D&D Beyond
