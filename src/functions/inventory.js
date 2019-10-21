@@ -1,5 +1,5 @@
-const weaponList = require("./weapons.json");
-const armorList = require("./armor.json");
+const weaponList = require("../objects/weapons.json");
+const armorList = require("../objects/armor.json");
 module.exports = (race, strength, wTags, aTags) => {
 	const gear = {
 		weapon: undefined,

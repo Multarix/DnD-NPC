@@ -1,4 +1,4 @@
-const inventory = require("./items/inventory.js");
+const inventory = require("../functions/inventory.js");
 const statGen = require("../functions/randomStat.js");
 const wTags = {
 	"names": [],
