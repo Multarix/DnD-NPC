@@ -11,7 +11,7 @@ module.exports = (race, role) => {
 	const alignment = (gne === lnc) ? "True Neutral" : `${lnc} ${gne}`;
 
 	const reggie = /\w+$/g;
-	const str = raceName.toLowerCase().replace("-", "");
+	const str = raceName.toLowerCase();
 	const r = reggie.exec(str)[0];
 
 	const first = require(`../names/${gender.toLowerCase()}/${r}.json`);
@@ -22,5 +22,5 @@ module.exports = (race, role) => {
 
 	const name = `${first[f]} ${last[l]}`.replace(/\s$/, "");
 
-	return { name: name, gender: gender, alignment: alignment, age: age };
+	return { name: name, gender: gender, alignment: alignment, age: age, level: 1 };
 };
