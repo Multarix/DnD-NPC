@@ -8,68 +8,68 @@ module.exports = (obj) => {
 	}
 
 	let roleName;
-	switch (roleType){
-	case "barb":
-	case "barbarian":
-		roleName = "barbarian";
-		break;
+	switch(roleType){
+		case "barb":
+		case "barbarian":
+			roleName = "barbarian";
+			break;
 
-	case "entertainer":
-	case "musician":
-	case "bard":
-		roleName = "bard";
-		break;
+		case "entertainer":
+		case "musician":
+		case "bard":
+			roleName = "bard";
+			break;
 
-	case "priest":
-	case "healer":
-	case "cleric":
-		roleName = "cleric";
-		break;
+		case "priest":
+		case "healer":
+		case "cleric":
+			roleName = "cleric";
+			break;
 
-	case "druid":
-		roleName = "druid";
-		break;
+		case "druid":
+			roleName = "druid";
+			break;
 
-	case "warrior":
-	case "fighter":
-		roleName = "fighter";
-		break;
+		case "warrior":
+		case "fighter":
+			roleName = "fighter";
+			break;
 
-	case "monk":
-		roleName = "monk";
-		break;
+		case "monk":
+			roleName = "monk";
+			break;
 
-	case "paladin":
-		roleName = "paladin";
-		break;
+		case "paladin":
+			roleName = "paladin";
+			break;
 
-	case "archer":
-	case "ranger":
-		roleName = "ranger";
-		break;
+		case "archer":
+		case "ranger":
+			roleName = "ranger";
+			break;
 
-	case "thief":
-	case "theif":
-	case "rogue":
-		roleName = "rogue";
-		break;
+		case "thief":
+		case "theif":
+		case "rogue":
+			roleName = "rogue";
+			break;
 
-	case "mage":
-	case "sorc":
-	case "sorcerer":
-		roleName = "sorcerer";
-		break;
+		case "mage":
+		case "sorc":
+		case "sorcerer":
+			roleName = "sorcerer";
+			break;
 
-	case "warlock":
-		roleName = "warlock";
-		break;
+		case "warlock":
+			roleName = "warlock";
+			break;
 
-	case "wiztard":
-	case "wizard":
-		roleName = "wizard";
-		break;
+		case "wiztard":
+		case "wizard":
+			roleName = "wizard";
+			break;
 
-	default: roleName = undefined;
+		default: roleName = undefined;
 	}
 	return roleName;
 };
