@@ -1,12 +1,10 @@
 const raceGen = require("./chosenRace.js");
 const roleGen = require("./chosenRole.js");
-const disposition = require("./disposition.js");
-const charGen = require("./charGen.js");
+const charGen = require("./charData.js");
 module.exports = (data) => {
 	const race = raceGen(data.raceType);
 	const role = roleGen(data.roleType, race);
-	const alignment = disposition(race.disposition, role.disposition);
-	const character = charGen(race.name, alignment);
+	const character = charGen(race, role);
 
 	return {
 		character: character,
