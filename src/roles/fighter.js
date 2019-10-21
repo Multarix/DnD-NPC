@@ -1,5 +1,5 @@
-const inventory = require("../functions/inventory.js");
-const statGen = require("../functions/randomStat.js");
+const inventory = require("../npc/functions/inventory.js");
+const statGen = require("../npc/functions/randomStat.js");
 const wTags = {
 	"names": [],
 	"simple": true,

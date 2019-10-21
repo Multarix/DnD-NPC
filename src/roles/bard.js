@@ -1,6 +1,6 @@
-const inventory = require("../functions/inventory.js");
-const statGen = require("../functions/randomStat.js");
-const music = require("../objects/musicalInstruments.json");
+const inventory = require("../npc/functions/inventory.js");
+const statGen = require("../npc/functions/randomStat.js");
+const music = require("../npc/objects/musicalInstruments.json");
 const wTags = {
 	"names": ["Hand Crossbow", "Longsword", "Rapier", "Shortsword"],
 	"simple": true,

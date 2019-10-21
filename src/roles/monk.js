@@ -1,7 +1,7 @@
-const inventory = require("../functions/inventory.js");
-const statGen = require("../functions/randomStat.js");
-const musical = require("../objects/musicalInstruments.json");
-const artisan = require("../objects/artisanTools.json");
+const inventory = require("../npc/functions/inventory.js");
+const statGen = require("../npc/functions/randomStat.js");
+const musical = require("../npc/objects/musicalInstruments.json");
+const artisan = require("../npc/objects/artisanTools.json");
 const wTags = {
 	"names": ["Shortsword"],
 	"simple": true,
