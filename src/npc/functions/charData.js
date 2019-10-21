@@ -1,12 +1,12 @@
 module.exports = (race, role) => {
 	const raceName = race.name;
 
-	const age = Math.floor(Math.random() * race.maxAge + race.minAge);
+	const age = Math.round(Math.random() * (race.maxAge - race.minAge) + race.minAge);
 	const gender = (Math.random() > 0.5) ? "Male" : "Female";
 
-	let n = Math.floor(Math.random() * role.disposition);
+	let n = Math.floor(Math.random() * role.disposition.length);
 	const lnc = role.disposition[n];
-	n = Math.floor(Math.random() * race.disposition);
+	n = Math.floor(Math.random() * race.disposition.length);
 	const gne = race.disposition[n];
 	const alignment = (gne === lnc) ? "True Neutral" : `${lnc} ${gne}`;
 
