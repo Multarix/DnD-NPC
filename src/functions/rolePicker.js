@@ -1,4 +1,5 @@
 module.exports = (obj) => {
+	if(!obj) return undefined;
 	let roleType = "invalid";
 	if(typeof obj === "string") roleType = obj.toLowerCase();
 	if(obj.roleType) roleType = obj.roleType.toString().toLowerCase();

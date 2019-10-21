@@ -1,4 +1,5 @@
 module.exports = (obj) => {
+	if(!obj) return undefined;
 	let raceType = "invalid";
 	let subRace = "invalid";
 
