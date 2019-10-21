@@ -10,7 +10,7 @@ module.exports = (obj) => {
 
 	let total = 0;
 	for(const [key] of Object.entries(stats)){
-		const num = Math.floor(Math.random() * 4);
+		const num = Math.round(Math.random() * 4);
 		stats[key] += num;
 		total += num;
 	}
