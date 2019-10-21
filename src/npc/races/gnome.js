@@ -1,19 +1,8 @@
 module.exports = () => {
-	return {
-		name: "Gnome",
-		link: "https://www.dndbeyond.com/races/gnome#RockGnome",
-		disposition: ["Good", "Neutral"],
-		speed: 25,
-		size: "Small",
-		maxAge: 450,
-		minAge: 35,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 1,
-			intelligence: 2,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
+	const types = ["deep", "forest", "rock"];
+	const n = Math.floor(Math.random() * types.length);
+	const subrace = types[n];
+
+	const gnome = require(`./gnome-${subrace}.js`);
+	return gnome();
 };

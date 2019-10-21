@@ -1,5 +1,5 @@
 module.exports = () => {
-	const types = ["eladrin", "high", "wood"];
+	const types = ["dark", "eladrin", "high", "wood"];
 	const n = Math.floor(Math.random() * types.length);
 	const subrace = types[n];
 
