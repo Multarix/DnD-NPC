@@ -5,6 +5,8 @@ module.exports = () => {
 		disposition: ["Neutral"],
 		speed: 30,
 		size: "Medium",
+		maxAge: 80,
+		minAge: 12,
 		stats: {
 			strength: 0,
 			dexterity: 0,
