@@ -88,7 +88,7 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 			"link": String, // The link to the weapon on D&D Beyond
 			"damageType": String, // What type of damage the weapon does. Bludgeoning, Piercing, Slashing etc.
 			"damageAmount": String, // The damage done by the weapon.
-			"vDamage": String, // The damage done if it's versatile weapon being used two-handed
+			"vDamage": String, // Damage done if the weapon is "versatile" and being used two handed, otherwise undefined.
 			"simple": Boolean, // Whether this weapon is classified as martial or simple
 			"ranged": Boolean, // Whether or not the weapon is a ranged weapon
 			"allowShield": Boolean, // Whether or not the weapon allows the use of a shield
