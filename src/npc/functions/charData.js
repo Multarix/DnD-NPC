@@ -10,8 +10,8 @@ module.exports = (race, role) => {
 	const gne = race.disposition[n];
 	const alignment = (gne === lnc) ? "True Neutral" : `${lnc} ${gne}`;
 
+	const str = raceName.toLowerCase().replace("-", "");
 	const reggie = /\w+$/g;
-	const str = raceName.toLowerCase();
 	const r = reggie.exec(str)[0];
 
 	const first = require(`../names/${gender.toLowerCase()}/${r}.json`);
