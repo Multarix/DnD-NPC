@@ -59,7 +59,9 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 	"character": {
 		"name": String, // The name of the NPC
 		"gender": String, // The gender of the NPC
-		"alignment": String // The alignment of the NPC
+		"alignment": String, // The alignment of the NPC
+		"age": Number, // The age of the NPC
+		"level": Number // The level of the NPC. This should always be level 1
 	},
 	"race": {
 		"name": String, // The name of the race
@@ -112,38 +114,58 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 ## **Valid `raceType` and `subRace`**
 - Aarakocra
 - Aasimar
+	- Fallen
+	- Protector
+	- Scourge
+- Bugbear
 - Changeling
 - Dragonborn
 - Dwarf
 	- Hill
 	- Mountain
 - Elf
+	- Dark
 	- Eladrin
 	- High
 	- Wood
+- Firbolg
 - Genasi
 	- Air
 	- Earth
 	- Fire
 	- Water
 - Gnome
+	- Deep
+	- Forest
+	- Rock
+- Goblin
 - Goliath
+- Grung
 - Halfelf
 - Halfling
 	- Lightfoot
 	- Stout
+- Halforc
+- Hobgoblin
 - Human
 - Kalashtar
+- Kenku
+- Kobold
+- Lizardfolk
+- Orc
 - Shifter
 	- Beasthide
 	- Longtooth
 	- Swiftstride
 	- Wildhunt
+- Tabaxi
 - Tiefling
+- Triton
 - Warforged
 	- Envoy
 	- Juggernaut
 	- Skirmisher
+- Yuanti
 ---
 ## **Valid `roleType`**
 - Barbarian
