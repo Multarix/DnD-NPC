@@ -73,12 +73,12 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 		"name": String, // The name of the class
 		"link": String, // link to the class on D&D Beyond
 		"stats": {
-			"strength": Number, // The total strength of the NPC
-			"dexterity": Number, // The total dexterity of the NPC
-			"constitution": Number, // The total constitution of the NPC
-			"intelligence": Number, // The total intelligence of the NPC
-			"wisdom": Number, // The total wisdom of the NPC
-			"charisma": Number // The total charisma of the NPC
+			"strength": Number, // The total strength of the NPC including the race bonus
+			"dexterity": Number, // The total dexterity of the NPC including the race bonus
+			"constitution": Number, // The total constitution of the NPC including the race bonus
+			"intelligence": Number, // The total intelligence of the NPC including the race bonus
+			"wisdom": Number, // The total wisdom of the NPC including the race bonus
+			"charisma": Number // The total charisma of the NPC including the race bonus
 		},
 	},
 	"inventory": {
