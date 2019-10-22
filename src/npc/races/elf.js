@@ -3,6 +3,6 @@ module.exports = () => {
 	const n = Math.floor(Math.random() * types.length);
 	const subrace = types[n];
 
-	const elf = require(`./elf-${subrace}.js`);
+	const elf = require(`./elf#${subrace}.js`);
 	return elf();
 };

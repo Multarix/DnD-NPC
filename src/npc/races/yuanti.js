@@ -1,6 +1,6 @@
 module.exports = () => {
 	return {
-		name: "Yuan-Ti Pureblood",
+		name: "Yuan-Ti",
 		link: "https://www.dndbeyond.com/races/",
 		disposition: ["Evil"],
 		speed: 30,

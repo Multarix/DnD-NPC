@@ -1,6 +1,6 @@
 module.exports = () => {
 	return {
-		name: "Bug Bear",
+		name: "Bugbear",
 		link: "https://www.dndbeyond.com/races/",
 		disposition: ["Evil"],
 		speed: 30,

@@ -3,6 +3,6 @@ module.exports = () => {
 	const n = Math.floor(Math.random() * types.length);
 	const subrace = types[n];
 
-	const gnome = require(`./gnome-${subrace}.js`);
+	const gnome = require(`./gnome#${subrace}.js`);
 	return gnome();
 };

@@ -3,6 +3,6 @@ module.exports = () => {
 	const n = Math.floor(Math.random() * types.length);
 	const subrace = types[n];
 
-	const shifter = require(`./shifter-${subrace}.js`);
+	const shifter = require(`./shifter#${subrace}.js`);
 	return shifter();
 };
