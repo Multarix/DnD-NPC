@@ -1,6 +1,6 @@
 module.exports = () => {
 	return {
-		name: "Fallen Aasimar",
+		name: "Scourge Aasimar",
 		link: "https://www.dndbeyond.com/races/aasimar#ScourgeAasimar",
 		disposition: ["Good"],
 		speed: 30,
