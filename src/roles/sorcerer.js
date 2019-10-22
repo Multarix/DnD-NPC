@@ -26,6 +26,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Lawful", "Neutral", "Chaotic"],
+		backgrounds: ["Acolyte", "Folk Hero", "Haunted One", "Hermit", "Sage", "Guild Artisan", "Guild Merchant", "Outlander", "Entertainer"],
 	};
 	return role;
 };

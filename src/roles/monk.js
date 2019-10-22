@@ -28,6 +28,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Neutral"],
+		backgrounds: ["Acoylte", "Haunted One", "Hermit", "Sage"],
 	};
 
 	let n = Math.floor(Math.random() * artisan.length);

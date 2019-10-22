@@ -61,6 +61,7 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 		"gender": String, // The gender of the NPC
 		"alignment": String, // The alignment of the NPC
 		"age": Number, // The age of the NPC
+		"background": String, // The type of background that this NPC has
 		"level": Number // The level of the NPC. This should always be level 1
 	},
 	"race": {

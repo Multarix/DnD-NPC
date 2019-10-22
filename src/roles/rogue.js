@@ -26,6 +26,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Neutral", "Chaotic"],
+		backgrounds: ["Criminal", "Spy", "Urchin", "Pirate"],
 	};
 	const tools = { name: "Thieves Tools", link: "https://www.dndbeyond.com/equipment/thieves-tools" };
 	role.inventory.tools.push(tools);

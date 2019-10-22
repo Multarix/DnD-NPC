@@ -26,6 +26,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Lawful", "Neutral"],
+		backgrounds: ["Acolyte", "Hermit", "Sage", "Outlander", "Folk Hero"],
 	};
 	const tools = { name: "Herbalism Kit", link: "https://www.dndbeyond.com/equipment/herbalism-kit" };
 	role.inventory.tools.push(tools);

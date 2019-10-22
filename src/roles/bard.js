@@ -27,6 +27,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Lawful", "Neutral", "Chaotic"],
+		backgrounds: ["Charlatan", "Entertainer", "Hermit", "Urchin"],
 	};
 
 	const musical = [...music];
