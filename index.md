@@ -1,10 +1,8 @@
-## Welcome to the DnD-NPC wiki!
-
 ### Useful links<br>
-- [Changelog](./pages/changelog.md)
-- [Usage](./pages/usage.md)
-- [Role Types](./pages/roleTypes.md)
-- [Race Types](./pages/raceTypes.md)
+- [Changelog](./changelog.md)
+- [Usage](./usage.md)
+- [Role Types](./roleTypes.md)
+- [Race Types](./raceTypes.md)
 
 ### Q&A
 #### So what does this thing do?
@@ -14,7 +12,7 @@ The main use for this is to help quickly create an NPC that a DM can adapt into 
 #### How does it work?
 Magic. Just kidding.<br/>
 It works by taking either user input to determine the character race and class, to then create "random" aspects of an NPC such as their alignment, gender or even weapon.<br>
-To see the full information it currently provides, [see here](./pages/usage#output).
+To see the full information it currently provides, [see here](./usage#output).
 
 #### I don't like X thing about the NPC this created!
 And? Nothing stopping you from taking the bits you do like and adapting the NPC to how YOU like it.<br>

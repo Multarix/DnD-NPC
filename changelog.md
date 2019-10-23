@@ -28,7 +28,7 @@ Some new `raceType`'s and `subRace`'s have been added.
 - Triton
 - Yuan-Ti
 
-For a full list of available races, [click here](./pages/raceTypes.md).
+For a full list of available races, [click here](./raceTypes.md).
 
 
 #### NPC#character#age
