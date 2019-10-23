@@ -1,0 +1,6 @@
+- [Home](../index)
+- [Changelog](./changelog)
+- [Usage](./usage)
+---
+- [raceTypes](./raceTypes)
+- [roleTypes](./roleTypes)
