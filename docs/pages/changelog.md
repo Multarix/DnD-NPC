@@ -1,5 +1,5 @@
 # **Changelog**
-All of the changes that have been made to the package, in a somewhat organised list.
+All of the changes that have been made to the package, in a somewhat organized list.
 
 ---
 ## **v1.1.5** ***Upcoming***
