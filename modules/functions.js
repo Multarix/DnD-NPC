@@ -1,6 +1,5 @@
-function showHide(element){
-	const elem = `${element}${element}`
-	let btn = document.getElementById(element);
+function showHide(button, element){
+	let btn = document.getElementById(button);
 	let e = document.getElementById(elem);
 	if(btn.innerHTML === "Show"){
 		e.style.display = "block";
