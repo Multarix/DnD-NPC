@@ -1,6 +1,6 @@
-- [Home](../index)
-- [Changelog](./changelog)
-- [Usage](./usage)
+- [Home](../index.md)
+- [Changelog](./changelog.md)
+- [Usage](./usage.md)
 ---
-- [raceTypes](./raceTypes)
-- [roleTypes](./roleTypes)
+- [raceTypes](./raceTypes.md)
+- [roleTypes](./roleTypes.md)

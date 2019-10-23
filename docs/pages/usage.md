@@ -1,5 +1,5 @@
 # **Usage**
-You can create a new npc in several ways.</br>
+You can create a new npc in several ways.<br>
 ```js
 const dnd = require('dnd-npc');
 const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
@@ -33,7 +33,7 @@ const npc = new dnd.npc({ raceType: "juggernaut" })
 	.generate(); // Generates a Warforged-Juggernaut with a random role.
 ```
 # **Output**
-After using the `npc#generate()` method, you'll receive an object with all the NPC information inside of it.</br>
+After using the `npc#generate()` method, you'll receive an object with all the NPC information inside of it.<br>
 The structure of the object should be as follows:
 ```js
 {

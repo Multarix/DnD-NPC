@@ -28,28 +28,28 @@ Some new `raceType`'s and `subRace`'s have been added.
 - Triton
 - Yuan-Ti
 
-For a full list of available races, [click here](./raceTypes).
+For a full list of available races, [click here](./raceTypes.md).
 
 
 #### NPC#character#age
-Added NPC age.</br>
-This is based on each race and their lifespans.</br>
+Added NPC age.<br>
+This is based on each race and their lifespans.<br>
 **typeof:** Number
 
 ```diff
 + npc.character.age
 ```
 #### NPC#character#background
-Added NPC background.</br>
-Based on the role to give somewhat logical backgrounds.</br>
+Added NPC background.<br>
+Based on the role to give somewhat logical backgrounds.<br>
 **typeof:** String
 
 ```diff
 + npc.character.background
 ```
 #### NPC#character#level
-Added NPC level.</br>
-This will always be level 1.</br>
+Added NPC level.<br>
+This will always be level 1.<br>
 **typeof:** Number
 
 ```diff
@@ -59,14 +59,14 @@ This will always be level 1.</br>
 ---
 ## **v1.1.0**
 #### NPC#race#small
-`race#small` was removed in favor of `race#size`</br>
+`race#small` was removed in favor of `race#size`<br>
 `race#size` is a string that contains the size of the npc. (Small, Medium, Large etc)
 ```diff
 - npc.race.small // Boolean
 + npc.race.size // String
 ```
 #### NPC#character#alignment
-Added NPC alignment. This is generated based on race and class chosen.</br>
+Added NPC alignment. This is generated based on race and class chosen.<br>
 (No chaotic evil Paladins, though technically not against the rules of D&D 5e)
 
 ```diff
@@ -75,7 +75,7 @@ Added NPC alignment. This is generated based on race and class chosen.</br>
 
 
 #### NPC Constructor
-Changed how the NPC Constructor is called.</br>
+Changed how the NPC Constructor is called.<br>
 This is so in the future more classes can be added for various things, such as generating monsters.
 ```diff
 const dnd = require('dnd-npc');
