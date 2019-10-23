@@ -22,7 +22,7 @@ As said before, the goal is to _help_ create an NPC that a DM can adapt into the
 I take no offence if you don't like an aspect, I mean it WAS randomly generated.
 
 #### I just updated to the latest version and X thing broke!
-Please check the [changelog](./changelog) to make sure this was an intended change.<br>
+Please check the [changelog](./changelog.md) to make sure this was an intended change.<br>
 If it was not, create an issue on the [github](https://github.com/Multarix/DnD-NPC/issues) and I'll take a look at it.<br>
 Better yet, if you know whats causing it, fix it and create a pull request!.
 
