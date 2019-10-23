@@ -1,10 +1,10 @@
 ## Welcome to the DnD-NPC wiki!
 
 ### Useful links<br>
-- [Changelog](./changelog.md)
-- [Usage](./usage.md)
-- [Role Types](./roleTypes.md)
-- [Race Types](./raceTypes.md)
+- [Changelog](./pages/changelog.md)
+- [Usage](./pages/usage.md)
+- [Role Types](./pages/roleTypes.md)
+- [Race Types](./pages/raceTypes.md)
 
 ### Q&A
 #### So what does this thing do?
