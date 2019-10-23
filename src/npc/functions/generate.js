@@ -14,7 +14,7 @@ module.exports = (data) => {
 			size: race.size,
 			speed: race.speed,
 		},
-		class: {
+		role: {
 			name: role.name,
 			link: role.link,
 			stats: {
