@@ -32,9 +32,10 @@ const dnd = require('dnd-npc');
 const npc = new dnd.npc({ raceType: "juggernaut" })
 	.generate(); // Generates a Warforged-Juggernaut with a random role.
 ```
+
 # **Output**
 After using the `npc#generate()` method, you'll receive an object with all the NPC information inside of it.<br>
-The structure of the object should be as follows:
+The structure of the object should be as follows:<br>
 
 ```js
 {
