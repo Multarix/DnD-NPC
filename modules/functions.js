@@ -1,4 +1,4 @@
-var navbar = document.getElementById("topnav");
+var navbar = document.getElementById("topNavbar");
 var sticky = navbar.offsetTop;
 function navBarTop() {
   if (window.pageYOffset >= sticky) {

@@ -1,18 +1,13 @@
 <script defer src="./modules/functions.js"></script>
 <title>D&D NPC</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<div class="topnav">
-<a href="./index.html">Home</a>
-|
-<a href="./changelog.html">Changelog</a>
-|
-<a href="./qa.html">Q&A</a>
-|
-<a href="./usage.html">Usage</a>
-|
-<a href="./roleTypes.html">Roles</a>
-|
-<a href="./raceTypes.html">Races</a>
+<div class="topnav" id="topNavbar">
+[Home](./index.html)
+[Changelog](./changelog.html)
+[Q&A](./qa.html)
+[Usage](./usage.html)
+[Roles](./roleTypes.html)
+[Races](./raceTypes.html)
 </div>
 
 # **Changelog**
@@ -71,6 +66,7 @@ This will always be level 1.<br>
  - npc.race.small
  + npc.race.size
 ```
+
 ### **\<NPC>#character#alignment**
 Added NPC alignment. This is generated based on race and class chosen.<br>
 (No chaotic evil Paladins, though technically not against the rules of D&D 5e)<br>
@@ -78,12 +74,14 @@ Added NPC alignment. This is generated based on race and class chosen.<br>
 
 ### **NPC Constructor**
 Changed how the NPC Constructor is called.<br>
-This is so in the future more classes can be added for various things, such as generating monsters.<br>
+This is so in the future more classes can be added for various things, such as generating monsters.
+
 ```diff
   const dnd = require('dnd-npc');
 - const npc = new dnd({ ..options }).generate();
 + const npc = new dnd.npc({ ..options }).generate();
 ```
+
 <hr>
 
 ## **v1.0.0**
