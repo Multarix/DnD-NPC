@@ -1,6 +1,16 @@
 <title>FAQ</title>
 <script defer src="./modules/functions.js"></script>
 <link rel="stylesheet" type="text/css" href="buttons.css">
+<div class="topnav" id="header">
+	<nav>
+		<a href="./index.html">Home</a>
+		<a href="./qa.html">Q&A</a>
+		<a href="./changelog.html">Changelog</a>
+		<a href="./usage.html">Usage</a>
+		<a href="./roleTypes.html">Roles</a>
+		<a href="./raceTypes.html">Races</a>
+	</nav>
+</div>
 
 # Q&A
 <h3>So what does this thing do?</h3>
