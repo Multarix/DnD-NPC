@@ -1,4 +1,4 @@
-<title>Usage</title>
+<title>Role Types</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <div class="topnav">
 	<a href="./index.html">Home</a>

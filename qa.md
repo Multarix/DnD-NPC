@@ -1,7 +1,6 @@
-<script defer src="./modules/functions.js"></script>
-<title>D&D NPC</title>
-<link rel="stylesheet" type="text/css" href="buttons.css">
 <title>FAQ</title>
+<script defer src="./modules/functions.js"></script>
+<link rel="stylesheet" type="text/css" href="buttons.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <div class="topnav">
 	<a href="./index.html">Home</a>
@@ -26,7 +25,7 @@
 	To see the full information it currently provides, <a href="./usage.html#output">see here</a>.</p>
 	<hr>
 	<h3>I don't like X thing about the NPC this created!</h3>
-	<button class="btn default" id="3" onClick="showHide('3', '33') "type="button">Show</button>
+	<button class="btn default" id="3" onClick="showHide('3', '33')" type="button">Show</button>
 	<p id="33">And? Nothing stopping you from taking the bits you do like and adapting the NPC to how YOU like it.<br>
 	Don't like its name? Change it to something you like.<br>
 	Don't like its weapon? Change it!<br>

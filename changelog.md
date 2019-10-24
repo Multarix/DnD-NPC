@@ -42,24 +42,24 @@ For a full list of available races, [click here](./raceTypes.html)
 ### **\<NPC>#character#age**
 Added NPC age.<br>
 This is based on each race and their lifespans.<br>
-**TypeOf:** <span class="yellow">Number</span>
+<b>TypeOf:</b> <span class="yellow">Number</span>
 
 ### **\<NPC>#character#background**
 Added NPC background.
 Based on the role & race to give somewhat logical backgrounds.<br>
-**TypeOf:** String
+<b>TypeOf:</b> <span class="yellow">String</span>
 
 ### **\<NPC>#character#level**
 Added NPC level.<br>
 This will always be level 1.<br>
-**TypeOf:** Number
+<b>TypeOf:</b> <span class="yellow">Number</span>
 <hr>
 
 ## **v1.1.0**
 ### **\<NPC>#race#small**
 `race#small` was removed in favor of `race#size`<br>
 `race#size` is a string that contains the size of the npc. (Small, Medium, Large etc)<br>
-**TypeOf:** String
+<b>TypeOf:</b> <span class="yellow">String</span>
 
 ```diff
 - npc.race.small
@@ -69,7 +69,7 @@ This will always be level 1.<br>
 ### **\<NPC>#character#alignment**
 Added NPC alignment. This is generated based on race and class chosen.<br>
 (No chaotic evil Paladins, though technically not against the rules of D&D 5e)<br>
-**TypeOf:** String
+<b>TypeOf:</b> <span class="yellow">String</span>
 
 ### **NPC Constructor**
 Changed how the NPC Constructor is called.<br>
@@ -80,7 +80,6 @@ This is so in the future more classes can be added for various things, such as g
 - const npc = new dnd({ ..options }).generate();
 + const npc = new dnd.npc({ ..options }).generate();
 ```
-
 <hr>
 
 ## **v1.0.0**
