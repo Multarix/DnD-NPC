@@ -20,22 +20,6 @@ a:active {
 	text-decoration: none;
 }
 
-h3 {
-	margin: 0;
-	display: inline-block
-}
-
-.btn {
-  border: none;
-  background-color: inherit;
-  padding: 0px 0px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-}
-.btn:hover {color: #898989}
-.default {color: #D9D9D9;}
-
 .sidenav {
 	height: 100%;
 	width: 160px;
@@ -62,11 +46,55 @@ h3 {
 
 .main {
 	margin-left: 160px; /* Same as the width of the sidenav */
-	font-size: 22px; /* Increased text to enable scrolling */
+	font-size: 18px; /* Increased text to enable scrolling */
 	padding: 0px 10px;
+}
+
+div.showHide {
+	display: none;
 }
 
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
+}
+
+pre.code {
+	border: 2px solid #1F1F1F;
+	background-color: #2F2F2F;
+	border-radius: 3px;
+}
+
+
+span.added {
+	color: #008000;
+	background-color: #3F4F3F;
+}
+
+span.removed {
+	color: #800000;
+	background-color: #4F3F3F;
+}
+
+span.key {
+	color: #a878d2;
+}
+span.func {
+	color: #286ad1;
+}
+span.str {
+	color: #69b779;
+}
+span.oper {
+	color: #69b7c7;
+}
+span.prop {
+	color: #d46c60;
+}
+span.highlight {
+	background-color: #2F2F2F;
+}
+
+span.typeof {
+	color: #eb9b34;
 }
