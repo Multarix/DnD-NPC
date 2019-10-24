@@ -1,4 +1,4 @@
-function showHide(button, element){
+const showHide = (button, element) => {
 	let btn = document.getElementById(button);
 	let e = document.getElementById(element);
 	if(btn.innerHTML === "Show"){
