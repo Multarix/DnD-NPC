@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="buttons.css">
 
 <div class = "main">
-	<h1>Q&A<h1>
+# Q&A
 	<h3>So what does this thing do?</h3>
 	<button class="btn default" id="1" onClick="showHide('1', '11')" type="button">Show</button>
 	<p id="11">DnD-NPC allows you to quickly and easily create random NPC's.<br>
