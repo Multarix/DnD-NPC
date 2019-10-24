@@ -9,7 +9,7 @@
 .btn:hover {color: #898989}
 .clicky {color: #D9D9D9}
 
-p {
+p.showHide {
 	display: none;
 }
 
