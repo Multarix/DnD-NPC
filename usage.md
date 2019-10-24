@@ -1,5 +1,5 @@
 <title>Usage</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="buttons.css">
 
 
 # **Usage**

@@ -6,7 +6,7 @@
 All of the changes that have been made to the package, in a somewhat organized list.<br>
 ## **v1.1.5** *Upcoming*
 ### **Races**
-Added new `raceType` and `subRace`
+Added new [raceType](./raceTypes.html) and [subRace](./raceTypes.html)
 - Aasimar
 	- Fallen
 	- Protector
