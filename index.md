@@ -2,7 +2,7 @@
 <title>D&D NPC</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <div class="topnav">
-	<div class="topnav-centered>
+	<div class="topnav-centered">
 		<a href="./index.html">Home</a>
 		<a href="./qa.html">Q&A</a>
 		<a href="./changelog.html">Changelog</a>
