@@ -62,8 +62,8 @@ This will always be level 1.<br>
 **TypeOf:** String
 
 ```diff
- - npc.race.small
- + npc.race.size
+- npc.race.small
++ npc.race.size
 ```
 
 ### **\<NPC>#character#alignment**
