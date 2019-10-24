@@ -3,15 +3,10 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <div class="topnav">
 <a href="./index.html">Home</a>
-<p>|</p>
 <a href="./qa.html">Q&A</a>
-<p>|</p>
 <a href="./changelog.html">Changelog</a>
-<p>|</p>
 <a href="./usage.html">Usage</a>
-<p>|</p>
 <a href="./roleTypes.html">Roles</a>
-<p>|</p>
 <a href="./raceTypes.html">Races</a>
 </div>
 
