@@ -1,12 +1,17 @@
 <script defer src="./modules/functions.js"></script>
 <title>D&D NPC</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<div class="topnav" id="topNavbar">
+<div class="topnav">
 <a href="./index.html">Home</a>
-<a href="./changelog.html">Changelog</a>
+<p>|</p>
 <a href="./qa.html">Q&A</a>
+<p>|</p>
+<a href="./changelog.html">Changelog</a>
+<p>|</p>
 <a href="./usage.html">Usage</a>
+<p>|</p>
 <a href="./roleTypes.html">Roles</a>
+<p>|</p>
 <a href="./raceTypes.html">Races</a>
 </div>
 
