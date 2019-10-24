@@ -84,7 +84,6 @@ This is so in the future more classes can be added for various things, such as g
 - const npc = new dnd({ ..options }).generate();
 + const npc = new dnd.npc({ ..options }).generate();
 ```
-</div>
 <hr>
 
 ## **v1.0.0**

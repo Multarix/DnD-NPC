@@ -1,3 +1,15 @@
+var navbar = document.getElementById("topnav");
+var sticky = navbar.offsetTop;
+function navBarTop() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+window.onscroll = function() {navBarTop()};
+
 const showHide = (button, element) => {
 	let btn = document.getElementById(button);
 	let e = document.getElementById(element);
