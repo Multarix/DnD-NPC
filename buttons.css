@@ -1,5 +1,4 @@
 .btn {
-	color: #898989
   border: none;
   background-color: inherit;
   padding: 0px 0px;
@@ -8,7 +7,7 @@
   display: inline-block;
 }
 .btn:hover {color: #797979}
-.clicky {color: #D9D9D9}
+.default {color: #898989}
 
 p.showHide {
 	display: none;
