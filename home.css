@@ -19,8 +19,8 @@ img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-	height: 30%;
+  width: 29%;
+	height: 29%;
 }
 
 .columnLeft {
@@ -28,7 +28,7 @@ img.center {
   width: 48%;
 }
 
-.mid {
+.columnMid {
   float: middle;
   width: 2%;
 
