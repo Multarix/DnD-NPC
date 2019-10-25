@@ -1,32 +1,23 @@
-const inventory = require("../npc/functions/inventory.js");
-const statGen = require("../npc/functions/randomStat.js");
-const wTags = {
-	"names": [],
-	"simple": true,
-	"martial": false,
-};
-const aTags = {
-	"types": ["light", "medium"],
-	"metal": true,
-	"shield": true,
-};
-const skills = {
-	mainStat: "wisdom",
-	secondStat: false,
-	saveThrow: "charisma",
-	miscStats: ["strength", "dexterity", "constitution", "intelligence"],
-};
-module.exports = (race) => {
-	const stats = statGen(skills);
-	const strength = race.stats.strength + stats.strength;
-	const gear = inventory(race, strength, wTags, aTags);
-	const role = {
-		name: "Cleric",
-		link: "https://www.dndbeyond.com/classes/cleric",
-		stats: stats,
-		inventory: gear,
-		disposition: ["Lawful", "Chaotic"],
-		backgrounds: ["Acolyte", "Hermit", "Sage", "Urchin"],
-	};
-	return role;
-};
+# **[Cleric](https://www.dndbeyond.com/classes/cleric)**
+## **Stats**
+#### **Primary Stat**
+\> Wisdom
+#### **Saving Throw Stats**
+\> Wisdom<br>
+\> Charisma
+#### **Disposition**
+\> 50% Lawful<br>
+\> 50% Chaotic
+#### **Logical Backgrounds**
+\> Acolyte<br>
+\> Hermit<br>
+\> Sage<br>
+\> Urchin
+## **Inventory**
+#### **Weapon**
+\> All Simple Weapons<br>
+\> Shields
+#### **Armor**
+\> Light & Medium
+#### **Tools**
+\> None

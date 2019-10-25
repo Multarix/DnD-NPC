@@ -1,32 +1,27 @@
-const inventory = require("../npc/functions/inventory.js");
-const statGen = require("../npc/functions/randomStat.js");
-const wTags = {
-	"names": [],
-	"simple": true,
-	"martial": true,
-};
-const aTags = {
-	"types": ["light", "medium"],
-	"metal": true,
-	"shield": true,
-};
-const skills = {
-	mainStat: "strength",
-	secondStat: false,
-	saveThrow: "constitution",
-	miscStats: ["dexterity", "intelligence", "wisdom", "wisdom"],
-};
-module.exports = (race) => {
-	const stats = statGen(skills);
-	const strength = race.stats.strength + stats.strength;
-	const gear = inventory(race, strength, wTags, aTags);
-	const role = {
-		name: "Barbarian",
-		link: "https://www.dndbeyond.com/classes/barbarian",
-		stats: stats,
-		inventory: gear,
-		disposition: ["Lawful", "Neutral", "Chaotic"],
-		backgrounds: ["Gladitaor", "Folk Hero", "Haunted One", "Outlander", "Pirate", "Soldier"],
-	};
-	return role;
-};
+# **[Barbarian](https://www.dndbeyond.com/classes/barbarian)**
+## **Stats**
+#### **Primary Stat**
+\> Strength
+#### **Saving Throw Stats**
+\> Strength<br>
+\> Constitution
+#### **Disposition**
+\> 33% Lawful<br>
+\> 33% Neutral<br>
+\> 33% Chaotic
+#### **Logical Backgrounds**
+\> Gladiator<br>
+\> Folk Hero<br>
+\> Haunted One<br>
+\> Outlander<br>
+\> Pirate<br>
+\> Soldier
+## **Inventory**
+#### **Weapon**
+\> All Simple Weapons<br>
+\> All Martial Weapons<br>
+\> Shields
+#### **Armor**
+\> All Armor
+#### **Tools**
+\> None

@@ -1,32 +1,25 @@
-const inventory = require("../npc/functions/inventory.js");
-const statGen = require("../npc/functions/randomStat.js");
-const wTags = {
-	"names": [],
-	"simple": true,
-	"martial": true,
-};
-const aTags = {
-	"types": ["light", "medium"],
-	"metal": true,
-	"shield": true,
-};
-const skills = {
-	mainStat: "dexterity",
-	secondStat: "wisdom",
-	saveThrow: "strength",
-	miscStats: ["constitution", "intelligence", "charisma"],
-};
-module.exports = (race) => {
-	const stats = statGen(skills);
-	const strength = race.stats.strength + stats.strength;
-	const gear = inventory(race, strength, wTags, aTags);
-	const role = {
-		name: "Ranger",
-		link: "https://www.dndbeyond.com/classes/ranger",
-		stats: stats,
-		inventory: gear,
-		disposition: ["Lawful", "Neutral"],
-		backgrounds: ["Folk Hero", "Soldier", "Noble", "Hermit", "Haunted One"],
-	};
-	return role;
-};
+# **[Ranger](https://www.dndbeyond.com/classes/ranger)**
+## **Stats**
+#### **Primary Stat**
+\> Dexterity or Wisdom
+#### **Saving Throw Stats**
+\> Dexterity<br>
+\> Strength
+#### **Disposition**
+\> Lawful<br>
+\> Neutral
+#### **Logical Backgrounds**
+\> Folk Hero<br>
+\> Soldier<br>
+\> Noble<br>
+\> Hermit<br>
+\> Haunted One
+## **Inventory**
+#### **Weapon**
+\> All Simple Weapons<br>
+\> All Martial Weapons<br>
+\> Shields
+#### **Armor**
+\> Light & Medium
+#### **Tools**
+\> None

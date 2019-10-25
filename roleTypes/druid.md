@@ -1,34 +1,34 @@
-const inventory = require("../npc/functions/inventory.js");
-const statGen = require("../npc/functions/randomStat.js");
-const wTags = {
-	"names": ["Club", "Dagger", "Dart", "Javelin", "Mace", "Quarterstaff", "Scimitar", "Sickle", "Sling", "Spear"],
-	"simple": false,
-	"martial": false,
-};
-const aTags = {
-	"types": ["light", "medium"],
-	"metal": false,
-	"shield": true,
-};
-const skills = {
-	mainStat: "wisdom",
-	secondStat: false,
-	saveThrow: "intelligence",
-	miscStats: ["strength", "dexterity", "constitution", "charisma"],
-};
-module.exports = (race) => {
-	const stats = statGen(skills);
-	const strength = race.stats.strength + stats.strength;
-	const gear = inventory(race, strength, wTags, aTags);
-	const role = {
-		name: "Druid",
-		link: "https://www.dndbeyond.com/classes/druid",
-		stats: stats,
-		inventory: gear,
-		disposition: ["Lawful", "Neutral"],
-		backgrounds: ["Acolyte", "Hermit", "Sage", "Outlander", "Folk Hero"],
-	};
-	const tools = { name: "Herbalism Kit", link: "https://www.dndbeyond.com/equipment/herbalism-kit" };
-	role.inventory.tools.push(tools);
-	return role;
-};
+# **[Druid](https://www.dndbeyond.com/classes/druid)**
+## **Stats**
+#### **Primary Stat**
+\> Wisdom
+#### **Saving Throw Stats**
+\> Wisdom<br>
+\> Intelligence
+#### **Disposition**
+\> Lawful<br>
+\> Neutral
+#### **Logical Backgrounds**
+\> Acolyte<br>
+\> Hermit<br>
+\> Sage<br>
+\> Outlander<br>
+\> Folk Hero
+## **Inventory**
+#### **Weapon**
+\> Club<br>
+\> Dagger<br>
+\> Dart<br>
+\> Javelin<br>
+\> Mace<br>
+\> Quarterstaff<br>
+\> Scimitar<br>
+\> Sickle<br>
+\> Sling<br>
+\> Spear<br>
+\> Shields
+#### **Armor**
+\> Light & Medium
+\> Non-Metal Only
+#### **Tools**
+\> [Herbalism Kit](https://www.dndbeyond.com/equipment/herbalism-kit)
