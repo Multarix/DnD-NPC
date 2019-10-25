@@ -5,7 +5,9 @@
 
 # **Changelog**
 All of the changes that have been made to the package, in a somewhat organized list.<br>
-## **v1.1.5** *Upcoming*
+<h2 style="sideButton">**v1.1.5** *Upcoming*</h2>
+<button class="btn default" id="b1.1.5" onClick="showHide('b1.1.5', '1.1.5')" type="button">Show</button>
+<div class="showHide" id="1.1.5">
 ### **Races**
 Added new <span class="yellow">raceType</span> & <span class="yellow">subRace</span>
 <ul>
@@ -51,9 +53,11 @@ Based on the role & race to give somewhat logical backgrounds.<br>
 Added NPC level.<br>
 This will always be level 1.<br>
 <b>TypeOf:</b> <span class="yellow">Number</span>
+</div>
 <hr>
-
-## **v1.1.0**
+<h2 style="sideButton">**v1.1.0**</h2>
+<button class="btn default" id="b1.1.0" onClick="showHide('b1.1.0', '1.1.0')" type="button">Show</button>
+<div class="showHide" id="1.1.0">
 ### **\<NPC>#race#small**
 `race#small` was removed in favor of `race#size`<br>
 `race#size` is a string that contains the size of the npc. (Small, Medium, Large etc)<br>
@@ -78,7 +82,7 @@ This is so in the future more classes can be added for various things, such as g
 - const npc = new dnd({ ..options }).generate();
 + const npc = new dnd.npc({ ..options }).generate();
 ```
+</div>
 <hr>
-
 ## **v1.0.0**
 \- Initial Release
