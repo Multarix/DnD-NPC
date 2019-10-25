@@ -1,5 +1,4 @@
 <title>Race Types</title>
-<link rel="stylesheet" type="text/css" href="topNav.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script defer src="./modules/functions.js"></script>
 
