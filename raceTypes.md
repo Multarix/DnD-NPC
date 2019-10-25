@@ -7,7 +7,7 @@
 For all your race generation needs, this is a list of all the races & sub-races that can be used.
 - Aarakocra
 - <span onclick="textHide('aasimar')">Aasimar</span>
-<div class="showhide" id="aasimar">
+<div class="showHide" id="aasimar">
 	- Fallen
 	- Protector
 	- Scourge
