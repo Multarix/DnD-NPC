@@ -4,7 +4,7 @@
 <script defer src="./modules/functions.js"></script>
 
 
-# <b><span class="yellow>raceType</span> & <span class="yellow>subRace</span></b>
+<h1><b><span class="yellow>raceType</span> & <span class="yellow>subRace</span></b></h1>
 <p>For all your race generation needs, this is a list of all the races & sub-races that can be used.</p>
 <ul>
 <li><a>Aarakocra</a></li>
