@@ -64,7 +64,7 @@
 		<li><a href="./raceTypes/shifter-beasthide.html">Beasthide</a></li>
 		<li><a href="./raceTypes/shifter-longtooth.html">Longtooth</a></li>
 		<li><a href="./raceTypes/shifter-swiftstride.html">Swiftstride</a></li>
-		<li><a href="./raceTypes/shifter-wildhunt.html">Wildhunt</a></a></li></ul></div>
+		<li><a href="./raceTypes/shifter-wildhunt.html">Wildhunt</a></li></ul></div>
 <li><a href="./raceTypes/tabaxi.html">Tabaxi</a></li>
 <li><a href="./raceTypes/tiefling.html">Tiefling</a></li>
 <li><a href="./raceTypes/triton.html">Triton</a></li>
