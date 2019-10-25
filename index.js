@@ -1,3 +1,4 @@
 module.exports = {
-	npc: require("./npc/npc.js"),
+	npc: require("./src/classes/npc.js"),
+	// monster: require("./src/classes/monster.js"),
 };

@@ -59,7 +59,10 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 	"character": {
 		"name": String, // The name of the NPC
 		"gender": String, // The gender of the NPC
-		"alignment": String // The alignment of the NPC
+		"alignment": String, // The alignment of the NPC
+		"age": Number, // The age of the NPC
+		"background": String, // The type of background that this NPC has
+		"level": Number // The level of the NPC. This should always be level 1
 	},
 	"race": {
 		"name": String, // The name of the race
@@ -71,12 +74,12 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 		"name": String, // The name of the class
 		"link": String, // link to the class on D&D Beyond
 		"stats": {
-			"strength": Number, // The total strength of the NPC
-			"dexterity": Number, // The total dexterity of the NPC
-			"constitution": Number, // The total constitution of the NPC
-			"intelligence": Number, // The total intelligence of the NPC
-			"wisdom": Number, // The total wisdom of the NPC
-			"charisma": Number // The total charisma of the NPC
+			"strength": Number, // The total strength of the NPC including the race bonus
+			"dexterity": Number, // The total dexterity of the NPC including the race bonus
+			"constitution": Number, // The total constitution of the NPC including the race bonus
+			"intelligence": Number, // The total intelligence of the NPC including the race bonus
+			"wisdom": Number, // The total wisdom of the NPC including the race bonus
+			"charisma": Number // The total charisma of the NPC including the race bonus
 		},
 	},
 	"inventory": {
@@ -85,7 +88,7 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 			"link": String, // The link to the weapon on D&D Beyond
 			"damageType": String, // What type of damage the weapon does. Bludgeoning, Piercing, Slashing etc.
 			"damageAmount": String, // The damage done by the weapon.
-			"vDamage": String, // The damage done if it's versatile weapon being used two-handed
+			"vDamage": String, // Damage done if the weapon is "versatile" and being used two handed, otherwise undefined.
 			"simple": Boolean, // Whether this weapon is classified as martial or simple
 			"ranged": Boolean, // Whether or not the weapon is a ranged weapon
 			"allowShield": Boolean, // Whether or not the weapon allows the use of a shield
@@ -112,38 +115,58 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 ## **Valid `raceType` and `subRace`**
 - Aarakocra
 - Aasimar
+	- Fallen
+	- Protector
+	- Scourge
+- Bugbear
 - Changeling
 - Dragonborn
 - Dwarf
 	- Hill
 	- Mountain
 - Elf
+	- Dark
 	- Eladrin
 	- High
 	- Wood
+- Firbolg
 - Genasi
 	- Air
 	- Earth
 	- Fire
 	- Water
 - Gnome
+	- Deep
+	- Forest
+	- Rock
+- Goblin
 - Goliath
+- Grung
 - Halfelf
 - Halfling
 	- Lightfoot
 	- Stout
+- Halforc
+- Hobgoblin
 - Human
 - Kalashtar
+- Kenku
+- Kobold
+- Lizardfolk
+- Orc
 - Shifter
 	- Beasthide
 	- Longtooth
 	- Swiftstride
 	- Wildhunt
+- Tabaxi
 - Tiefling
+- Triton
 - Warforged
 	- Envoy
 	- Juggernaut
 	- Skirmisher
+- Yuanti
 ---
 ## **Valid `roleType`**
 - Barbarian
