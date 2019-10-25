@@ -20,6 +20,7 @@ const npc = new dnd.npc()
 		<p>Blah blah blah blah blah blah blah blah blah</p>
 	</div>
 	<div class="column">
-		<h1 class="centered"><b>About</b></h1></div>
+		<h1 class="centered"><b>About</b></h1>
 		<p>Blah blah blah blah blah blah blah blah blah</p>
+	</div>
 </div>
