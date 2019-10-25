@@ -1,6 +1,10 @@
-.centered {
+h1.centered {
 	text-align: center;
 }
+p.centered {
+	text-align: center;
+}
+
 
 .column {
   float: left;
