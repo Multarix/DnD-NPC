@@ -11,6 +11,10 @@ p.centered {
 	text-align: center;
 }
 
+p.left {
+	text-align: left;
+}
+
 img.center {
   display: block;
   margin-left: auto;
@@ -19,13 +23,20 @@ img.center {
 	height: 30%;
 }
 
-.column {
+.columnLeft {
   float: left;
   width: 48%;
 }
+
 .mid {
-  float: left;
+  float: middle;
   width: 2%;
+
+}
+
+.columnRight {
+  float: right;
+  width: 48%;
 }
 
 /* Clear floats after the columns */

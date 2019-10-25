@@ -16,7 +16,7 @@ const npc = new dnd.npc()
 ```
 
 <div class="row">
-	<div class="column">
+	<div class="columnLeft">
 		<h1 class="centered"><b>Y Tho?</b></h1>
 		<p>A friend of mine told me that generating random NPCs would be a difficult task.
 		So I decided to make this to prove him wrong.<br>
@@ -24,10 +24,10 @@ const npc = new dnd.npc()
 		This module can be integrated into a project to create random NPCs.<br>
 		A DM should find the wide range of information this module generates to be extremely useful to create NPCs for their own adventure or on the fly.</p>
 	</div>
-	<div class="mid"></div>
-	<div class="column">
+	<div class="columnMid"></div>
+	<div class="columnRight">
 		<h1 class="centered"><b>Who U?</b></h1>
-		<p>I'm Multarix, an aspiring programmer (I Guess??).<br>
+		<p>I'm Multarix, a NodeJS programmer (I Guess?).<br>
 		Despite what you may think, when I started this project,
 		I actually had zero knowledge of D&D, but have since dove
 		into this world of dice and dragons.<br>
