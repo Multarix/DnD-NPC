@@ -12,5 +12,5 @@ const showHide = (button, element) => {
 
 const textHide = (element) => {
 	e = document.getElementById(element);
-	e.style.display = (e.style.display = "none";) ? "block" : "none";
+	e.style.display = (e.style.display = "none") ? "block" : "none";
 }
