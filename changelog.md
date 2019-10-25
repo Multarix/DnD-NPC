@@ -7,7 +7,7 @@
 All of the changes that have been made to the package, in a somewhat organized list.<br>
 ## **v1.1.5** *Upcoming*
 ### **Races**
-Added new [raceType](./raceTypes.html) and [subRace](./raceTypes.html)
+Added new <span class="yellow">raceType</span> & <span class="yellow">subRace</span>
 <ul>
 <li><a onclick="textHide('1.1.5 aasimar')">Aasimar</a></li>
 <div class="showHide" id="1.1.5 aasimar">
