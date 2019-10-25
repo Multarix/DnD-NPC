@@ -1,19 +1,18 @@
-module.exports = () => {
-	return {
-		name: "Aarakocra",
-		link: "https://www.dndbeyond.com/races/aarakocra",
-		disposition: ["Good", "Neutral", "Neutral", "Neutral", "Evil"],
-		speed: 25,
-		size: "Medium",
-		maxAge: 25,
-		minAge: 3,
-		stats: {
-			strength: 0,
-			dexterity: 2,
-			constitution: 0,
-			intelligence: 0,
-			wisdom: 1,
-			charisma: 0,
-		},
-	};
-};
+# **[Aarakocra](https://www.dndbeyond.com/races/aarakocra)**
+### **Disposition**
+\> 20% Good<br>
+\> 60% Neutral<br>
+\> 20% Evil
+### **Speed**
+\> 25
+### **Size**
+\> Medium
+### **Max Age**
+\> 25
+### **Min Age**
+\> 3
+### **Race Bonus**
+```diff
++ 2 Dexterity
++ 1 Wisdom
+```
