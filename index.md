@@ -1,7 +1,6 @@
-<head>
-	<title>Welcome</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<title>Welcome</title>
+<link rel="stylesheet" type="text/css" href="topNav.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 
 # D&D NPC

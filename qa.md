@@ -1,4 +1,5 @@
 <title>FAQ</title>
+<link rel="stylesheet" type="text/css" href="topNav.css">
 <script defer src="./modules/functions.js"></script>
 <link rel="stylesheet" type="text/css" href="buttons.css">
 
