@@ -12,9 +12,9 @@ const showHide = (button, element) => {
 
 const textHide = (element) => {
 	const e = document.getElementById(element);
-	if(e.style.display === "none"){
-		e.style.display = "block";
-	} else {
+	if(e.style.display === "block"){
 		e.style.display = "none";
+	} else {
+		e.style.display = "block";
 	}
 }
