@@ -33,7 +33,7 @@ Added new [raceType](./raceTypes.html) and [subRace](./raceTypes.html)
 <li><a href="./raceTypes/orc.html">Orc</a></li>
 <li><a href="./raceTypes/tabaxi.html">Tabaxi</a></li>
 <li><a href="./raceTypes/triton.html">Triton</a></li>
-<li><a href="./raceTypes/yuanti.html">Yuan-Ti</a></ul></li>
+<li><a href="./raceTypes/yuanti.html">Yuan-Ti</a></li></ul>
 
 For a full list of available races, [click here](./raceTypes.html)
 
