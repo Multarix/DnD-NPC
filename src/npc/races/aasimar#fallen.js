@@ -5,8 +5,8 @@ module.exports = () => {
 		disposition: ["Evil"],
 		speed: 30,
 		size: "Medium",
-		maxAge: 0,
-		minAge: 0,
+		maxAge: 144,
+		minAge: 18,
 		stats: {
 			strength: 1,
 			dexterity: 0,
