@@ -5,3 +5,7 @@ span.yellow {
 div.showHide {
 	display: none;
 }
+
+li {
+	cursor: pointer;
+}
