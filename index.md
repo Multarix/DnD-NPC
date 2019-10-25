@@ -32,6 +32,6 @@ const npc = new dnd.npc()
 		I actually had zero knowledge of D&D, but have since dove
 		into this world of dice and dragons.<br>
 		<br>
-		I suck at web development so if you think this website is poorly designed, you now know why.</p>
+		I suck at web development so if you think this website is poorly designed, you know why.</p>
 	</div>
 </div>
