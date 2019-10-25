@@ -2,7 +2,6 @@
 <script defer src="./modules/functions.js"></script>
 <link rel="stylesheet" type="text/css" href="buttons.css">
 
-
 # Q&A
 <div class="main">
 	<h3>So what does this thing do?</h3>
