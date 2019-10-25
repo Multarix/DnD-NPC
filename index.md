@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="home.css">
 
 
-<h1><b>D&D NPC<b></h1>
+<h1 class="centered"><b>D&D NPC</b></h1>
 <p>D&D-NPC is a <a href="https://nodejs.org">Node.js</a> module allows you to easily create randomized D&D NPCs.<br>
 It takes up to 3 arguments and will randomly generate an NPC based on arguments passed.</p>
 
@@ -17,11 +17,11 @@ const npc = new dnd.npc()
 
 <div class="row">
 	<div class="column">
-		<h1><b>Why Tho?</b></h1>
+		<h1 class="centered"><b>Why Tho?</b></h1>
 		<p>Blah blah blah blah blah blah blah blah blah</p>
 	</div>
 	<div class="column">
-		<h1><b>About</b></h1>
+		<h1 class="centered"><b>About</b></h1>
 		<p>Blah blah blah blah blah blah blah blah blah</p>
 	</div>
 </div>
