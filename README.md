@@ -1,22 +1,11 @@
 # **About**
-DnD-NPC is a [Node.js](https://nodejs.org) module allows you to easily create randomized D&D NPCs.<br/>
-
----
-## **Changes:**
-- `<npc>.race.small` has been changed to `<npc>.race.size`
-- `<npc>.race.size` is now a string.
-- Added `<npc>.character.alignment`
-
-
-- Changed how you call the npc constructor:
-```js
-const dnd = require('dnd-npc');
-const npc = new dnd.npc({ ..options }).generate();
-```
+DnD-NPC is a [Node.js](https://nodejs.org) module allows you to easily create randomized D&D NPCs.<br>
+<br>
+For a complete list of previous/ upcoming changes, see [here](https://multarix.github.io/DnD-NPC//changelog.html).
 
 ---
 ## **Usage:**
-You can create a new npc in several ways.</br>
+You can create a new npc in several ways.<br>
 ```js
 const dnd = require('dnd-npc');
 const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
@@ -183,6 +172,6 @@ Without using #generate() all you'll have is an object with a raceType and roleT
 - Wizard
 
 ## **Need help?**
-If you need any extra help, feel free to hit me up on [discord](http://discord.gg/xMqW6JN).</br>
-If you've encountered a bug or would like to suggest a feature,</br>
+If you need any extra help, feel free to hit me up on [discord](http://discord.gg/xMqW6JN).<br>
+If you've encountered a bug or would like to suggest a feature,<br>
 feel free to create either a pull request or an issue on the [github](https://github.com/Multarix/DnD-NPC).
