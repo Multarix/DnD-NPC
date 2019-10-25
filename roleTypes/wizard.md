@@ -6,9 +6,9 @@
 \> Intelligence<br>
 \> Wisdom
 #### **Disposition**
-\> Lawful<br>
-\> Neutral<br>
-\> Chaotic
+\> 33% Lawful<br>
+\> 33% Neutral<br>
+\> 33% Chaotic
 #### **Logical Backgrounds**
 \> Acolyte<br>
 \> Folk Hero<br>

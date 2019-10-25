@@ -6,8 +6,8 @@
 \> Wisdom<br>
 \> Intelligence
 #### **Disposition**
-\> Lawful<br>
-\> Neutral
+\> 50% Lawful<br>
+\> 50% Neutral
 #### **Logical Backgrounds**
 \> Acolyte<br>
 \> Hermit<br>

@@ -6,8 +6,8 @@
 \> Dexterity<br>
 \> Intelligence
 #### **Disposition**
-\> Neutral<br>
-\> Chaotic
+\> 50% Neutral<br>
+\> 50% Chaotic
 #### **Logical Backgrounds**
 \> Criminal<br>
 \> Spy<br>

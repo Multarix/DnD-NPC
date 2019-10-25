@@ -6,7 +6,7 @@
 \> Strength<br>
 \> Wisdom
 #### **Disposition**
-\> Lawful
+\> 100% Lawful
 #### **Logical Backgrounds**
 \> Acolyte<br>
 \> Sage<br>

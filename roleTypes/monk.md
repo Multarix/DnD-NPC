@@ -6,7 +6,7 @@
 \> Dexterity<br>
 \> Strength
 #### **Disposition**
-\> Neutral
+\> 100% Neutral
 #### **Logical Backgrounds**
 \> Acolyte<br>
 \> Haunted One<br>

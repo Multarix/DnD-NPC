@@ -6,8 +6,8 @@
 \> Dexterity<br>
 \> Strength
 #### **Disposition**
-\> Lawful<br>
-\> Neutral
+\> 50% Lawful<br>
+\> 50% Neutral
 #### **Logical Backgrounds**
 \> Folk Hero<br>
 \> Soldier<br>
