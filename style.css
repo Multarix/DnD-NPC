@@ -6,10 +6,6 @@ div.showHide {
 	display: none;
 }
 
-li {
+a {
 	cursor: pointer;
 }
-/*
-// ul {
-//	cursor: pointer;
-*/
