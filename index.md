@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="home.css">
 
-
+<img src="dndlogo.png" alt="D&D Logo" class="center">
 <h1 class="centered"><b>D&D NPC</b></h1>
 <p class="centered">D&D-NPC is a <a href="https://nodejs.org">Node.js</a> module allows you to easily create randomized D&D NPCs.<br>
 It takes up to 3 arguments and will randomly generate an NPC based on arguments passed.</p>
