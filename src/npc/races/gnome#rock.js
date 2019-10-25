@@ -10,7 +10,7 @@ module.exports = () => {
 		stats: {
 			strength: 0,
 			dexterity: 0,
-			constitution: 0,
+			constitution: 1,
 			intelligence: 2,
 			wisdom: 0,
 			charisma: 0,
