@@ -21,7 +21,11 @@ img.center {
 
 .column {
   float: left;
-  width: 50%;
+  width: 48%;
+}
+.mid {
+  float: left;
+  width: 2%;
 }
 
 /* Clear floats after the columns */

@@ -24,6 +24,7 @@ const npc = new dnd.npc()
 		This module can be integrated into a project to create random NPCs.<br>
 		A DM should find the wide range of information this module generates to be extremely useful to create NPCs for their own adventure or on the fly.</p>
 	</div>
+	<div class="mid"></div>
 	<div class="column">
 		<h1 class="centered"><b>Who U?</b></h1>
 		<p class="centered">I'm Multarix, an aspiring programmer (I Guess??).<br>
