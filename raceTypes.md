@@ -13,8 +13,7 @@
 	<ul>
 		<li><a href="./raceTypes/file.html">Fallen</a></li>
 		<li><a href="./raceTypes/file.html">Protector</a></li>
-		<li><a href="./raceTypes/file.html">Scourge</a></li>
-	</ul>
+		<li><a href="./raceTypes/file.html">Scourge</a></li></ul>
 </div>
 <li><a href="./raceTypes/file.html">Bugbear</a></li>
 <li><a href="./raceTypes/file.html">Changeling</a></li>
@@ -23,8 +22,7 @@
 <div class="showHide" id="dwarf">
 	<ul>
 		<li><a href="./raceTypes/file.html">Hill</a></li>
-		<li><a href="./raceTypes/file.html">Mountain</a></li>
-	</ul>
+		<li><a href="./raceTypes/file.html">Mountain</a></li></ul>
 </div>
 <li><a onclick="textHide('elf')">Elf</a></li>
 <div class="showHide" id="elf">
@@ -32,8 +30,7 @@
 		<li><a href="./raceTypes/file.html">Dark</a></li>
 		<li><a href="./raceTypes/file.html">Eladrin</a></li>
 		<li><a href="./raceTypes/file.html">High</a></li>
-		<li><a href="./raceTypes/file.html">Wood</a></li>
-	</ul>
+		<li><a href="./raceTypes/file.html">Wood</a></li></ul>
 </div>
 <li><a href="./raceTypes/file.html">Firbolg</a></li>
 <li><a onclick="textHide('genasi')">Genasi</a></li>
@@ -42,16 +39,14 @@
 		<li><a href="./raceTypes/file.html">Air</a></li>
 		<li><a href="./raceTypes/file.html">Earth</a></li>
 		<li><a href="./raceTypes/file.html">Fire</a></li>
-		<li><a href="./raceTypes/file.html">Water</a></li>
-	</ul>
+		<li><a href="./raceTypes/file.html">Water</a></li></ul>
 </div>
 <li><a onclick="textHide('gnome')">Gnome</a></li>
 <div class="showHide" id="gnome">
 	<ul>
 		<li><a href="./raceTypes/file.html">Deep</a></li>
 		<li><a href="./raceTypes/file.html">Forest</a></li>
-		<li><a href="./raceTypes/file.html">Rock</a></li>
-	</ul>
+		<li><a href="./raceTypes/file.html">Rock</a></li></ul>
 </div>
 <li><a href="./raceTypes/file.html">Goblin</a></li>
 <li><a href="./raceTypes/file.html">Goliath</a></li>
@@ -61,8 +56,7 @@
 <div class="showHide" id="halfling">
 	<ul>
 		<li><a href="./raceTypes/file.html">Lightfoot</a></li>
-		<li><a href="./raceTypes/file.html">Stout</a></li>
-	</ul>
+		<li><a href="./raceTypes/file.html">Stout</a></li></ul>
 </div>
 <li><a href="./raceTypes/file.html">Halforc</a></li>
 <li><a href="./raceTypes/file.html">Hobgoblin</a></li>
@@ -78,8 +72,7 @@
 		<li><a href="./raceTypes/file.html">Beasthide</a></li>
 		<li><a href="./raceTypes/file.html">Longtooth</a></li>
 		<li><a href="./raceTypes/file.html">Swiftstride</a></li>
-		<li><a href="./raceTypes/file.html">Wildhunt</a></a></li>
-	</ul>
+		<li><a href="./raceTypes/file.html">Wildhunt</a></a></li></ul>
 </div>
 <li><a href="./raceTypes/file.html">Tabaxi</a></li>
 <li><a href="./raceTypes/file.html">Tiefling</a></li>
@@ -89,8 +82,7 @@
 	<ul>
 		<li><a href="./raceTypes/file.html">Envoy</a></li>
 		<li><a href="./raceTypes/file.html">Juggernaut</a></li>
-		<li><a href="./raceTypes/file.html">Skirmisher</a></li>
-	</ul>
+		<li><a href="./raceTypes/file.html">Skirmisher</a></li></ul>
 </div>
 <li><a href="./raceTypes/file.html">Yuanti</a></li>
 </ul>
