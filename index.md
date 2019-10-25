@@ -27,7 +27,7 @@ const npc = new dnd.npc()
 	<div class="mid"></div>
 	<div class="column">
 		<h1 class="centered"><b>Who U?</b></h1>
-		<p class="centered">I'm Multarix, an aspiring programmer (I Guess??).<br>
+		<p>I'm Multarix, an aspiring programmer (I Guess??).<br>
 		Despite what you may think, when I started this project,
 		I actually had zero knowledge of D&D, but have since dove
 		into this world of dice and dragons.<br>
