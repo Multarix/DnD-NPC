@@ -1,24 +1,16 @@
-module.exports = () => {
-	const data = {
-		name: "Kalashtar",
-		link: "https://www.dndbeyond.com/races/kalashtar",
-		disposition: ["Good"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 80,
-		minAge: 18,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 0,
-			intelligence: 0,
-			wisdom: 1,
-			charisma: 0,
-		},
-	};
-	const type = ["strength", "dexterity", "constitution", "intelligence", "charisma"];
-	const n = Math.floor(Math.random() * type.length);
-	const stat = type[n];
-	data.stats[stat] += 1;
-	return data;
-};
+# **[Kalashtar](https://www.dndbeyond.com/races/kalashtar)**
+### **Disposition**
+\> 100% Good
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 80
+### **Minimum Age**
+\> 18
+### **Race Bonus**
+```diff
++ 1 Wisdom
++ 1 to 1 random stat
+```

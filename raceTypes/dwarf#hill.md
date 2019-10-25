@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Hill Dwarf",
-		link: "https://www.dndbeyond.com/races/dwarf#HillDwarf",
-		disposition: ["Good", "Good", "Neutral"],
-		speed: 25,
-		size: "Medium",
-		maxAge: 315,
-		minAge: 35,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 2,
-			intelligence: 0,
-			wisdom: 1,
-			charisma: 0,
-		},
-	};
-};
+# **[Hill Dwarf](https://www.dndbeyond.com/races/dwarf#HillDwarf)**
+### **Disposition**
+\> 66% Good
+\> 33% Neutral
+### **Base Movement Speed**
+\> 25
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 315
+### **Minimum Age**
+\> 35
+### **Race Bonus**
+```diff
++ 2 Constitution
++ 1 Wisdom
+```

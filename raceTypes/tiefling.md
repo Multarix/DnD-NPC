@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Tiefling",
-		link: "https://www.dndbeyond.com/races/tiefling",
-		disposition: ["Neutral", "Evil", "Evil"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 90,
-		minAge: 18,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 0,
-			intelligence: 1,
-			wisdom: 0,
-			charisma: 2,
-		},
-	};
-};
+# **[Tiefling](https://www.dndbeyond.com/races/tiefling)**
+### **Disposition**
+\> 33% Neutral
+\> 66% Evil
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 90
+### **Minimum Age**
+\> 18
+### **Race Bonus**
+```diff
++ 2 Charisma
++ 1 Intelligence
+```

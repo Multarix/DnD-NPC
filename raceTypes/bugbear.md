@@ -1,19 +1,16 @@
-module.exports = () => {
-	return {
-		name: "Bugbear",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Evil"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 72,
-		minAge: 16,
-		stats: {
-			strength: 2,
-			dexterity: 1,
-			constitution: 0,
-			intelligence: 0,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
-};
+# **[Bugbear](https://www.dndbeyond.com/races/bugbear)**
+### **Disposition**
+\> 100% Evil
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 72
+### **Minimum Age**
+\> 16
+### **Race Bonus**
+```diff
++ 2 Strength
++ 1 Dexterity
+```

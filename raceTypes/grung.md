@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Grung",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Evil", "Evil", "Neutral"],
-		speed: 25,
-		size: "Small",
-		maxAge: 45,
-		minAge: 1,
-		stats: {
-			strength: 0,
-			dexterity: 2,
-			constitution: 1,
-			intelligence: 0,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
-};
+# **[Grung](https://www.dndbeyond.com/races/grung)**
+### **Disposition**
+\> 66% Evil
+\> 33% Neutral
+### **Base Movement Speed**
+\> 25
+### **Race Size**
+\> Small
+### **Maximum Age**
+\> 45
+### **Minimum Age**
+\> 1
+### **Race Bonus**
+```diff
++ 2 Dexterity
++ 1 Constitution
+```

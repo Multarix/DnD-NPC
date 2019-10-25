@@ -1,19 +1,16 @@
-module.exports = () => {
-	return {
-		name: "Hobgoblin",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Evil"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 80,
-		minAge: 18,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 2,
-			intelligence: 1,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
-};
+# **[Hobgoblin](https://www.dndbeyond.com/races/hobgoblin)**
+### **Disposition**
+\> Evil
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 80
+### **Minimum Age**
+\> 18
+### **Race Bonus**
+```diff
++ 2 Constitution
++ 1 Intelligence
+```

@@ -1,19 +1,16 @@
-module.exports = () => {
-	return {
-		name: "Lizardfolk",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Neutral"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 54,
-		minAge: 6,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 2,
-			intelligence: 0,
-			wisdom: 1,
-			charisma: 0,
-		},
-	};
-};
+# **[Lizardfolk](https://www.dndbeyond.com/races/lizardfolk)**
+### **Disposition**
+\> Neutral
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 54
+### **Minimum Age**
+\> 6
+### **Race Bonus**
+```diff
++ 2 Constitution
++ 1 Wisdom
+```

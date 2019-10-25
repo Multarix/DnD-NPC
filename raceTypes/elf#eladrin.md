@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Eladrin Elf",
-		link: "https://www.dndbeyond.com/races/elf#EladrinVariant",
-		disposition: ["Good", "Good", "Neutral"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 675,
-		minAge: 75,
-		stats: {
-			strength: 0,
-			dexterity: 2,
-			constitution: 0,
-			intelligence: 1,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
-};
+# **[Eladrin Elf](https://www.dndbeyond.com/races/elf#EladrinVariant)**
+### **Disposition**
+\> 66% Good
+\> 33% Neutral
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 675
+### **Minimum Age**
+\> 75
+### **Race Bonus**
+```diff
++ 2 Dexterity
+- 1 Intelligence
+```

@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Goblin",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Evil", "Evil", "Evil", "Neutral"],
-		speed: 30,
-		size: "Small",
-		maxAge: 54,
-		minAge: 8,
-		stats: {
-			strength: 0,
-			dexterity: 2,
-			constitution: 1,
-			intelligence: 0,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
-};
+# **[Goblin](https://www.dndbeyond.com/races/goblin)**
+### **Disposition**
+\> 75% Evil
+\> 25% Neutral
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Small
+### **Maximum Age**
+\> 54
+### **Minimum Age**
+\> 8
+### **Race Bonus**
+```diff
++ 2 Dexterity
++ 1 Constitution
+```

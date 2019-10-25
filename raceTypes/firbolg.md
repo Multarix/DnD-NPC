@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Firbolg",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Neutral", "Good"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 450,
-		minAge: 30,
-		stats: {
-			strength: 1,
-			dexterity: 0,
-			constitution: 0,
-			intelligence: 0,
-			wisdom: 2,
-			charisma: 0,
-		},
-	};
-};
+# **[Firbolg](https://www.dndbeyond.com/races/firbolg)**
+### **Disposition**
+\> 50% Neutral
+\> 50% Good
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 450
+### **Minimum Age**
+\> 30
+### **Race Bonus**
+```diff
++ 2 Wisdom
++ 1 Strength
+```

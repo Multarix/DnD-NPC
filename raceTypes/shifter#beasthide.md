@@ -1,19 +1,16 @@
-module.exports = () => {
-	return {
-		name: "Beasthide Shifter",
-		link: "https://www.dndbeyond.com/races/shifter#Beasthide",
-		disposition: ["Neutral"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 61,
-		minAge: 10,
-		stats: {
-			strength: 0,
-			dexterity: 1,
-			constitution: 2,
-			intelligence: 0,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
-};
+# **[Beasthide Shifter](https://www.dndbeyond.com/races/shifter#Beasthide)**
+### **Disposition**
+\> 100% Neutral
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 61
+### **Minimum Age**
+\> 10
+### **Race Bonus**
+```diff
++ 2 Constitution
++ 1 Dexterity
+```

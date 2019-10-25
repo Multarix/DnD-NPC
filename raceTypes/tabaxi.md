@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Tabaxi",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Good", "Neutral"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 80,
-		minAge: 18,
-		stats: {
-			strength: 0,
-			dexterity: 2,
-			constitution: 0,
-			intelligence: 0,
-			wisdom: 0,
-			charisma: 1,
-		},
-	};
-};
+# **[Tabaxi](https://www.dndbeyond.com/races/tabaxi)**
+### **Disposition**
+\> 50% Good
+\> 50% Neutral
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 80
+### **Minimum Age**
+\> 18
+### **Race Bonus**
+```diff
++ 2 Dexterity
++ 1 Charisma
+```

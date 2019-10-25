@@ -1,19 +1,16 @@
-module.exports = () => {
-	return {
-		name: "Yuan-Ti",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Evil"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 80,
-		minAge: 18,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 0,
-			intelligence: 1,
-			wisdom: 0,
-			charisma: 2,
-		},
-	};
-};
+# **[Yuan-Ti](https://www.dndbeyond.com/races/yuan-ti-pureblood)**
+### **Disposition**
+\> 100% Evil
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 80
+### **Minimum Age**
+\> 18
+### **Race Bonus**
+```diff
++ 2 Charisma
++ 1 Intelligence
+```

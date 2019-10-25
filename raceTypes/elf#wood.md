@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Wood Elf",
-		link: "https://www.dndbeyond.com/races/elf#WoodElf",
-		disposition: ["Good", "Good", "Neutral"],
-		speed: 35,
-		size: "Medium",
-		maxAge: 675,
-		minAge: 75,
-		stats: {
-			strength: 0,
-			dexterity: 2,
-			constitution: 0,
-			intelligence: 0,
-			wisdom: 1,
-			charisma: 0,
-		},
-	};
-};
+# **[Wood Elf](https://www.dndbeyond.com/races/elf#WoodElf)**
+### **Disposition**
+\> 66% Good
+\> 33% Neutral
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 675
+### **Minimum Age**
+\> 75
+### **Race Bonus**
+```diff
++ 2 Dexterity
++ 1 Wisdom
+```

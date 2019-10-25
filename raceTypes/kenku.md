@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Kenku",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Evil", "Neutral"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 54,
-		minAge: 12,
-		stats: {
-			strength: 0,
-			dexterity: 2,
-			constitution: 0,
-			intelligence: 0,
-			wisdom: 1,
-			charisma: 0,
-		},
-	};
-};
+# **[Kenku](https://www.dndbeyond.com/races/kenku)**
+### **Disposition**
+\> 50% Neutral
+\> 50% Evil
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 54
+### **Minimum Age**
+\> 12
+### **Race Bonus**
+```diff
++ 2 Dexterity
++ 1 Wisdom
+```

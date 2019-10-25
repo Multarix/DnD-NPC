@@ -1,19 +1,16 @@
-module.exports = () => {
-	return {
-		name: "Water Genasi",
-		link: "https://www.dndbeyond.com/races/genasi#WaterGenasi",
-		disposition: ["Neutral"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 110,
-		minAge: 20,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 2,
-			intelligence: 0,
-			wisdom: 1,
-			charisma: 0,
-		},
-	};
-};
+# **[Water Genasi](https://www.dndbeyond.com/races/genasi#WaterGenasi)**
+### **Disposition**
+\> 100% Neutral
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 110
+### **Minimum Age**
+\> 20
+### **Race Bonus**
+```diff
++ 2 Constitution
++ 1 Wisdom
+```

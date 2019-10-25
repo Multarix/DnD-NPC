@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Rock Gnome",
-		link: "https://www.dndbeyond.com/races/gnome#RockGnome",
-		disposition: ["Good", "Neutral"],
-		speed: 25,
-		size: "Small",
-		maxAge: 450,
-		minAge: 35,
-		stats: {
-			strength: 0,
-			dexterity: 0,
-			constitution: 0,
-			intelligence: 2,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
-};
+# **[Rock Gnome](https://www.dndbeyond.com/races/gnome#RockGnome)**
+### **Disposition**
+\> 50% Good
+\> 50% Neutral
+### **Base Movement Speed**
+\> 25
+### **Race Size**
+\> Small
+### **Maximum Age**
+\> 450
+### **Minimum Age**
+\> 35
+### **Race Bonus**
+```diff
++ 2 Intelligence
++ 1 Constitution
+```

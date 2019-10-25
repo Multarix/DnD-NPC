@@ -1,19 +1,17 @@
-module.exports = () => {
-	return {
-		name: "Orc",
-		link: "https://www.dndbeyond.com/races/",
-		disposition: ["Evil"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 44,
-		minAge: 12,
-		stats: {
-			strength: 2,
-			dexterity: 0,
-			constitution: 1,
-			intelligence: -2,
-			wisdom: 0,
-			charisma: 0,
-		},
-	};
-};
+# **[Orc](https://www.dndbeyond.com/races/orc)**
+### **Disposition**
+\> Evil
+### **Base Movement Speed**
+\> 30
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 44
+### **Minimum Age**
+\> 12
+### **Race Bonus**
+```diff
++ 2 Strength
++ 1 Constitution
+- 2 Intelligence
+```

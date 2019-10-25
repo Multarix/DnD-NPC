@@ -3,13 +3,13 @@
 \> 20% Good<br>
 \> 60% Neutral<br>
 \> 20% Evil
-### **Speed**
+### **Base Movement Speed**
 \> 25
-### **Size**
+### **Race Size**
 \> Medium
-### **Max Age**
+### **Maximum Age**
 \> 25
-### **Min Age**
+### **Minimum Age**
 \> 3
 ### **Race Bonus**
 ```diff

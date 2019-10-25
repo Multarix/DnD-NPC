@@ -1,19 +1,22 @@
-module.exports = () => {
-	return {
-		name: "Human",
-		link: "https://www.dndbeyond.com/races/human",
-		disposition: ["Good", "Neutral", "Evil"],
-		speed: 30,
-		size: "Medium",
-		maxAge: 80,
-		minAge: 18,
-		stats: {
-			strength: 1,
-			dexterity: 1,
-			constitution: 1,
-			intelligence: 1,
-			wisdom: 1,
-			charisma: 1,
-		},
-	};
-};
+# **[Human](https://www.dndbeyond.com/races/human)**
+### **Disposition**
+\> 33% Good
+\> 33% Neutral
+\> 33% Evil
+### **Base Movement Speed**
+\> Medium
+### **Race Size**
+\> Medium
+### **Maximum Age**
+\> 80
+### **Minimum Age**
+\> 18
+### **Race Bonus**
+```diff
++ 1 Strength
++ 1 Dexterity
++ 1 Constitution
++ 1 Intelligence
++ 1 Wisdom
++ 1 Charisma
+```
