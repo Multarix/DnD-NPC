@@ -17,11 +17,11 @@ const npc = new dnd.npc()
 
 <div class="row">
 	<div class="column">
-		<h1 class="centered"><b>Why Tho?</b></h1>
-		<p class="centered">Blah blah blah blah blah blah blah blah blah</p>
+		<h1 class="centered"><b>Y Tho?</b></h1>
+		<p class="centered">Because I can and if you question me, I'll ban you from my minecraft server.</p>
 	</div>
 	<div class="column">
-		<h1 class="centered"><b>About</b></h1>
-		<p class="centered">Blah blah blah blah blah blah blah blah blah</p>
+		<h1 class="centered"><b>Who U?</b></h1>
+		<p class="centered">I'm your worst nightmare.</p>
 	</div>
 </div>
