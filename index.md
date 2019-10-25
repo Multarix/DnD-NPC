@@ -7,6 +7,8 @@
 
 ```js
 const dnd = require('dnd-npc');
-const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
+const npc = new dnd.npc()
+	.raceType({ raceType: "Warforged", subRace: "Juggernaut" })
+	.roleType({ roleType: "Fighter" })
 	.generate(); // Generates a Warforged-Juggernaut Fighter
 ```
