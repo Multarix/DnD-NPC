@@ -1,6 +1,11 @@
 h1.centered {
 	text-align: center;
 }
+h1.title {
+	text-align: center;
+	font-size: 20px;
+}
+
 p.centered {
 	text-align: center;
 }
