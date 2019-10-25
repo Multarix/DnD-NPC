@@ -1,6 +1,6 @@
 # **[Orc](https://www.dndbeyond.com/races/orc)**
 ### **Disposition**
-\> Evil
+\> 100% Evil
 ### **Base Movement Speed**
 \> 30
 ### **Race Size**

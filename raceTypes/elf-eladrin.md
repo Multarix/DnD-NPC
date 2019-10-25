@@ -1,18 +1,17 @@
-# **[Skirmisher Warforged](https://www.dndbeyond.com/races/warforged#Skirmisher)**
+# **[Eladrin Elf](https://www.dndbeyond.com/races/elf#EladrinVariant)**
 ### **Disposition**
-\> 40% Good
-\> 40% Neutral
-\> 20% Evil
+\> 66% Good<br>
+\> 33% Neutral
 ### **Base Movement Speed**
 \> 30
 ### **Race Size**
 \> Medium
 ### **Maximum Age**
-\> 32
+\> 675
 ### **Minimum Age**
-\> 2
+\> 75
 ### **Race Bonus**
 ```diff
 + 2 Dexterity
-+ 1 Constitution
+- 1 Intelligence
 ```

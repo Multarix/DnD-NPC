@@ -1,17 +1,17 @@
-# **[Forest Gnome](https://www.dndbeyond.com/races/gnome#ForestGnome)**
+# **[Hill Dwarf](https://www.dndbeyond.com/races/dwarf#HillDwarf)**
 ### **Disposition**
-\> 50% Good
-\> 50% Neutral
+\> 66% Good<br>
+\> 33% Neutral
 ### **Base Movement Speed**
 \> 25
 ### **Race Size**
-\> Small
+\> Medium
 ### **Maximum Age**
-\> 450
+\> 315
 ### **Minimum Age**
 \> 35
 ### **Race Bonus**
 ```diff
-+ 2 Intelligence
-+ 1 Dexterity
++ 2 Constitution
++ 1 Wisdom
 ```

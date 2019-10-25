@@ -1,7 +1,7 @@
-# **[Envoy Warforged](https://www.dndbeyond.com/races/warforged#Envoy)**
+# **[Juggernaut Warforged](https://www.dndbeyond.com/races/warforged#Juggernaut)**
 ### **Disposition**
-\> 40% Good
-\> 40% Neutral
+\> 40% Good<br>
+\> 40% Neutral<br>
 \> 20% Evil
 ### **Base Movement Speed**
 \> 30
@@ -13,6 +13,6 @@
 \> 2
 ### **Race Bonus**
 ```diff
++ 2 Strength
 + 1 Constitution
-+ 1 to 2 random stats
 ```

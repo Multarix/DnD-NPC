@@ -1,6 +1,6 @@
 # **[Firbolg](https://www.dndbeyond.com/races/firbolg)**
 ### **Disposition**
-\> 50% Neutral
+\> 50% Neutral<br>
 \> 50% Good
 ### **Base Movement Speed**
 \> 30

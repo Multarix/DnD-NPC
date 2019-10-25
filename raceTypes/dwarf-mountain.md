@@ -1,18 +1,17 @@
-# **[Juggernaut Warforged](https://www.dndbeyond.com/races/warforged#Juggernaut)**
+# **[Mountain Dwarf](https://www.dndbeyond.com/races/dwarf#MountainDwarf)**
 ### **Disposition**
-\> 40% Good
-\> 40% Neutral
-\> 20% Evil
+\> 66% Good<br>
+\> 33% Neutral
 ### **Base Movement Speed**
-\> 30
+\> 25
 ### **Race Size**
 \> Medium
 ### **Maximum Age**
-\> 32
+\> 315
 ### **Minimum Age**
-\> 2
+\> 35
 ### **Race Bonus**
 ```diff
 + 2 Strength
-+ 1 Constitution
++ 2 Constitution
 ```

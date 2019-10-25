@@ -1,6 +1,6 @@
 # **[Lizardfolk](https://www.dndbeyond.com/races/lizardfolk)**
 ### **Disposition**
-\> Neutral
+\> 100% Neutral
 ### **Base Movement Speed**
 \> 30
 ### **Race Size**

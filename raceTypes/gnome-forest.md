@@ -1,17 +1,17 @@
-# **[Tabaxi](https://www.dndbeyond.com/races/tabaxi)**
+# **[Forest Gnome](https://www.dndbeyond.com/races/gnome#ForestGnome)**
 ### **Disposition**
 \> 50% Good<br>
 \> 50% Neutral
 ### **Base Movement Speed**
-\> 30
+\> 25
 ### **Race Size**
-\> Medium
+\> Small
 ### **Maximum Age**
-\> 80
+\> 450
 ### **Minimum Age**
-\> 18
+\> 35
 ### **Race Bonus**
 ```diff
-+ 2 Dexterity
-+ 1 Charisma
++ 2 Intelligence
++ 1 Dexterity
 ```

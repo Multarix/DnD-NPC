@@ -1,17 +1,17 @@
-# **[Lightfoot Halfling](https://www.dndbeyond.com/races/halfling#LightfootHalfling)**
+# **[Wood Elf](https://www.dndbeyond.com/races/elf#WoodElf)**
 ### **Disposition**
-\> 66% Good
+\> 66% Good<br>
 \> 33% Neutral
 ### **Base Movement Speed**
-\> 25
+\> 30
 ### **Race Size**
-\> Small
+\> Medium
 ### **Maximum Age**
-\> 135
+\> 675
 ### **Minimum Age**
-\> 20
+\> 75
 ### **Race Bonus**
 ```diff
 + 2 Dexterity
-+ 1 Charisma
++ 1 Wisdom
 ```

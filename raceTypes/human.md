@@ -1,7 +1,7 @@
 # **[Human](https://www.dndbeyond.com/races/human)**
 ### **Disposition**
-\> 33% Good
-\> 33% Neutral
+\> 33% Good<br>
+\> 33% Neutral<br>
 \> 33% Evil
 ### **Base Movement Speed**
 \> Medium

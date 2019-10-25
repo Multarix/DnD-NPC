@@ -1,6 +1,6 @@
-# **[Deep Gnome](https://www.dndbeyond.com/races/gnome#DeepGnome)**
+# **[Rock Gnome](https://www.dndbeyond.com/races/gnome#RockGnome)**
 ### **Disposition**
-\> 50% Good
+\> 50% Good<br>
 \> 50% Neutral
 ### **Base Movement Speed**
 \> 25
@@ -13,5 +13,5 @@
 ### **Race Bonus**
 ```diff
 + 2 Intelligence
-+ 1 Dexterity
++ 1 Constitution
 ```

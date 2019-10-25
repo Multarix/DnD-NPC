@@ -1,6 +1,6 @@
 # **[Goliath](https://www.dndbeyond.com/races/goliath)**
 ### **Disposition**
-\> 33% Good
+\> 33% Good<br>
 \> 66% Neutral
 ### **Base Movement Speed**
 \> 30

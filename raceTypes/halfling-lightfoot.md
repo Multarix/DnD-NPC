@@ -1,6 +1,6 @@
-# **[Stout Halfling](https://www.dndbeyond.com/races/halfling#StoutHalfling)**
+# **[Lightfoot Halfling](https://www.dndbeyond.com/races/halfling#LightfootHalfling)**
 ### **Disposition**
-\> 66% Good
+\> 66% Good<br>
 \> 33% Neutral
 ### **Base Movement Speed**
 \> 25
@@ -13,5 +13,5 @@
 ### **Race Bonus**
 ```diff
 + 2 Dexterity
-+ 1 Constitution
++ 1 Charisma
 ```

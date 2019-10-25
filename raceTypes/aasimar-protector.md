@@ -1,17 +1,16 @@
-# **[Eladrin Elf](https://www.dndbeyond.com/races/elf#EladrinVariant)**
+# **[Protector Aasimar](https://www.dndbeyond.com/races/aasimar#ProtectorAasimar)**
 ### **Disposition**
-\> 66% Good
-\> 33% Neutral
+\> 100% Good
 ### **Base Movement Speed**
 \> 30
 ### **Race Size**
 \> Medium
 ### **Maximum Age**
-\> 675
+\> 144
 ### **Minimum Age**
-\> 75
+\> 18
 ### **Race Bonus**
 ```diff
-+ 2 Dexterity
-- 1 Intelligence
++ 2 Charisma
++ 1 Wisdom
 ```
