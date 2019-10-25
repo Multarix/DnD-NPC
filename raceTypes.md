@@ -20,14 +20,14 @@
 <li><a href="./raceTypes/file.html">Changeling</a></li>
 <li><a href="./raceTypes/file.html">Dragonborn</a></li>
 <li><a onclick="textHide('dwarf')">Dwarf</a></li>
-<div class="showHide" id="aasimar">
+<div class="showHide" id="dwarf">
 	<ul>
 		<li><a href="./raceTypes/file.html">Hill</a></li>
 		<li><a href="./raceTypes/file.html">Mountain</a></li>
 	</ul>
 </div>
 <li><a onclick="textHide('elf')">Elf</a></li>
-<div class="showHide" id="aasimar">
+<div class="showHide" id="elf">
 	<ul>
 		<li><a href="./raceTypes/file.html">Dark</a></li>
 		<li><a href="./raceTypes/file.html">Eladrin</a></li>
@@ -37,7 +37,7 @@
 </div>
 <li><a href="./raceTypes/file.html">Firbolg</a></li>
 <li><a onclick="textHide('genasi')">Genasi</a></li>
-<div class="showHide" id="aasimar">
+<div class="showHide" id="genasi">
 	<ul>
 		<li><a href="./raceTypes/file.html">Air</a></li>
 		<li><a href="./raceTypes/file.html">Earth</a></li>
@@ -46,7 +46,7 @@
 	</ul>
 </div>
 <li><a onclick="textHide('gnome')">Gnome</a></li>
-<div class="showHide" id="aasimar">
+<div class="showHide" id="gnome">
 	<ul>
 		<li><a href="./raceTypes/file.html">Deep</a></li>
 		<li><a href="./raceTypes/file.html">Forest</a></li>
@@ -58,7 +58,7 @@
 <li><a href="./raceTypes/file.html">Grung</a></li>
 <li><a href="./raceTypes/file.html">Halfelf</a></li>
 <li><a onclick="textHide('halfling')">Halfling</a></li>
-<div class="showHide" id="aasimar">
+<div class="showHide" id="halfling">
 	<ul>
 		<li><a href="./raceTypes/file.html">Lightfoot</a></li>
 		<li><a href="./raceTypes/file.html">Stout</a></li>
@@ -73,7 +73,7 @@
 <li><a href="./raceTypes/file.html">Lizardfolk</a></li>
 <li><a href="./raceTypes/file.html">Orc</a></li>
 <li><a onclick="textHide('shifter')">Shifter</a></li>
-<div class="showHide" id="aasimar">
+<div class="showHide" id="shifter">
 	<ul>
 		<li><a href="./raceTypes/file.html">Beasthide</a></li>
 		<li><a href="./raceTypes/file.html">Longtooth</a></li>
@@ -85,7 +85,7 @@
 <li><a href="./raceTypes/file.html">Tiefling</a></li>
 <li><a href="./raceTypes/file.html">Triton</a></li>
 <li><a onclick="textHide('warforged')">Warforged</a></li>
-<div class="showHide" id="aasimar">
+<div class="showHide" id="warforged">
 	<ul>
 		<li><a href="./raceTypes/file.html">Envoy</a></li>
 		<li><a href="./raceTypes/file.html">Juggernaut</a></li>
