@@ -9,3 +9,8 @@ const showHide = (button, element) => {
 		btn.innerHTML = "Show";
 	}
 }
+
+const textHide = (element) => {
+	e = document.getElementById(element);
+	e.style.display = (e.style.display = "none";) ? "block" : "none";
+}

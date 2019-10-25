@@ -1,14 +1,17 @@
 <title>Race Types</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script defer src="./modules/functions.js"></script>
 
 
 # **raceType & subRace**
 For all your race generation needs, this is a list of all the races & sub-races that can be used.
 - Aarakocra
-- Aasimar
+- <span onclick="textHide('aasimar')">Aasimar</span>
+<div class="showhide" id="aasimar">
 	- Fallen
 	- Protector
 	- Scourge
+</div>
 - Bugbear
 - Changeling
 - Dragonborn
