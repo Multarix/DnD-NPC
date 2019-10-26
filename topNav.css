@@ -1,12 +1,12 @@
 .topCenter {
 	text-align: center;
+	display: inline-block;
 }
 
 .topnav {
 	overflow: hidden;
 	text-align: center;
 	background-color: #333;
-	display: inline-block;
 }
 
 .topnav a {
@@ -34,6 +34,10 @@
 }
 
 @media screen and (max-width: 600px) {
+	.topCenter {
+		margin: 0px;
+		width: 100%;
+	}
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
 		float: right;
