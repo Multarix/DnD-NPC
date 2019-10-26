@@ -29,4 +29,4 @@ function activeNavBar(elementID) {
 	const e = document.getElementById(elementID);
 	e.className = "active";
 };
- activeNavBar(page);
+if(page) activeNavBar(page);

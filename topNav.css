@@ -7,6 +7,7 @@
 	overflow: hidden;
 	text-align: center;
 	background-color: #333;
+	border-bottom: 2px solid #764740;
 }
 
 .topnav a {
@@ -37,6 +38,7 @@
 	.topCenter {
 		margin: 0px;
 		width: 100%;
+		border-bottom: 2px solid #f2f2f2;
 	}
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
