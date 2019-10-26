@@ -4,7 +4,7 @@
 
 # **Changelog**
 All of the changes that have been made to the package, in a somewhat organized list.<br>
-## **v1.1.5**
+## **v1.1.5** <small>Current Version</small>
 ### **Breaking Changes**
 #### **\<NPC>#class**
 <span class="literal">\<NPC>#class</span> was changed to <span class="literal">\<NPC>#role</span> for better code consistency
