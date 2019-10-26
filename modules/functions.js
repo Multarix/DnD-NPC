@@ -15,7 +15,7 @@ const textHide = (element) => {
 	e.style.display = (e.style.display === "block") ? "none" : "block";
 }
 
-function topNavFunction() {
+function topNavMobile() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
