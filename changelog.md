@@ -1,6 +1,6 @@
 <title>Changelog</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script>activeNavBar("changelog")</script>
+<script>const page = "changelog"</script>
 
 # **Changelog**
 All of the changes that have been made to the package, in a somewhat organized list.<br>

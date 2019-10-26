@@ -25,6 +25,8 @@ function topNavMobile() {
 };
 
 function activeNavBar(elementID) {
+	if(!elementID) return;
 	const e = document.getElementById(elementID);
 	e.className = "active";
 };
+ activeNavBar(page);

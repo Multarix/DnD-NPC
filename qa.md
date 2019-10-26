@@ -1,6 +1,6 @@
 <title>FAQ</title>
 <link rel="stylesheet" type="text/css" href="buttons.css">
-<script>activeNavBar("qa")</script>
+<script>const page = "qa"</script>
 
 # Q&A
 <div class="main">

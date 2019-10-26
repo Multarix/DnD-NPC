@@ -1,6 +1,6 @@
 <title>Role Types</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script>activeNavBar("roleTypes")</script>
+<script>const page = "roleTypes"</script>
 
 # <b><span class="yellow">roleType</span></b>
 For all your role generation needs, this is a list of all roles that can be used.
