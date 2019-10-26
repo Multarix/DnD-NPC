@@ -7,7 +7,7 @@
 	overflow: hidden;
 	text-align: center;
 	background-color: #333;
-	border-bottom: 2px solid #764740;
+	border-bottom: 2px solid #515151;
 }
 
 .topnav a {
@@ -38,7 +38,6 @@
 	.topCenter {
 		margin: 0px;
 		width: 100%;
-		border-bottom: 2px solid #f2f2f2;
 	}
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
@@ -48,7 +47,9 @@
 }
 
 @media screen and (max-width: 600px) {
-	.topnav.responsive {position: relative;}
+	.topnav.responsive {
+		position: relative;
+	}
 	.topnav.responsive .icon {
 		position: absolute;
 		right: 0;
