@@ -1,8 +1,6 @@
-div.centerThings {
-	text-align: center;
-}
 .topnav {
 	overflow: hidden;
+	text-align: center;
   background-color: #333;
 }
 
@@ -49,8 +47,4 @@ div.centerThings {
     display: block;
     text-align: left;
   }
-}
-
-nav.centered {
-	text-align: center;
 }
