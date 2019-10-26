@@ -16,7 +16,7 @@ Added new <span class="yellow">raceType</span> & <span class="yellow">subRace</s
 <li><a href="./raceTypes/bugbear.html">Bugbear</a></li>
 <li><a onclick="textHide('1.1.5 elf')">Elf</a></li>
 <div class="showHide" id="1.1.5 elf">
-<ul><li><a href="./raceTypes/dark.html">Dark</a></li></ul></div>
+<ul><li><a href="./raceTypes/elf-dark.html">Dark</a></li></ul></div>
 <li><a href="./raceTypes/firbolg.html">Firbolg</a></li>
 <li><a onclick="textHide('1.1.5 gnome')">Gnome</a></li>
 <div class="showHide" id="1.1.5 gnome">
