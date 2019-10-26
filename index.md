@@ -4,7 +4,7 @@
 <script>const page = "home"</script>
 
 <img src="dndlogo.png" alt="D&D Logo" class="center">
-<a href="https://nodei.co/npm/dnd-npc/"><img class ="center" src="https://nodei.co/npm/dnd-npc.png?compact=true"></a>
+<a href="https://nodei.co/npm/dnd-npc/"><img class ="npm" src="https://nodei.co/npm/dnd-npc.png?compact=true"></a>
 <p class="centered">D&D-NPC is a <a href="https://nodejs.org">Node.js</a> module allows you to easily create randomized D&D NPCs.<br>
 It takes up to 3 arguments and will randomly generate an NPC based on arguments passed.</p>
 

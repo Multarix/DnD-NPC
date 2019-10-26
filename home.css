@@ -23,6 +23,16 @@ img.center {
 	height: 29%;
 }
 
+a.npmLink {
+	text-align: center;
+}
+img.npm {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .columnLeft {
   float: left;
   width: 48%;
