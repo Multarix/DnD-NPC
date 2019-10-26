@@ -4,7 +4,7 @@
 
 # **Changelog**
 All of the changes that have been made to the package, in a somewhat organized list.<br>
-## **v1.1.5** *Upcoming*
+## **v1.1.5**
 ### **Races**
 Added new <span class="yellow">raceType</span> & <span class="yellow">subRace</span>
 <ul>
