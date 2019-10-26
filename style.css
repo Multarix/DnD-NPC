@@ -9,6 +9,8 @@ span.literal {
 
 div.showHide {
 	display: none;
+	border-left: 2px solid #ffad1d;
+	margin: 14px;
 }
 
 a {
