@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Human](https://www.dndbeyond.com/races/human)**
 ### **Disposition**
 \> 33% Good<br>

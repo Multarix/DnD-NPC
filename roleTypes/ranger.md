@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Ranger](https://www.dndbeyond.com/classes/ranger)**
 ## **Stats**
 #### **Primary Stat**

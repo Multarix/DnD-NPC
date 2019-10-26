@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Air Genasi](https://www.dndbeyond.com/races/genasi#AirGenasi)**
 ### **Disposition**
 \> 100% Neutral

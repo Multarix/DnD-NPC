@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Forest Gnome](https://www.dndbeyond.com/races/gnome#ForestGnome)**
 ### **Disposition**
 \> 50% Good<br>

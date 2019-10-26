@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Protector Aasimar](https://www.dndbeyond.com/races/aasimar#ProtectorAasimar)**
 ### **Disposition**
 \> 100% Good

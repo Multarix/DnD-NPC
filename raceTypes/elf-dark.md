@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Dark Elf](https://www.dndbeyond.com/races/elf#DarkElfDrow)**
 ### **Disposition**
 \> 100% Evil

@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Hobgoblin](https://www.dndbeyond.com/races/hobgoblin)**
 ### **Disposition**
 \> Evil

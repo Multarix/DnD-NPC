@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Aarakocra](https://www.dndbeyond.com/races/aarakocra)**
 ### **Disposition**
 \> 20% Good<br>

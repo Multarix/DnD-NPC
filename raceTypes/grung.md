@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Grung](https://www.dndbeyond.com/races/grung)**
 ### **Disposition**
 \> 66% Evil<br>

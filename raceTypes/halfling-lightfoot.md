@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Lightfoot Halfling](https://www.dndbeyond.com/races/halfling#LightfootHalfling)**
 ### **Disposition**
 \> 66% Good<br>

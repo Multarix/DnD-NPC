@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Kenku](https://www.dndbeyond.com/races/kenku)**
 ### **Disposition**
 \> 50% Neutral<br>

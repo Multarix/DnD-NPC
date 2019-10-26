@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Eladrin Elf](https://www.dndbeyond.com/races/elf#EladrinVariant)**
 ### **Disposition**
 \> 66% Good<br>

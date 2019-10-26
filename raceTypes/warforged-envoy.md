@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Envoy Warforged](https://www.dndbeyond.com/races/warforged#Envoy)**
 ### **Disposition**
 \> 40% Good<br>

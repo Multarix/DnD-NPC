@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Firbolg](https://www.dndbeyond.com/races/firbolg)**
 ### **Disposition**
 \> 50% Neutral<br>

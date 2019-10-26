@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Skirmisher Warforged](https://www.dndbeyond.com/races/warforged#Skirmisher)**
 ### **Disposition**
 \> 40% Good<br>

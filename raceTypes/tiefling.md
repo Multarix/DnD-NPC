@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Tiefling](https://www.dndbeyond.com/races/tiefling)**
 ### **Disposition**
 \> 33% Neutral<br>

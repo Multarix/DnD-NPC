@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Rock Gnome](https://www.dndbeyond.com/races/gnome#RockGnome)**
 ### **Disposition**
 \> 50% Good<br>

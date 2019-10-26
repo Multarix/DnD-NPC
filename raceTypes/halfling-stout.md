@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Stout Halfling](https://www.dndbeyond.com/races/halfling#StoutHalfling)**
 ### **Disposition**
 \> 66% Good<br>

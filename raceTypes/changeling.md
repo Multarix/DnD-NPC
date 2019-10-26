@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Changeling](https://www.dndbeyond.com/races/changeling)**
 ### **Disposition**
 \> 100% Neutral

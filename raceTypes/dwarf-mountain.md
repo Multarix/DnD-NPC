@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Mountain Dwarf](https://www.dndbeyond.com/races/dwarf#MountainDwarf)**
 ### **Disposition**
 \> 66% Good<br>

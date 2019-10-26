@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Hill Dwarf](https://www.dndbeyond.com/races/dwarf#HillDwarf)**
 ### **Disposition**
 \> 66% Good<br>

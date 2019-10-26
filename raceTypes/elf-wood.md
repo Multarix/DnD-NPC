@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Wood Elf](https://www.dndbeyond.com/races/elf#WoodElf)**
 ### **Disposition**
 \> 66% Good<br>

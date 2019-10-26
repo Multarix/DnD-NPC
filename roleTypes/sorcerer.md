@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Sorcerer](https://www.dndbeyond.com/classes/sorcerer)**
 ## **Stats**
 #### **Primary Stat**

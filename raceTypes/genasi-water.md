@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Water Genasi](https://www.dndbeyond.com/races/genasi#WaterGenasi)**
 ### **Disposition**
 \> 100% Neutral

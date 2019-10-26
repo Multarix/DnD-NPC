@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Fighter](https://www.dndbeyond.com/classes/fighter)**
 ## **Stats**
 #### **Primary Stat**

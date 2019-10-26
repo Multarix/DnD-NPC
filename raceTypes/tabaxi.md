@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Tabaxi](https://www.dndbeyond.com/races/tabaxi)**
 ### **Disposition**
 \> 50% Good<br>

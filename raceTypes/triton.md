@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Triton](https://www.dndbeyond.com/races/triton)**
 ### **Disposition**
 \> 100% Good

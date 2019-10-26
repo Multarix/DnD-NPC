@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Paladin](https://www.dndbeyond.com/classes/paladin)**
 ## **Stats**
 #### **Primary Stat**

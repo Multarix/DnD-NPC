@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Goblin](https://www.dndbeyond.com/races/goblin)**
 ### **Disposition**
 \> 75% Evil<br>

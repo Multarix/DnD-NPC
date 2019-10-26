@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Wizard](https://www.dndbeyond.com/classes/wizard)**
 ## **Stats**
 #### **Primary Stat**

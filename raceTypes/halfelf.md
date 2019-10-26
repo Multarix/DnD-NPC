@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Half-Elf](https://www.dndbeyond.com/races/half-elf)**
 ### **Disposition**
 \> 33% Good<br>

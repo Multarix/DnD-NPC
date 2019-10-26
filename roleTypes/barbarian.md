@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Barbarian](https://www.dndbeyond.com/classes/barbarian)**
 ## **Stats**
 #### **Primary Stat**

@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Cleric](https://www.dndbeyond.com/classes/cleric)**
 ## **Stats**
 #### **Primary Stat**

@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Orc](https://www.dndbeyond.com/races/orc)**
 ### **Disposition**
 \> 100% Evil

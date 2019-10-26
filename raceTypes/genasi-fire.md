@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Fire Genasi](https://www.dndbeyond.com/races/genasi#FireGenasi)**
 ### **Disposition**
 \> 100% Neutral

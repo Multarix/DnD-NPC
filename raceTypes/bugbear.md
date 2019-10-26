@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Bugbear](https://www.dndbeyond.com/races/bugbear)**
 ### **Disposition**
 \> 100% Evil

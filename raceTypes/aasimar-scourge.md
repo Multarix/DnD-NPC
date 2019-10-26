@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Scourge Aasimar](https://www.dndbeyond.com/races/aasimar#ScourgeAasimar)**
 ### **Disposition**
 \> 100% Good

@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Warlock](https://www.dndbeyond.com/classes/warlock)**
 ## **Stats**
 #### **Primary Stat**

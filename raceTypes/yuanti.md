@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Yuan-Ti](https://www.dndbeyond.com/races/yuan-ti-pureblood)**
 ### **Disposition**
 \> 100% Evil

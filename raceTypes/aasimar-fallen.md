@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Fallen Aasimar](https://www.dndbeyond.com/races/aasimar#FallenAasimar)**
 ### **Disposition**
 \> 100% Evil

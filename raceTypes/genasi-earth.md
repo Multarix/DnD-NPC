@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Earth Genasi](https://www.dndbeyond.com/races/genasi#EarthGenasi)**
 ### **Disposition**
 \> 100% Neutral

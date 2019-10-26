@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Kalashtar](https://www.dndbeyond.com/races/kalashtar)**
 ### **Disposition**
 \> 100% Good

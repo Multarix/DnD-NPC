@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Lizardfolk](https://www.dndbeyond.com/races/lizardfolk)**
 ### **Disposition**
 \> 100% Neutral

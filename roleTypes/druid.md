@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Druid](https://www.dndbeyond.com/classes/druid)**
 ## **Stats**
 #### **Primary Stat**

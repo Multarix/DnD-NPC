@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Monk](https://www.dndbeyond.com/classes/monk)**
 ## **Stats**
 #### **Primary Stats**

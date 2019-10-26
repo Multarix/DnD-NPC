@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Juggernaut Warforged](https://www.dndbeyond.com/races/warforged#Juggernaut)**
 ### **Disposition**
 \> 40% Good<br>

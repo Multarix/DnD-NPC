@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Kobold](https://www.dndbeyond.com/races/kobold)**
 ### **Disposition**
 \> 100% Evil

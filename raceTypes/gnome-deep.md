@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Deep Gnome](https://www.dndbeyond.com/races/gnome#DeepGnome)**
 ### **Disposition**
 \> 50% Good<br>

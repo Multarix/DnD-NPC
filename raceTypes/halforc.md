@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Half-Orc](https://www.dndbeyond.com/races/half-orc)**
 ### **Disposition**
 \> 50% Neutral<br>

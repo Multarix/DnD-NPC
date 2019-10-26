@@ -1,3 +1,4 @@
+<script>const page = "roleTypes"</script>
 # **[Rogue](https://www.dndbeyond.com/classes/rogue)**
 ## **Stats**
 #### **Primary Stat**

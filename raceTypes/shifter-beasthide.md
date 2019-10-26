@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Beasthide Shifter](https://www.dndbeyond.com/races/shifter#Beasthide)**
 ### **Disposition**
 \> 100% Neutral

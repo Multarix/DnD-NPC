@@ -1,3 +1,4 @@
+<script>const page = "raceTypes"</script>
 # **[Longtooth Shifter](https://www.dndbeyond.com/races/shifter#Longtooth)**
 ### **Disposition**
 \> 100% Neutral
