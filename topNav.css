@@ -1,6 +1,8 @@
+.topCenter {
+	text-align: center;
+}
+
 .topnav {
-	margin: 50%;
-	width: 50%;
 	overflow: hidden;
 	text-align: center;
 	background-color: #333;
