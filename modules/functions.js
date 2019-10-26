@@ -12,9 +12,14 @@ const showHide = (button, element) => {
 
 const textHide = (element) => {
 	const e = document.getElementById(element);
-	if(e.style.display === "block"){
-		e.style.display = "none";
-	} else {
-		e.style.display = "block";
-	}
+	e.style.display = (e.style.display === "block") ? "none" : "block";
+}
+
+const topNavMobile = () => {
+  const x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
