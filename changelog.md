@@ -10,8 +10,8 @@ All of the changes that have been made to the package, in a somewhat organized l
 <span class="literal">\<NPC>#class</span> was changed to <span class="literal">\<NPC>#role</span> for better code consistency
 
 ```diff
-- npc.class;
-+ npc.role;
+- npc.class
++ npc.role
 ```
 ### **Additions**
 #### **Races**
