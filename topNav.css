@@ -1,3 +1,9 @@
+.div.divTop {
+	overflow: hidden;
+	text-align: center;
+	background-color: #333;
+}
+
 .topnav {
 	overflow: hidden;
 	text-align: center;
