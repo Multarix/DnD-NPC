@@ -1,6 +1,5 @@
 <title>Changelog</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script defer src="./modules/functions.js"></script>
 
 
 # **Changelog**

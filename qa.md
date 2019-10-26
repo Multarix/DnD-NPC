@@ -1,5 +1,4 @@
 <title>FAQ</title>
-<script defer src="./modules/functions.js"></script>
 <link rel="stylesheet" type="text/css" href="buttons.css">
 
 # Q&A
