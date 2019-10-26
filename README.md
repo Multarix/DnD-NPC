@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/dnd-npc.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dnd-npc/)
+
 # **About**
 DnD-NPC is a [Node.js](https://nodejs.org) module allows you to easily create randomized D&D NPCs.<br>
 <br>
