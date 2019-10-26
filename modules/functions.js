@@ -8,7 +8,7 @@ const showHide = (button, element) => {
 		e.style.display = "none";
 		btn.innerHTML = "Show";
 	}
-}
+};
 
 const textHide = (element) => {
 	const e = document.getElementById(element);
@@ -22,4 +22,9 @@ function topNavMobile() {
   } else {
     x.className = "topnav";
   }
-}
+};
+
+function activeNavBar(elementID) {
+	const e = document.getElementById(elementID);
+	e.className = "active";
+};

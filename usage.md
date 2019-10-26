@@ -1,5 +1,6 @@
 <title>Usage</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script>activeNavBar("usage")</script>
 
 
 # **Usage**

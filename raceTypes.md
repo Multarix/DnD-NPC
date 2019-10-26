@@ -1,5 +1,6 @@
 <title>Race Types</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script>activeNavBar("raceTypes")</script>
 
 # <b><span class="yellow">raceType</span> & <span class="yellow">subRace</span></b>
 <p>For all your race generation needs, this is a list of all the races & sub-races that can be used.</p>
