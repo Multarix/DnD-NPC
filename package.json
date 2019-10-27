@@ -1,7 +1,7 @@
 {
   "author": "Multarix",
   "name": "dnd-npc",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "description": "Generate random D&D NPCs",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "keywords": ["D&D"],
+  "keywords": ["d&d", "dnd", "npc", "generator", "tabletop", "rpg", "dm", "random", "creator"],
   "devDependencies": {
     "eslint": "^6.3.0"
   },
