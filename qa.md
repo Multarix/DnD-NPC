@@ -17,7 +17,7 @@
 	<hr>
 	<h3>I don't like X thing about the NPC this created!</h3>
 	<button class="btn default" id="3" onClick="showHide('3', '33')" type="button">Show</button>
-	<p class="showHide" id="33">And? Nothing stopping you from taking the bits you do like and adapting the NPC to how YOU like it.<br>
+	<p class="showHide" id="33">Nothing stopping you from taking the bits you do like and adapting the NPC to how YOU like it!<br>
 	Don't like its name? Change it to something you like.<br>
 	Don't like its weapon? Change it!<br>
 	As said before, the goal is to <i>help</i> create an NPC that a DM can adapt into their campaign.<br>
