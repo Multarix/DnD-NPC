@@ -1,0 +1,59 @@
+[
+	{
+		"name": "Deva",
+		"link": "https://www.dndbeyond.com/monsters/deva",
+		"alignment": "Lawful Good",
+		"type": "Medium Celestial",
+		"armor": 17,
+		"hp": { "average": 136, "dice": "16×d8 +64"},
+		"speed": { "base": 30, "swim": null, "fly": 90 },
+		"stats": {
+			"strength": { "points": 18, "modifier": 4 },
+			"dexterity":  { "points": 18, "modifier": 4 },
+			"constitution":  { "points": 18, "modifier": 4 },
+			"intelligence":  { "points": 17, "modifier": 3 },
+			"wisdom":  { "points": 20, "modifier": 5 },
+			"charisma":  { "points": 20, "modifier": 5 }
+		},
+		"saves": ["wisdom", "charisma"],
+		"Challenge": 10
+	},
+	{
+		"name": "Planetar",
+		"link": "https://www.dndbeyond.com/monsters/planetar",
+		"alignment": "Lawful Good",
+		"type": "Large Celestial",
+		"armor": 19,
+		"hp": { "average": 200, "dice": "16×d10 +112"},
+		"speed": { "base": 40, "swim": null, "fly": 120 },
+		"stats": {
+			"strength": { "points": 24, "modifier": 7 },
+			"dexterity":  { "points": 20, "modifier": 5 },
+			"constitution":  { "points": 24, "modifier": 7 },
+			"intelligence":  { "points": 19, "modifier": 4 },
+			"wisdom":  { "points": 22, "modifier": 6 },
+			"charisma":  { "points": 25, "modifier": 7 }
+		},
+		"saves": ["constitution", "wisdom", "charisma"],
+		"Challenge": 16
+	},
+	{
+		"name": "Solar",
+		"link": "https://www.dndbeyond.com/monsters/solar",
+		"alignment": "Lawful Good",
+		"type": "Large Celestial",
+		"armor": 21,
+		"hp": { "average": 243, "dice": "18×d10 +144"},
+		"speed": { "base": 50, "swim": null, "fly": 150 },
+		"stats": {
+			"strength": { "points": 26, "modifier": 8 },
+			"dexterity":  { "points": 22, "modifier": 6 },
+			"constitution":  { "points": 26, "modifier": 8 },
+			"intelligence":  { "points": 25, "modifier": 7 },
+			"wisdom":  { "points": 25, "modifier": 7 },
+			"charisma":  { "points": 30, "modifier": 10 }
+		},
+		"saves": ["intelligence", "wisdom", "charisma"],
+		"Challenge": 21
+	}
+]

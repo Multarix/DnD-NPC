@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Aboleth",
+		"link": "https://www.dndbeyond.com/monsters/aboleth",
+		"alignment": "Lawful Evil",
+		"type": "Large Aberration",
+		"armor": 17,
+		"hp": { "average": 135, "dice": "18×d10 +36"},
+		"speed": { "base": 10, "swim": 40, "fly": null },
+		"stats": {
+			"strength": { "points": 21, "modifier": 5 },
+			"dexterity":  { "points": 9, "modifier": -1 },
+			"constitution":  { "points": 15, "modifier": 2 },
+			"intelligence":  { "points": 18, "modifier": 4 },
+			"wisdom":  { "points": 15, "modifier": 2 },
+			"charisma":  { "points": 18, "modifier": 4 }
+		},
+		"saves": ["constitution", "intelligence", "wisdom"],
+		"Challenge": 10
+	}
+]
