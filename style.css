@@ -4,7 +4,8 @@ span.yellow {
 
 span.literal {
 	background-color: #191919;
-	border:  1px solid #121212;
+	border: 1px solid #121212;
+	color: #fff;
 }
 
 div.showHide {

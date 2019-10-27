@@ -27,7 +27,7 @@
 	<button class="btn default" id="4" onClick="showHide('4', '44')" type="button">Show</button>
 	<p class="showHide" id="44">Please check the <a href="./changelog.html">changelog</a> to make sure this was an intended change.<br>
 	If it was not, create an issue on the <a href="https://github.com/Multarix/DnD-NPC/issues">github</a> and I'll take a look at it.<br>
-	Better yet, if you know whats causing it, fix it and create a pull request!.</p>
+	Better yet, if you know whats causing it, fix it and create a pull request!</p>
 	<hr>
 	<h3>Can you make it generate X information?</h3>
 	<button class="btn default" id="5" onClick="showHide('5', '55')" type="button">Show</button>

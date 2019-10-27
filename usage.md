@@ -39,7 +39,7 @@ const npc = new dnd.npc({ raceType: "juggernaut" })
 ```
 
 # **Output**
-After using the `npc#generate()` method, you'll receive an object with all the NPC information inside of it.<br>
+After using the <span class="literal">npc#generate()</span> method, you'll receive an object with all the NPC information inside of it.<br>
 The structure of the object should be as follows:<br>
 
 ```js
