@@ -57,7 +57,13 @@ img.npm {
 }
 
 @media screen and (max-width: 610px) {
-	.column {
+	.columnLeft {
 		width: 100%;
+		text-align: center;
+	}
+	.columnRight {
+		float: left;
+		width: 100%;
+		text-align: center;
 	}
 }
