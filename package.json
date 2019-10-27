@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "keywords": ["d&d", "dnd", "npc", "generator", "tabletop", "rpg", "dm", "random", "creator"],
+  "keywords": ["d&d", "dnd", "npc", "generator", "tabletop", "rpg", "dm", "random", "creator", "monster"],
   "devDependencies": {
     "eslint": "^6.3.0"
   },
