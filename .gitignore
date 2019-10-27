@@ -1,5 +1,4 @@
 .git
-monster
 node_modules
 .eslintrc.json
 test.js
