@@ -35,7 +35,7 @@
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
 	.topCenter {
 		margin: 0px;
 		width: 100%;
@@ -54,7 +54,7 @@
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
 	.topnav.responsive {
 		position: relative;
 	}
