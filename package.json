@@ -28,7 +28,5 @@
     "url": "https://github.com/Multarix/DnD-NPC/issues"
   },
   "homepage": "https://multarix.github.io/DnD-NPC/",
-  "dependencies": {
-    "better-sqlite3": "^5.4.3"
-  }
+  "dependencies": {}
 }
