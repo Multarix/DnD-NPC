@@ -22,7 +22,7 @@
     "monster"
   ],
   "devDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.6.0"
   },
   "bugs": {
     "url": "https://github.com/Multarix/DnD-NPC/issues"
