@@ -1,12 +1,12 @@
 const format = require("./dataType.js");
 const sql = require("better-sqlite3")("./src/monster/objects/monsters.sqlite3");
-const sqlGet = (statement, ...arguments) => {
+const sqlGet = (statement, ...args) => {
 	const prep = sql.prepare(statement);
-	return prep.get(arguments);
+	return prep.get(args);
 };
-const sqlAll = (statement, ...arguments) => {
+const sqlAll = (statement, ...args) => {
 	const prep = sql.prepare(statement);
-	return prep.all(arguments);
+	return prep.all(args);
 };
 module.exports = (n, name) => {
 
@@ -20,8 +20,8 @@ module.exports = (n, name) => {
 			break;
 		case 1:
 			// Get a random monster
-			const all = sqlAll("SELECT * FROM monsters WHERE name LIKE ?", "%");
-			monsterData = all[Math.floor(Math.random() * all.length)];
+			monsterData = sqlAll("SELECT * FROM monsters WHERE name LIKE ?", "%");
+			monsterData = monsterData[Math.floor(Math.random() * monsterData.length)];
 			break;
 		case 2:
 			// Search for a single monster
@@ -32,9 +32,9 @@ module.exports = (n, name) => {
 			monsterData = sqlAll("SELECT * FROM monsters WHERE lower(name) LIKE ?", `%${name.toLowerCase().replace(/%/g, "\\%")}%`);
 			break;
 		default:
-			const e = new RangeError();
-			e.message = "Something appears to have gone wrong! You should report this error."
-			throw e;
+			monsterData = new RangeError();
+			monsterData.message = "Something appears to have gone wrong! You should report this error.";
+			throw monsterData;
 	}
 	return format(monsterData);
-}
+};
