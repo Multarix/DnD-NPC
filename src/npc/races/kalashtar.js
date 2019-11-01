@@ -13,8 +13,8 @@ module.exports = () => {
 			constitution: 0,
 			intelligence: 0,
 			wisdom: 1,
-			charisma: 0,
-		},
+			charisma: 0
+		}
 	};
 	const type = ["strength", "dexterity", "constitution", "intelligence", "charisma"];
 	const n = Math.floor(Math.random() * type.length);

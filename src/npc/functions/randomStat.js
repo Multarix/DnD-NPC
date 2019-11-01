@@ -5,7 +5,7 @@ module.exports = (obj) => {
 		constitution: 8,
 		intelligence: 8,
 		wisdom: 8,
-		charisma: 8,
+		charisma: 8
 	};
 
 	let total = 0;

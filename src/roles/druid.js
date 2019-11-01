@@ -3,18 +3,18 @@ const statGen = require("../npc/functions/randomStat.js");
 const wTags = {
 	"names": ["Club", "Dagger", "Dart", "Javelin", "Mace", "Quarterstaff", "Scimitar", "Sickle", "Sling", "Spear"],
 	"simple": false,
-	"martial": false,
+	"martial": false
 };
 const aTags = {
 	"types": ["light", "medium"],
 	"metal": false,
-	"shield": true,
+	"shield": true
 };
 const skills = {
 	mainStat: "wisdom",
 	secondStat: false,
 	saveThrow: "intelligence",
-	miscStats: ["strength", "dexterity", "constitution", "charisma"],
+	miscStats: ["strength", "dexterity", "constitution", "charisma"]
 };
 module.exports = (race) => {
 	const stats = statGen(skills);
@@ -26,7 +26,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Lawful", "Neutral"],
-		backgrounds: ["Acolyte", "Hermit", "Sage", "Outlander", "Folk Hero"],
+		backgrounds: ["Acolyte", "Hermit", "Sage", "Outlander", "Folk Hero"]
 	};
 	const tools = { name: "Herbalism Kit", link: "https://www.dndbeyond.com/equipment/herbalism-kit" };
 	role.inventory.tools.push(tools);

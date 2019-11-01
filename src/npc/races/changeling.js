@@ -13,8 +13,8 @@ module.exports = () => {
 			constitution: 0,
 			intelligence: 0,
 			wisdom: 0,
-			charisma: 2,
-		},
+			charisma: 2
+		}
 	};
 	const stat = (Math.random() > 0.5) ? "intelligence" : "dexterity";
 	data.stats[stat] += 1;

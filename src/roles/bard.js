@@ -4,18 +4,18 @@ const music = require("../npc/objects/musicalInstruments.json");
 const wTags = {
 	"names": ["Hand Crossbow", "Longsword", "Rapier", "Shortsword"],
 	"simple": true,
-	"martial": false,
+	"martial": false
 };
 const aTags = {
 	"types": ["light"],
 	"metal": true,
-	"shield": false,
+	"shield": false
 };
 const skills = {
 	mainStat: "charisma",
 	secondStat: false,
 	saveThrow: "dexterity",
-	miscStats: ["strength", "constitution", "intelligence", "wisdom"],
+	miscStats: ["strength", "constitution", "intelligence", "wisdom"]
 };
 module.exports = (race) => {
 	const stats = statGen(skills);
@@ -27,7 +27,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Lawful", "Neutral", "Chaotic"],
-		backgrounds: ["Charlatan", "Entertainer", "Hermit", "Urchin"],
+		backgrounds: ["Charlatan", "Entertainer", "Hermit", "Urchin"]
 	};
 
 	const musical = [...music];

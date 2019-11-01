@@ -5,7 +5,7 @@ module.exports = (race, strength, wTags, aTags) => {
 		weapon: undefined,
 		shield: undefined,
 		armor: undefined,
-		tools: [],
+		tools: []
 	};
 	if(race.size === "Small") weaponList.filter(x => !x.properties.includes("heavy"));
 

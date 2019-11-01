@@ -5,18 +5,18 @@ const artisan = require("../npc/objects/artisanTools.json");
 const wTags = {
 	"names": ["Shortsword"],
 	"simple": true,
-	"martial": false,
+	"martial": false
 };
 const aTags = {
 	"types": [],
 	"metal": true,
-	"shield": false,
+	"shield": false
 };
 const skills = {
 	mainStat: "dexterity",
 	secondStat: "wisdom",
 	saveThrow: "strength",
-	miscStats: ["constitution", "intelligence", "charisma"],
+	miscStats: ["constitution", "intelligence", "charisma"]
 };
 module.exports = (race) => {
 	const stats = statGen(skills);
@@ -28,7 +28,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Neutral"],
-		backgrounds: ["Acoylte", "Haunted One", "Hermit", "Sage"],
+		backgrounds: ["Acoylte", "Haunted One", "Hermit", "Sage"]
 	};
 
 	let n = Math.floor(Math.random() * artisan.length);

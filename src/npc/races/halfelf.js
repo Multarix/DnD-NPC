@@ -13,8 +13,8 @@ module.exports = () => {
 			constitution: 0,
 			intelligence: 0,
 			wisdom: 0,
-			charisma: 2,
-		},
+			charisma: 2
+		}
 	};
 	const a = ["strength", "dexterity", "intelligence", "wisdom", "constitution"];
 	let n = Math.floor(Math.random() * a.length);

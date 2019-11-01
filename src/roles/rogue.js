@@ -3,18 +3,18 @@ const statGen = require("../npc/functions/randomStat.js");
 const wTags = {
 	"names": ["Hand Crossbow", "Longsword", "Mace", "Rapier", "Shortsword"],
 	"simple": true,
-	"martial": false,
+	"martial": false
 };
 const aTags = {
 	"types": ["light"],
 	"metal": true,
-	"shield": false,
+	"shield": false
 };
 const skills = {
 	mainStat: "dexterity",
 	secondStat: false,
 	saveThrow: "intelligence",
-	miscStats: ["strength", "constitution", "wisdom", "charisma"],
+	miscStats: ["strength", "constitution", "wisdom", "charisma"]
 };
 module.exports = (race) => {
 	const stats = statGen(skills);
@@ -26,7 +26,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Neutral", "Chaotic"],
-		backgrounds: ["Criminal", "Spy", "Urchin", "Pirate"],
+		backgrounds: ["Criminal", "Spy", "Urchin", "Pirate"]
 	};
 	const tools = { name: "Thieves Tools", link: "https://www.dndbeyond.com/equipment/thieves-tools" };
 	role.inventory.tools.push(tools);

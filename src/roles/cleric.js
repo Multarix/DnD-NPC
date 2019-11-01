@@ -3,18 +3,18 @@ const statGen = require("../npc/functions/randomStat.js");
 const wTags = {
 	"names": [],
 	"simple": true,
-	"martial": false,
+	"martial": false
 };
 const aTags = {
 	"types": ["light", "medium"],
 	"metal": true,
-	"shield": true,
+	"shield": true
 };
 const skills = {
 	mainStat: "wisdom",
 	secondStat: false,
 	saveThrow: "charisma",
-	miscStats: ["strength", "dexterity", "constitution", "intelligence"],
+	miscStats: ["strength", "dexterity", "constitution", "intelligence"]
 };
 module.exports = (race) => {
 	const stats = statGen(skills);
@@ -26,7 +26,7 @@ module.exports = (race) => {
 		stats: stats,
 		inventory: gear,
 		disposition: ["Lawful", "Chaotic"],
-		backgrounds: ["Acolyte", "Hermit", "Sage", "Urchin"],
+		backgrounds: ["Acolyte", "Hermit", "Sage", "Urchin"]
 	};
 	return role;
 };

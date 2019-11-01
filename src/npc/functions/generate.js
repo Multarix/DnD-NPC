@@ -12,7 +12,7 @@ module.exports = (data) => {
 			name: race.name,
 			link: race.link,
 			size: race.size,
-			speed: race.speed,
+			speed: race.speed
 		},
 		role: {
 			name: role.name,
@@ -23,9 +23,9 @@ module.exports = (data) => {
 				constitution: role.stats.constitution + race.stats.constitution,
 				intelligence: role.stats.intelligence + race.stats.intelligence,
 				wisdom: role.stats.wisdom + race.stats.wisdom,
-				charisma: role.stats.charisma + race.stats.charisma,
-			},
+				charisma: role.stats.charisma + race.stats.charisma
+			}
 		},
-		inventory: role.inventory,
+		inventory: role.inventory
 	};
 };

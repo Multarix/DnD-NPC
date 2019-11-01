@@ -13,7 +13,7 @@ module.exports = () => {
 			constitution: 0,
 			intelligence: 1,
 			wisdom: 0,
-			charisma: 0,
-		},
+			charisma: 0
+		}
 	};
 };
