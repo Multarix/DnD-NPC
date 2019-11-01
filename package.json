@@ -9,7 +9,18 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "keywords": ["d&d", "dnd", "npc", "generator", "tabletop", "rpg", "dm", "random", "creator", "monster"],
+  "keywords": [
+    "d&d",
+    "dnd",
+    "npc",
+    "generator",
+    "tabletop",
+    "rpg",
+    "dm",
+    "random",
+    "creator",
+    "monster"
+  ],
   "devDependencies": {
     "eslint": "^6.3.0"
   },
@@ -17,5 +28,7 @@
     "url": "https://github.com/Multarix/DnD-NPC/issues"
   },
   "homepage": "https://multarix.github.io/DnD-NPC/",
-  "dependencies": {}
+  "dependencies": {
+    "better-sqlite3": "^5.4.3"
+  }
 }
