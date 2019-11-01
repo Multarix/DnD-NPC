@@ -1,13 +1,7 @@
+const searchMonster = require("../monster/functions/structure.js");
 module.exports = class monster {
 	constructor(obj){
-		return;
-	}
-
-	search(){
-		return;
-	}
-
-	generate(){
-		return;
+		const name = String(obj);
+		return searchMonster(name);
 	}
 };
