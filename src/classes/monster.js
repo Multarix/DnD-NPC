@@ -1,7 +1,6 @@
-const searchMonster = require("../monster/functions/structure.js");
 module.exports = class monster {
-	constructor(obj){
-		const name = String(obj);
-		return searchMonster(name);
+	constructor(obj) {
+		this.list = require("../monster/objects/monsters.json");
+		this.random = () => this.list[Math.floor(Math.random() * this.list.length)];
 	}
 };
