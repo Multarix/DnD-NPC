@@ -17,3 +17,8 @@ div.showHide {
 a {
 	cursor: pointer;
 }
+
+table tr th {
+	background-color: #883333;
+	color: #ffffff
+}

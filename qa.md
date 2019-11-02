@@ -1,5 +1,5 @@
 <title>FAQ</title>
-<link rel="stylesheet" type="text/css" href="buttons.css">
+<link rel="stylesheet" type="text/css" href="./modules/css/buttons.css">
 <script>const page = "qa"</script>
 
 # Q&A

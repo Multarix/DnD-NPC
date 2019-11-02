@@ -1,5 +1,5 @@
 <title>Role Types</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="./modules/css/style.css">
 <script>const page = "roleTypes"</script>
 
 # <b><span class="yellow">roleType</span></b>

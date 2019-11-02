@@ -1,46 +1,54 @@
-<title>Usage</title>
-<link rel="stylesheet" type="text/css" href="./modules/css/style.css">
-<script>const page = "usage"</script>
+<title>class/NPC</title>
+<link rel="stylesheet" type="text/css" href="../modules/css/style.css">
+<script>const page = "class"</script>
 
+# **NPC Class**
 
-# **Usage**
-You can create a new npc in several ways.<br>
-```js
-const dnd = require('dnd-npc');
-const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
-	.generate(); // Generates a Warforged-Juggernaut Fighter
-```
+Example Usage:<br>
 ```js
 const dnd = require('dnd-npc');
 const npc = new dnd.npc()
-	.raceType({ raceType: "warforged", subRace: "juggernaut"})
-	.roleType("fighter")
+	.raceType({ raceType: "Warforged", subRace: "Juggernaut" })
+	.roleType({ roleType: "Fighter" })
 	.generate(); // Generates a Warforged-Juggernaut Fighter
 ```
-You can also overwrite settings that you have already input.
-```js
-const dnd = require('dnd-npc');
-const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
-	.raceType({ raceType: "human" })
-	.roleType("bard")
-	.generate(); // Generates a Human Bard (why u make Bard tho?)
-```
-Leaving the raceType or roleType blank, or passing an invalid type to it, will result in that thing being randomly generated.
-```js
-const dnd = require('dnd-npc');
-const npc = new dnd.npc({ raceType: "warforged" })
-	.generate(); // Generates a Warforged with a random sub-race and role.
-```
-You can also pass a sub-race as the raceType and it will generate with the correct race and sub-race.
-```js
-const dnd = require('dnd-npc');
-const npc = new dnd.npc({ raceType: "juggernaut" })
-	.generate(); // Generates a Warforged-Juggernaut with a random role.
-```
 
-# **Output**
-After using the <span class="literal">npc#generate()</span> method, you'll receive an object with all the NPC information inside of it.<br>
+## **Methods**
+## **Constructor(<span class="args">[options]</span>)**
+<div class="embed">
+	<p>Description</p>
+	<h4>Options</h4>
+	<table>
+		<tr>
+			<th>Argument</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr><tr>
+			<td>raceType</td>
+			<td>String</td>
+			<td>Sets the race of the NPC</td>
+		</tr><tr>
+			<td>subRace</td>
+			<td>String</td>
+			<td>Sets the sub-race of the NPC if applicable</td>
+		</tr><tr>
+			<td>roleType</td>
+			<td>String</td>
+			<td>Sets the role of the NPC if applicable</td>
+		</tr><tr>
+	</table>
+</div>
+
+### **.roleType(<span class="args">[options]</span>)**
+> returns: this
+
+### **.raceType(<span class="args">[options]</span>)**
+> returns: this
+
+### **.generate()**
+> After using the <span class="literal">npc#generate()</span> method, you'll receive an object with all the NPC information inside of it.<br>
 The structure of the object should be as follows:<br>
+Returns: Object
 
 ```js
 {

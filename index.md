@@ -1,6 +1,6 @@
 <title>Welcome</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="home.css">
+<link rel="stylesheet" type="text/css" href="./modules/css/style.css">
+<link rel="stylesheet" type="text/css" href="./modules/css/home.css">
 <script>const page = "home"</script>
 <div class="background"></div>
 <a class="npmLink" href="https://nodei.co/npm/dnd-npc/"><img class ="npm" src="https://nodei.co/npm/dnd-npc.png?compact=true"></a>

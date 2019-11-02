@@ -1,5 +1,5 @@
 <title>Race Types</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="./modules/css/style.css">
 <script>const page = "raceTypes"</script>
 
 # <b><span class="yellow">raceType</span> & <span class="yellow">subRace</span></b>
