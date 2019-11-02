@@ -16,7 +16,7 @@ p.left {
 }
 
 div.background{
-	background: url(./dndlogo.png) no-repeat scroll center top transparent;
+	background: url(../dndlogo.png) no-repeat scroll center top transparent;
 	display: block;
 	background-size: 200px;
 	margin-left: auto;
