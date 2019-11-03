@@ -1,0 +1,97 @@
+/* General Stuff */
+body {
+	margin: 0px;
+	background-color: #252525;
+	color: #e8e8e8;
+	font-family: Verdana;
+	font-size: 15px;
+}
+
+div.content {
+	margin: auto;
+	max-width: 60%;
+	padding-top: 35px;
+	display: block;
+}
+
+.inline {
+	margin: 0;
+	display: inline;
+}
+.center {
+	text-align: center;
+}
+
+.showHide {
+	display: none;
+}
+
+a {
+	color: #ac7870;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+a:hover {
+	color: #764740;
+	transition: 0.3s;
+}
+
+a.method {
+	display: inline-flex;
+	color: inherit;
+	margin: 10px;
+	transition: 0.3s;
+}
+
+a.method:hover {
+	color: #ac7870;
+	transition: 0.3s;
+}
+
+a.method b span {
+	color: #919191;
+	transition: 0.3s;
+}
+
+a.method:hover b span {
+	color: #ac7870;
+	transition: 0.3s;
+}
+
+span.literal {
+	background-color: #191919;
+	border: 1px solid #121212;
+	color: #fff;
+}
+
+table tr th {
+	background-color: #764740;
+	color: #fff;
+	border-bottom: 2px solid #121212;
+}
+
+table tr td {
+	background-color: #292929;
+	border-bottom: 1px solid #121212;
+}
+
+table {
+	border: 1px solid #121212;
+}
+
+div.embed {
+	background-color: #202020;
+	border-radius: 5px;
+	border-left: 4px solid #3f3f3f;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 18px;
+	padding-bottom: 1px;
+	transition: 0.3s;
+}
+
+div.embed:hover {
+	border-left: 4px solid #764740;
+	transition: 0.3s;
+}
