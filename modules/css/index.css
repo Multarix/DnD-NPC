@@ -8,6 +8,11 @@ div.background{
 	padding-bottom: 210px;
 }
 
+a.npmLink {
+	margin: 0px;
+	display: inline-block;
+}
+
 img.npm {
 	display: block;
 	padding-top: 5px;
