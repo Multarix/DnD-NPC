@@ -5,7 +5,6 @@
 <div class="embed">
 	<p class="description">This is called when you create a new Monster.</p>
 </div><br>
-<hr>
 
 <h2><b>Methods</b></h2>
 <h3><a class="method" name="all" href="#all"><b>.all()</b></a></h3>
