@@ -16,31 +16,31 @@
 	<ul>
 	<li><a onclick="textHide('1.1.5 aasimar')">Aasimar</a></li>
 	<div class="showHide" id="1.1.5 aasimar">
-	<ul><li><a href="./raceTypes/aasimar-fallen.html">Fallen</a></li>
-	<li><a href="./raceTypes/aasimar-protector.html">Protector</a></li>
-	<li><a href="./raceTypes/aasimar-scourge.html">Scourge</a></li></ul></div>
-	<li><a href="./raceTypes/bugbear.html">Bugbear</a></li>
+	<ul><li><a href="./raceTypes/aasimar-fallen">Fallen</a></li>
+	<li><a href="./raceTypes/aasimar-protector">Protector</a></li>
+	<li><a href="./raceTypes/aasimar-scourge">Scourge</a></li></ul></div>
+	<li><a href="./raceTypes/bugbear">Bugbear</a></li>
 	<li><a onclick="textHide('1.1.5 elf')">Elf</a></li>
 	<div class="showHide" id="1.1.5 elf">
-	<ul><li><a href="./raceTypes/elf-dark.html">Dark</a></li></ul></div>
-	<li><a href="./raceTypes/firbolg.html">Firbolg</a></li>
+	<ul><li><a href="./raceTypes/elf-dark">Dark</a></li></ul></div>
+	<li><a href="./raceTypes/firbolg">Firbolg</a></li>
 	<li><a onclick="textHide('1.1.5 gnome')">Gnome</a></li>
 	<div class="showHide" id="1.1.5 gnome">
-	<ul><li><a href="./raceTypes/gnome-deep.html">Deep</a></li>
-	<li><a href="./raceTypes/gnome-forest.html">Forest</a></li>
-	<li><a href="./raceTypes/gnome-rock.html">Rock</a></li></ul></div>
-	<li><a href="./raceTypes/goblin.html">Goblin</a></li>
-	<li><a href="./raceTypes/grung.html">Grung</a></li>
-	<li><a href="./raceTypes/hobgoblin.html">Hobgoblin</a></li>
-	<li><a href="./raceTypes/kenku.html">Kenku</a></li>
-	<li><a href="./raceTypes/kobold.html">Kobold</a></li>
-	<li><a href="./raceTypes/lizardfolk.html">Lizardfolk</a></li>
-	<li><a href="./raceTypes/orc.html">Orc</a></li>
-	<li><a href="./raceTypes/tabaxi.html">Tabaxi</a></li>
-	<li><a href="./raceTypes/triton.html">Triton</a></li>
-	<li><a href="./raceTypes/yuanti.html">Yuan-Ti</a></li></ul>
+	<ul><li><a href="./raceTypes/gnome-deep">Deep</a></li>
+	<li><a href="./raceTypes/gnome-forest">Forest</a></li>
+	<li><a href="./raceTypes/gnome-rock">Rock</a></li></ul></div>
+	<li><a href="./raceTypes/goblin">Goblin</a></li>
+	<li><a href="./raceTypes/grung">Grung</a></li>
+	<li><a href="./raceTypes/hobgoblin">Hobgoblin</a></li>
+	<li><a href="./raceTypes/kenku">Kenku</a></li>
+	<li><a href="./raceTypes/kobold">Kobold</a></li>
+	<li><a href="./raceTypes/lizardfolk">Lizardfolk</a></li>
+	<li><a href="./raceTypes/orc">Orc</a></li>
+	<li><a href="./raceTypes/tabaxi">Tabaxi</a></li>
+	<li><a href="./raceTypes/triton">Triton</a></li>
+	<li><a href="./raceTypes/yuanti">Yuan-Ti</a></li></ul>
 
-	For a full list of available races, <a href="./raceTypes.html">click here</a></p>
+	For a full list of available races, <a href="./raceTypes">click here</a></p>
 </div><br>
 
 <h3 style="font-size: 16px"><b>&lt;NPC&gt;#character#age</b></h3>
