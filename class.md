@@ -8,7 +8,7 @@
 	<p>Generate a D&D NPC.</p>
 	<h3>Example Usage</h3>
 <pre>
-<span class="comment">/* Generate a Warforged-Juggernaut Fighter \*/</span>
+<span class="comment">/* Generate a Warforged-Juggernaut Fighter */</span>
 <span class="keyword">const</span> dnd <span class="require">= require</span>(<span class="string">'dnd-npc'</span>);
 <span class="keyword">const</span> npc <span class="require">=</span> <span class="keyword">new</span> dnd.<span class="json">npc</span>()
   .<span class="function">raceType</span>({ <span class="json">raceType</span><span class="require">:</span> <span class="string">"Warforged"</span>, <span class="json">subRace</span><span class="require">:</span> <span class="string">"Juggernaut"</span> })
@@ -22,7 +22,7 @@
 	<p>Output a single or an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of monsters.</p>
 	<h3>Example Usage</h3>
 <pre>
-<span class="comment">/* Gets an Array of Monsters Objects that contain "red" in their name \*/</span>
+<span class="comment">/* Gets an Array of Monsters Objects that contain "red" in their name */</span>
 <span class="keyword">const</span> dnd <span class="require">= require</span>(<span class="string">'dnd-npc'</span>);
 <span class="keyword">const</span> monster <span class="require">=</span> <span class="keyword">new</span> dnd.<span class="json">monster</span>()
   .<span class="function">searchAll</span>(<span class="string">"red"</span>);
@@ -34,7 +34,7 @@
 	<p>Generate an encounter with the specified challenge</p>
 	<h3>Example Usage</h3>
 <pre>
-<span class="comment">/* Generates an encounter designed for 5 players with a challenge rating of 7 \*/</span>
+<span class="comment">/* Generates an encounter designed for 5 players with a challenge rating of 7 */</span>
 <span class="keyword">const</span> dnd <span class="require">= require</span>(<span class="string">'dnd-npc'</span>);
 <span class="keyword">const</span> encounter <span class="require">=</span> <span class="keyword">new</span> dnd.<span class="json">encounter</span>()
   .<span class="function">players</span>(<span class="bool">5</span>)
