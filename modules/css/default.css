@@ -11,6 +11,11 @@ body {
 	margin: 0;
 	display: inline;
 }
+
+.gray {
+	color: #9e9e9e
+}
+
 .center {
 	text-align: center;
 }
