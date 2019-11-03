@@ -1,6 +1,7 @@
 <script>const page = "qa"</script>
 <div class="center">
-	<h1><b>Q & A</b></h1>
+	<h1 class="title"><b>Q & A</b></h1>
+	<hr><br>
 	<div class="main">
 		<h2 class="inline gray">So what does this thing do?</h2>
 		<a id="1" onclick="showHide('1', '11')">Show</a>
