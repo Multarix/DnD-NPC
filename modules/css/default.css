@@ -83,8 +83,10 @@ div.embed {
 	padding-bottom: 1px;
 	transition: 0.3s;
 }
-
 div.embed:hover {
 	border-left: 4px solid #764740;
 	transition: 0.3s;
+}
+div.qa {
+	background-color: inherit;
 }
