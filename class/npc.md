@@ -1,7 +1,6 @@
 <script>const page = "class"</script>
 <a name="top"></a>
 <h1 class="title"><b>NPC Class</b></h1>
-<h2><b>Methods</b></h2>
 <h3><a class="method" name="constructor" href="#constructor"><b>.constructor(<span class="args">{ <i>...arguments</i> }</span>)</b></a></h3>
 <div class="embed">
   <p class="description">This is called when you create a new NPC.<br>
@@ -27,8 +26,7 @@
   </tr>
   </table>
 </div><br>
-<hr>
-
+<h2><b>Methods</b></h2>
 <h3><a class="method" name="raceType" href="#raceType"><b>.raceType(<span class="args">{ <i>...arguments</i> }</span>)</b></a></h3>
 <div class="embed">
   <p class="description">Sets the race of the NPC.<br>
