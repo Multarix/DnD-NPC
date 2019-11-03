@@ -63,8 +63,9 @@
 	This will always be level 1.<br>
 	<b>TypeOf:</b> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a></p>
 </div><br>
-<br><hr><br>
-
+<br>
+<hr>
+<br>
 <h1><a class="method" name="1.1.0" href="#1.1.0"><b>v1.1.0</b></a></h1>
 <h2><b>Breaking Changes</b></h2>
 <h3 style="font-size: 16px"><b>NPC Constructor</b></h3>
@@ -87,6 +88,8 @@
 	(No chaotic evil Paladins, though technically not against the rules of D&D 5e)<br>
 	<b>TypeOf:</b> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">String</a></p>
 </div><br>
-<br><hr><br>
+<br>
+<hr>
+<br>
 <h1><a class="method" name="1.0.0" href="#1.0.0"><b>v1.0.0</b></a></h1>
 <div class="embed"><p>- Initial Release</p></div>
