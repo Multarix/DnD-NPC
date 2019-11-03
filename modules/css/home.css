@@ -1,0 +1,69 @@
+h1.centered {
+	text-align: center;
+}
+h1.title {
+	text-align: center;
+	font-size: 45px;
+	font-family: "Arial Black";
+}
+
+p.centered {
+	text-align: center;
+}
+
+p.left {
+	text-align: left;
+}
+
+div.background{
+	background: url(../dndlogo.png) no-repeat scroll center top transparent;
+	display: block;
+	background-size: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 210px;
+}
+
+
+img.npm {
+	display: block;
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.columnLeft {
+	float: left;
+	width: 48%;
+}
+
+.columnMid {
+	float: middle;
+	width: 2%;
+
+}
+
+.columnRight {
+	float: right;
+	width: 48%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 610px) {
+	.columnLeft {
+		width: 100%;
+		text-align: center;
+	}
+	.columnRight {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+}

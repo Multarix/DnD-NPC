@@ -1,0 +1,24 @@
+span.yellow {
+	color: #eb9b34;
+}
+
+span.literal {
+	background-color: #191919;
+	border: 1px solid #121212;
+	color: #fff;
+}
+
+div.showHide {
+	display: none;
+	border-left: 2px solid #ffad1d;
+	margin: 14px;
+}
+
+a {
+	cursor: pointer;
+}
+
+table tr th {
+	background-color: #883333;
+	color: #ffffff
+}
