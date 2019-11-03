@@ -82,19 +82,20 @@ span.literal {
 	color: #cccccc;
 }
 
+table {
+	border: 1px solid #121212;
+}
 table tr th {
 	background-color: #764740;
 	color: #fff;
-	border-bottom: 2px solid #121212;
+	border-bottom: 0px solid #121212;
 }
-
 table tr td {
 	background-color: #292929;
-	border-bottom: 1px solid #121212;
+	border-bottom: 0px solid #121212;
 }
-
-table {
-	border: 1px solid #121212;
+table tr:nth-child(odd) td {
+	background-color: #2f2f2f;
 }
 
 div.embed {
