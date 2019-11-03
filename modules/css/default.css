@@ -114,3 +114,12 @@ div.embed:hover {
 div.qa {
 	background-color: inherit;
 }
+
+div.fourohfour {
+		background: url(./modules/images/dndlogo.png) no-repeat scroll center top transparent;
+		display: block;
+		background-size: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 210px;
+}
