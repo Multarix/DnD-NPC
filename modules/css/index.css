@@ -15,14 +15,6 @@ img.npm {
 	margin-right: auto;
 }
 
-div.wrap {
-	display: block;
-	position: relative;
-	margin-right: auto;
-	margin-left: auto;
-	width: 60%;
-}
-
 .columnLeft {
 	text-align: left;
 	float: left;
