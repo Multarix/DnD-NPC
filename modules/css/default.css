@@ -7,13 +7,25 @@ body {
 	font-size: 15px;
 }
 
+.title {
+	font-size: 45px;
+}
+
 .inline {
 	margin: 0;
 	display: inline;
 }
 
 .gray {
-	color: #9e9e9e
+	color: #9e9e9e;
+}
+.red {
+	text-shadow: 1px 1px black;
+	color: #aa4042;
+}
+.green {
+	text-shadow: 1px 1px black;
+	color: #91a85f;
 }
 
 .center {
@@ -66,8 +78,9 @@ a.method:hover b span {
 
 span.literal {
 	background-color: #191919;
-	border: 1px solid #121212;
-	color: #fff;
+	border: 2px solid #121212;
+	border-radius: 5px;
+	color: #cccccc;
 }
 
 table tr th {
