@@ -17,7 +17,7 @@
 </pre>
 </div><br>
 
-<h2><a href="./class/monster.html"><b>Monster Class</b></a></h2>
+<h2><a href="./class/monster.html"><b>Monster Class</b></a><small> <span class="gray"><i>Upcoming</i></span></small></h2>
 <div class="embed">
 	<p>Output a single or an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of monsters.</p>
 	<h3>Example Usage</h3>
