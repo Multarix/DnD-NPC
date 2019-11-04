@@ -1,8 +1,6 @@
-<title>Race Types</title>
-<link rel="stylesheet" type="text/css" href="./modules/css/style.css">
-<script>const page = "raceTypes"</script>
+<script>const page = "class"</script>
 
-# <b><span class="yellow">raceType</span> & <span class="yellow">subRace</span></b>
+# <b><span class="red">raceType</span> & <span class="red">subRace</span></b>
 <p>For all your race generation needs, this is a list of all the races & sub-races that can be used.</p>
 <ul>
 <li><a href="./raceTypes/aarakocra.html">Aarakocra</a></li>

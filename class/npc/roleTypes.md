@@ -1,8 +1,6 @@
-<title>Role Types</title>
-<link rel="stylesheet" type="text/css" href="./modules/css/style.css">
-<script>const page = "roleTypes"</script>
+<script>const page = "class"</script>
 
-# <b><span class="yellow">roleType</span></b>
+# <b><span class="red">roleType</span></b>
 For all your role generation needs, this is a list of all roles that can be used.
 - <a href="./roleTypes/barbarian.html">Barbarian</a>
 - <a href="./roleTypes/bard.html">Bard</a>
