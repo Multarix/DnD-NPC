@@ -118,7 +118,7 @@
 <span class="keyword">const</span> dnd <span class="require">= require</span>(<span class="string">'dnd-npc'</span>);
 <span class="keyword">const</span> npc <span class="require">=</span> <span class="keyword">new</span> dnd.<span class="json">npc</span>(obj)
 	.<span class="function">raceType</span>({ <span class="json">raceType</span><span class="require">:</span> <span class="string">"Human"</span> })
-	.<span class="function">roleType</span>("bard")
+	.<span class="function">roleType</span>(<span class="string">"Bard"</span>)
 	.<span class="function">generate</span>();
 </pre>
 <p>Leaving the raceType or roleType blank, or passing an invalid type to it, will result in that thing being randomly generated.</p>
