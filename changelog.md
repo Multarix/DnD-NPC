@@ -12,7 +12,7 @@
 <h2><b>Additions</b></h2>
 <h3 style="font-size: 16px"><b>Races</b></h3>
 <div class="embed">
-	<p>Added new race and sub-race types.
+	<p>Added new race and sub-race types.</p>
 	<ul>
 	<li><a onclick="textHide('1.1.5 aasimar')">Aasimar</a></li>
 	<div class="showHide" id="1.1.5 aasimar">
@@ -39,8 +39,7 @@
 	<li><a href="./raceTypes/tabaxi">Tabaxi</a></li>
 	<li><a href="./raceTypes/triton">Triton</a></li>
 	<li><a href="./raceTypes/yuanti">Yuan-Ti</a></li></ul>
-
-	For a full list of available races, <a href="./raceTypes">click here</a></p>
+	<br><p>For a full list of available races, <a href="./raceTypes">click here</a></p>
 </div><br>
 
 <h3 style="font-size: 16px"><b>&lt;NPC&gt;#character#age</b></h3>
