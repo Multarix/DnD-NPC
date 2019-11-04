@@ -82,7 +82,7 @@
 			<td>link to the class on D&D Beyond</td>
 		</tr><tr>
 			<td>stats</td>
-			<td><a href="/object-types.html#stats">&lt;Stats: Object&gt;</a></td>
+			<td><a href="{{ site.baseurl }}/object-types.html#stats">&lt;Stats: Object&gt;</a></td>
 			<td></td>
 		</tr>
 	</table>
@@ -111,7 +111,7 @@
 			May be undefined as not all NPCs will be wearing armor</td>
 		</tr><tr>
 			<td>tools</td>
-			<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="/object-types.html#tool">&lt;Tool: Object&gt;</a></td>
+			<td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="{{ site.baseurl }}/object-types.html#tool">&lt;Tool: Object&gt;</a></td>
 			<td>The tools that the NPC has<br>
 				May be empty as not all NPCs will have tools</td>
 		</tr>

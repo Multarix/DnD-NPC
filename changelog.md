@@ -18,35 +18,35 @@
 			<ul>
 			<li><a onclick="textHide('1.1.5 aasimar')">Aasimar</a></li>
 			<div class="showHide" id="1.1.5 aasimar">
-			<ul><li><a href="/class/npc/raceTypes/aasimar-fallen">Fallen</a></li>
-			<li><a href="/class/npc/raceTypes/aasimar-protector">Protector</a></li>
-			<li><a href="/class/npc/raceTypes/aasimar-scourge">Scourge</a></li></ul></div>
-			<li><a href="/class/npc/raceTypes/bugbear">Bugbear</a></li>
+			<ul><li><a href="{{ site.baseurl }}/class/npc/raceTypes/aasimar-fallen">Fallen</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/aasimar-protector">Protector</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/aasimar-scourge">Scourge</a></li></ul></div>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/bugbear">Bugbear</a></li>
 			<li><a onclick="textHide('1.1.5 elf')">Elf</a></li>
 			<div class="showHide" id="1.1.5 elf">
-			<ul><li><a href="/class/npc/raceTypes/elf-dark">Dark</a></li></ul></div>
-			<li><a href="/class/npc/raceTypes/firbolg">Firbolg</a></li>
+			<ul><li><a href="{{ site.baseurl }}/class/npc/raceTypes/elf-dark">Dark</a></li></ul></div>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/firbolg">Firbolg</a></li>
 			<li><a onclick="textHide('1.1.5 gnome')">Gnome</a></li>
 			<div class="showHide" id="1.1.5 gnome">
-			<ul><li><a href="/class/npc/raceTypes/gnome-deep">Deep</a></li>
-			<li><a href="/class/npc/raceTypes/gnome-forest">Forest</a></li>
-			<li><a href="/class/npc/raceTypes/gnome-rock">Rock</a></li></ul></div>
-			<li><a href="/class/npc/raceTypes/goblin">Goblin</a></li>
-			<li><a href="/class/npc/raceTypes/grung">Grung</a></li>
-			<li><a href="/class/npc/raceTypes/hobgoblin">Hobgoblin</a></li></ul>
+			<ul><li><a href="{{ site.baseurl }}/class/npc/raceTypes/gnome-deep">Deep</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/gnome-forest">Forest</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/gnome-rock">Rock</a></li></ul></div>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/goblin">Goblin</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/grung">Grung</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/hobgoblin">Hobgoblin</a></li></ul>
 		</div>
 		<div class="embedRight">
 			<ul>
-			<li><a href="/class/npc/raceTypes/kenku">Kenku</a></li>
-			<li><a href="/class/npc/raceTypes/kobold">Kobold</a></li>
-			<li><a href="/class/npc/raceTypes/lizardfolk">Lizardfolk</a></li>
-			<li><a href="/class/npc/raceTypes/orc">Orc</a></li>
-			<li><a href="/class/npc/raceTypes/tabaxi">Tabaxi</a></li>
-			<li><a href="/class/npc/raceTypes/triton">Triton</a></li>
-			<li><a href="/class/npc/raceTypes/yuanti">Yuan-Ti</a></li></ul>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/kenku">Kenku</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/kobold">Kobold</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/lizardfolk">Lizardfolk</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/orc">Orc</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/tabaxi">Tabaxi</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/triton">Triton</a></li>
+			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/yuanti">Yuan-Ti</a></li></ul>
 		</div>
 	</div>
-	<br><p>For a full list of available races, <a href="/class/npc/raceTypes">click here</a></p>
+	<br><p>For a full list of available races, <a href="{{ site.baseurl }}/class/npc/raceTypes">click here</a></p>
 </div><br>
 
 <h3 style="font-size: 16px"><b>&lt;NPC&gt;#character#age</b></h3>

@@ -80,7 +80,7 @@
 <div class="embed">
 	<p>Use this method when you're ready to generate all aspects of your NPC.<br>
 		After using this, you'll recieve an NPC object.</p>
-	<p class="returns">Returns: <a href="/class/npc/object">&lt;NPC: Object&gt;</a></p>
+	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/npc/object">&lt;NPC: Object&gt;</a></p>
 </div><br>
 <hr>
 
