@@ -1,6 +1,6 @@
 /* Index Page */
 div.background {
-	background: url(/modules/images/dndlogo.png) no-repeat scroll center top transparent;
+	background: url({{ site.baseurl }}/modules/images/dndlogo.png) no-repeat scroll center top transparent;
 	display: block;
 	background-size: 200px;
 	margin-left: auto;
