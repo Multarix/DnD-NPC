@@ -6,6 +6,34 @@ body {
 	font-size: 15px;
 }
 
+ul {
+	list-style: none;
+	display: inline-block;
+}
+ul li::before {
+	content: ">";
+	font-weight: bold;
+	display: inline-flex;
+	width: 1em;
+	margin-left: -1em;
+}
+ul ul {
+	margin: 0;
+}
+ul ul li{
+	line-height: 130%;
+}
+ul ul li::before {
+	content: "├─";
+	font-weight: bolder;
+	display: inline-flex;
+	width: 2em;
+	margin-left: -2em;
+}
+ul ul li:last-child::before {
+	content: "└─";
+}
+
 .title {
 	font-size: 45px;
 }
