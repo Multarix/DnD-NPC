@@ -88,7 +88,7 @@
 </div><br>
 
 <h2><a class="method" name="stats" href="#stats"><b>Stats Object</b></a></h2>
-	<div class="embed">
+  <div class="embed">
 		<p>A stats object provides information about the Strength, Dexterity, Constitution, Intelligence, Wisdom & Charisma for an NPC or Monster</p>
 		<table>
 			<tr>

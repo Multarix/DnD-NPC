@@ -4,7 +4,6 @@
 <br>
 <h2><b>NPC#character</b></h2>
 <div class="embed">
-	<p>Description</p>
 	<table>
 		<tr>
 			<th>Property</th>
