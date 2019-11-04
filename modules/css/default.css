@@ -71,6 +71,7 @@ ul ul li:last-child::before {
 }
 
 a {
+	font-weight: bold;
 	color: #ac7870;
 	cursor: pointer;
 	transition: 0.3s;
@@ -145,7 +146,7 @@ div.qa {
 }
 
 div.fourohfour {
-		background: url(https://multarix.github.io/DnD-NPC/modules/images/dndlogo.png) no-repeat scroll center top transparent;
+		background: url(/modules/images/dndlogo.png) no-repeat scroll center top transparent;
 		display: block;
 		background-size: 200px;
 		margin-left: auto;

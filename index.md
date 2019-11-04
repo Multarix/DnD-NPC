@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="https://multarix.github.io/DnD-NPC/modules/css/index.css">
+<link rel="stylesheet" type="text/css" href="/modules/css/index.css">
 <script>const page = "home"</script>
 <div class="background"></div>
 <a class="npmLink" href="https://nodei.co/npm/dnd-npc/"><img class="npm" src="https://nodei.co/npm/dnd-npc.png?compact=true"></a>
