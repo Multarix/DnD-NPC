@@ -27,7 +27,7 @@
 		<h2 class="inline gray">I just updated to the latest version and X thing broke!</h2>
 		<a id="4" onclick="showHide('4', '44')">Show</a>
 		<div class="embed qa showHide" id="44">
-			<p class="description">Please check the <a href="{{ site.baseurl }}/changelog.html">changelog</a> to make sure this was an intended change.<br>
+			<p class="description">Please check the <a href="{{ site.baseurl }}/changelog">changelog</a> to make sure this was an intended change.<br>
 		If it was not, create an issue on the <a href="https://github.com/Multarix/DnD-NPC/issues">github</a> and I'll take a look at it.<br>
 		Better yet, if you know whats causing it, fix it and create a pull request!</p></div>
 		<br><br>

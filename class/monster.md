@@ -10,14 +10,14 @@
 <h3><a class="method" name="all" href="#all"><b>.all()</b></a></h3>
 <div class="embed">
 	<p class="description">Lists every single monster in the database.</p>
-	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object.html">&lt;Monster: Object&gt;</a></p>
+	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object">&lt;Monster: Object&gt;</a></p>
 </div><br>
 <hr>
 
 <h3><a class="method" name="random" href="#random"><b>.random()</b></a></h3>
 <div class="embed">
 	<p class="description">Grabs a completely random monster from the database</p>
-	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object.html">&lt;Monster: Object&gt;</a></p>
+	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object">&lt;Monster: Object&gt;</a></p>
 </div><br>
 <hr>
 
@@ -38,7 +38,7 @@
 		<td>The string to search for a monster with</td>
 	</tr>
 	</table>
-	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object.html">&lt;Monster: Object&gt;</a></p>
+	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object">&lt;Monster: Object&gt;</a></p>
 </div><br>
 <hr>
 
@@ -59,7 +59,7 @@
 	 <td>The string to search for a monster with</td>
  </tr>
  </table>
-	<p class="returns">Returns: Array of <a href="{{ site.baseurl }}/class/monster/object.html">&lt;Monster: Object&gt;</a></p>
+	<p class="returns">Returns: Array of <a href="{{ site.baseurl }}/class/monster/object">&lt;Monster: Object&gt;</a></p>
 </div><br>
 <hr>
 

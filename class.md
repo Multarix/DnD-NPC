@@ -3,7 +3,7 @@
 <h1 class="center title"><b>Classes</b></h1>
 <p class="center">All the available classes of the package.</p>
 
-<h2><a href="{{ site.baseurl }}/class/npc.html"><b>NPC Class</b></a></h2>
+<h2><a href="{{ site.baseurl }}/class/npc"><b>NPC Class</b></a></h2>
 <div class="embed">
 	<p>Generate a D&D NPC.</p>
 	<h3>Example Usage</h3>
@@ -17,7 +17,7 @@
 </pre>
 </div><br>
 
-<h2><a href="{{ site.baseurl }}/class/monster.html"><b>Monster Class</b></a><small> <span class="gray"><i>Upcoming</i></span></small></h2>
+<h2><a href="{{ site.baseurl }}/class/monster"><b>Monster Class</b></a><small> <span class="gray"><i>Upcoming</i></span></small></h2>
 <div class="embed">
 	<p>Output a single or an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of monsters.</p>
 	<h3>Example Usage</h3>
@@ -29,7 +29,7 @@
 </pre>
 </div><br>
 
-<h2><a href="{{ site.baseurl }}/class/encounter.html"><b>Encounter Class</b></a><small> <span class="gray"><i>Not Implemented</i></span></small></h2>
+<h2><a href="{{ site.baseurl }}/class/encounter"><b>Encounter Class</b></a><small> <span class="gray"><i>Not Implemented</i></span></small></h2>
 <div class="embed">
 	<p>Generate an encounter with the specified challenge</p>
 	<h3>Example Usage</h3>
