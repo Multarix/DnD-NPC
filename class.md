@@ -5,7 +5,7 @@
 
 <h2><a href="{{ site.baseurl }}/class/npc"><b>NPC Class</b></a></h2>
 <div class="embed">
-	<p>Generate a D&D NPC.</p>
+	<p>Generate a D&D NPC</p>
 	<h3>Example Usage</h3>
 <pre>
 <span class="comment">/* Generate a Warforged-Juggernaut Fighter */</span>
@@ -19,7 +19,7 @@
 
 <h2><a href="{{ site.baseurl }}/class/monster"><b>Monster Class</b></a><small> <span class="gray"><i>Upcoming</i></span></small></h2>
 <div class="embed">
-	<p>Output a single or an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of monsters.</p>
+	<p>Output a single or an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of monsters</p>
 	<h3>Example Usage</h3>
 <pre>
 <span class="comment">/* Gets an Array of Monsters Objects that contain "red" in their name */</span>
