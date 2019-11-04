@@ -1,4 +1,6 @@
 <script>const page = "home"</script>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/modules/css/index.css">
+
 <div class="background"></div>
 <a class="npmLink" href="https://nodei.co/npm/dnd-npc/"><img class="npm" src="https://nodei.co/npm/dnd-npc.png?compact=true"></a>
 <p style="text-align: center">D&D-NPC is a <a href="https://nodejs.org">Node.js</a> module allows you to easily create randomized D&D NPCs.<br>
