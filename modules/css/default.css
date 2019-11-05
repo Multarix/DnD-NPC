@@ -20,7 +20,7 @@ ul li::before {
 ul ul {
 	margin: 0;
 }
-ul ul li{
+ul ul li {
 	line-height: 130%;
 }
 ul ul li::before {
@@ -37,7 +37,6 @@ ul ul li:last-child::before {
 .title {
 	font-size: 45px;
 }
-
 .inline {
 	margin: 0;
 	display: inline;
@@ -172,6 +171,48 @@ div.fourohfour {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+
+.columRow {
+	width: 700;
+}
+.columRow::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.column {
+	float: left;
+	padding: 10px;
+	display: inline-flex;
+}
+.left {
+	min-width: 0%;
+	width: 20%;
+	overflow: auto;
+}
+.middle, .right {
+	width: 250px;
+}
+@media screen and (max-width: 800px) {
+	.columRow {
+		width: auto;
+	}
+	.left {
+		width: auto;
+	}
+	.middle ul, .right ul {
+		margin: 0;
+		overflow: auto;
+	}
+
+	.middle, .right {
+		padding: 0;
+		margin-left: 0;
+		float: none;
+		width: 100%;
+	}
 }
 @media screen and (max-width: 400px) {
 	.embedLeft {
