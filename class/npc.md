@@ -1,5 +1,4 @@
 <script>const page = "class"</script>
-<a name="top"></a>
 <h1 class="title"><b>NPC Class</b></h1>
 <h3><a class="method" name="constructor" href="#constructor"><b>.constructor(<span class="args">{ <i>...arguments</i> }</span>)</b></a></h3>
 <div class="embed">

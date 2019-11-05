@@ -1,3 +1,13 @@
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+	anchor.addEventListener('click', function (e) {
+		e.preventDefault();
+		const anchorLink = `[name=${this.getAttribute('href').replace("#", "")}]`;
+		document.querySelector(anchorLink).scrollIntoView({
+			behavior: 'smooth'
+		});
+	});
+});
+
 const showHide = (button, element) => {
 	let btn = document.getElementById(button);
 	let e = document.getElementById(element);
