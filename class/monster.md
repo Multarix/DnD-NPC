@@ -10,21 +10,21 @@
 <h3><a class="method" name="all" href="#all"><b>.all()</b></a></h3>
 <div class="embed">
 	<p class="description">Lists every single monster in the database.</p>
-	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object">&lt;Monster: Object&gt;</a></p>
+	<p>Returns: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="{{ site.baseurl }}/class/monster/object.html">&lt;Monster: Object&gt;</a></p>
 </div><br>
 <hr>
 
 <h3><a class="method" name="random" href="#random"><b>.random()</b></a></h3>
 <div class="embed">
 	<p class="description">Grabs a completely random monster from the database</p>
-	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object">&lt;Monster: Object&gt;</a></p>
+	<p>Returns: <a href="{{ site.baseurl }}/class/monster/object.html">&lt;Monster: Object&gt;</a></p>
 </div><br>
 <hr>
 
 <h3><a class="method" name="search" href="#search"><b>.search(<span class="args"> <i>name</i> </span>)</b></a></h3>
 <div class="embed">
 	<p class="description">Allows you to search for a monster whose name includes/ is the given string.<br>
-	If it cannot find a monster, it will return undefined.
+	If no monster is found, it will return undefined.
 	</p>
 	<h4><b>Options</b></h4>
 	<table>
@@ -38,14 +38,14 @@
 		<td>The string to search for a monster with</td>
 	</tr>
 	</table>
-	<p class="returns">Returns: <a href="{{ site.baseurl }}/class/monster/object">&lt;Monster: Object&gt;</a></p>
+	<p>Returns: <a href="{{ site.baseurl }}/class/monster/object.html">&lt;Monster: Object&gt;</a></p>
 </div><br>
 <hr>
 
 <h3><a class="method" name="searchAll" href="#searchAll"><b>.searchAll(<span class="args"> <i>name</i> </span>)</b></a></h3>
 <div class="embed">
 	<p class="description">Allows you to search for all monsters whose name include/ is the given string.<br>
- If it cannot find any monsters, it will return undefined.
+ If no monsters are found, it will return undefined.
  </p>
  <h4><b>Options</b></h4>
  <table>
@@ -59,12 +59,10 @@
 	 <td>The string to search for a monster with</td>
  </tr>
  </table>
-	<p class="returns">Returns: Array of <a href="{{ site.baseurl }}/class/monster/object">&lt;Monster: Object&gt;</a></p>
+	<p>Returns: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> of <a href="{{ site.baseurl }}/class/monster/object.html">&lt;Monster: Object&gt;</a></p>
 </div><br>
 <hr>
 
 <h2><a class="method" name="examples" href="#examples"><b>Example Usage</b></a></h2>
 
-```js
-const examples = undefined;
-```
+<pre>const examples = undefined;</pre>
