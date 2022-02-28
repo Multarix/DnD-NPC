@@ -4,7 +4,7 @@
 <div class="embed">
 	<p class="description">This is called when you create a new NPC.<br>
 	It takes a single Object with the below properties. All properties are optional.<br>
-	A full list of valid roleTypes can be found <a href="{{ site.baseurl }}/class/npc/roleTypes">here</a>
+	A full list of valid roleTypes can be found <a href="{{ site.baseurl }}/class/npc/roleTypes">here</a><br>
 	A Full list of valid raceTypes can be found <a href="{{ site.baseurl }}/class/npc/raceTypes">here</a></p>
 	<h4><b>Options</b></h4>
 	<table>
