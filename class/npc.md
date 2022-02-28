@@ -3,7 +3,9 @@
 <h3><a class="method" name="constructor" href="#constructor"><b>.constructor(<span class="args">{ <i>...arguments</i> }</span>)</b></a></h3>
 <div class="embed">
 	<p class="description">This is called when you create a new NPC.<br>
-	It takes a single Object with the below properties. All properties are optional.</p>
+	It takes a single Object with the below properties. All properties are optional.<br>
+	A full list of valid roleTypes can be found <a href="{{ site.baseurl }}/class/npc/roleTypes">here</a>
+	A Full list of valid raceTypes can be found <a href="{{ site.baseurl }}/class/npc/raceTypes">here</a></p>
 	<h4><b>Options</b></h4>
 	<table>
 	<tr>
