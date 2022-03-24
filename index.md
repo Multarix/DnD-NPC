@@ -1,5 +1,5 @@
 <script>const page = "home"</script>
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/modules/css/index.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/index.css">
 
 <div class="background"></div>
 <a class="npmLink" href="https://nodei.co/npm/dnd-npc/"><img class="npm" src="https://nodei.co/npm/dnd-npc.png?compact=true"></a>
