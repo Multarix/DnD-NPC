@@ -35,13 +35,13 @@ You can also pass a sub-race as the classType and it will generate with the corr
 ```js
 import dnd from 'dnd-npc';
 const npc = new dnd.npc({ classType: "juggernaut" })
-	.generate(); // Generates a Warforged-Juggernaut with a random role.
+	.generate(); // Generates a Warforged-Juggernaut with a random class.
 ```
 Leaving the raceType or classType blank, or passing an invalid type to it, will result in that thing being randomly generated.
 ```js
 import dnd from 'dnd-npc';
 const npc = new dnd.npc({ raceType: "warforged" })
-	.generate(); // Generates a Warforged with a random sub-race and role.
+	.generate(); // Generates a Warforged with a random sub-race and class.
 ```
 ```js
 import dnd from 'dnd-npc';
