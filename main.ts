@@ -19,15 +19,15 @@ export default class NPC {
 	constructor(starterObject: StarterObject){
 		const subRace = starterObject?.subRace || "";
 		if(starterObject?.raceType) this.#raceType = _racePicker(starterObject.raceType, subRace);
-		if(starterObject?.roleType) this.#roleType = _rolePicker(starterObject.roleType);
+		if(starterObject?.classType) this.#roleType = _rolePicker(starterObject.classType);
 	}
 
 	
 	
 	/**
 	 * @name setRace
-	 * @param  {string} raceType
-	 * @param  {string} [subRace]
+	 * @param {string} raceType
+	 * @param {string} [subRace]
 	 * @returns {NPC}
 	 * @description Sets the race of the NPC
 	**/
@@ -49,7 +49,7 @@ export default class NPC {
 	
 	/**
 	 * @name setRole
-	 * @param  {string} roleType
+	 * @param {string} roleType
 	 * @returns {NPC}
 	 * @description Sets the role of the NPC
 	**/

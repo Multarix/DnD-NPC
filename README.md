@@ -13,7 +13,7 @@ v2.0 also has many other breaking changes, it's recommended that you read the ch
 You can create a new npc in several ways.<br>
 ```js
 import dnd from 'dnd-npc';
-const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
+const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", classType: "fighter"})
 	.generate(); // Generates a Warforged-Juggernaut Fighter
 ```
 ```js
@@ -26,18 +26,18 @@ const npc = new dnd.npc()
 You can also overwrite settings that you have already input.
 ```js
 import dnd from 'dnd-npc';
-const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", roleType: "fighter"})
+const npc = new dnd.npc({ raceType: "warforged", subRace: "juggernaut", classType: "fighter"})
 	.setRace("human")
 	.setClass("bard")
 	.generate(); // Generates a Human Bard (why u make Bard tho?)
 ```
-You can also pass a sub-race as the raceType and it will generate with the correct race and sub-race.
+You can also pass a sub-race as the classType and it will generate with the correct race and sub-race.
 ```js
 import dnd from 'dnd-npc';
-const npc = new dnd.npc({ raceType: "juggernaut" })
+const npc = new dnd.npc({ classType: "juggernaut" })
 	.generate(); // Generates a Warforged-Juggernaut with a random role.
 ```
-Leaving the raceType or roleType blank, or passing an invalid type to it, will result in that thing being randomly generated.
+Leaving the raceType or classType blank, or passing an invalid type to it, will result in that thing being randomly generated.
 ```js
 import dnd from 'dnd-npc';
 const npc = new dnd.npc({ raceType: "warforged" })
@@ -45,7 +45,7 @@ const npc = new dnd.npc({ raceType: "warforged" })
 ```
 ```js
 import dnd from 'dnd-npc';
-const npc = new dnd.npc({ roleType: "fighter" })
+const npc = new dnd.npc({ classType: "fighter" })
 	.generate(); // Generates a fighter with a random race
 ```
 ```js
@@ -193,7 +193,7 @@ ToolData = {
 	- Skirmisher
 - Yuanti
 ---
-## **Valid `roleType`**
+## **Valid `classType`**
 - Barbarian
 - Bard
 - Cleric

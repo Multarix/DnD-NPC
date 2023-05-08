@@ -1,5 +1,5 @@
 export interface StarterObject {
-	roleType?: string,
+	classType?: string,
 	raceType?: string,
 	subRace?: string
 }
