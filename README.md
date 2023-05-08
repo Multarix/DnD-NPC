@@ -4,10 +4,9 @@
 DnD-NPC is a [Node.js](https://nodejs.org) module allows you to easily create randomized D&D NPCs.<br>
 <br>
 For a complete list of previous changes, see [here](https://multarix.github.io/DnD-NPC//changelog.html).<br>
-<br>
+
 ### ⚠️ Version 2.0 updated the entire codebase to be compatible with ES modules, which means you can no longer load it with require(). You must use import instead.<br>
-<br>
-### ⚠️v2.0 also has many breaking changes, it's recommended that you read the changelog before updating<br>
+v2.0 also has many other breaking changes, it's recommended that you read the changelog before updating<br>
 
 ---
 ## **Usage:**
