@@ -17,7 +17,7 @@ interface StarterObject {
 export default class NPC {
 	#roleType: string = "random";
 	#raceType: string = "random";
-	character: object = {};
+	character: object | undefined = undefined;
 	
 	
 	constructor(starterObject: StarterObject){
