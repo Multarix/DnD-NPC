@@ -1,75 +1,9 @@
 import weaponList from "../objects/weapons.json" assert { type: "json" };
 import armorList from "../objects/armor.json" assert { type: "json" };
+import { RaceData, WeaponTags, ArmorTags, Inventory, WeaponData, ArmorData } from "./interfaces.js";
 
-
-interface Weapon {
-	name: string
-	link: string
-	damageType: string
-	damage: string
-	versatileDamage?: string
-	simple: boolean
-	ranged: boolean
-	allowsShield: boolean
-	properties: string[]
-}
-
-interface Armor {
-	name: string
-	link: string
-	type: string
-	isMetal: boolean
-	isStealthy: boolean
-	strengthReq: number
-}
-
-
-interface Tool {
-	name: string
-	link: string
-}
-
-interface Gear {
-	weapon: Weapon
-	armor: Armor
-	shield: string | false
-	tools: Tool[]
-}
-
-interface WeaponTags {
-	names: string[]
-	simple: boolean
-	martial: boolean
-}
-
-interface ArmorTags {
-	types: string[]
-	metal: boolean
-	shield: boolean
-}
-
-interface Stats {
-	strength: number
-	dexterity: number
-	constitution: number
-	intelligence: number
-	wisdom: number
-	charisma: number
-}
-
-interface RaceData {
-	name: string
-	link: string
-	disposition: string[]
-	speed: number
-	size: string
-	maxAge: number
-	minAge: number
-	stats: Stats
-}
-
-export default function inventory(race: RaceData, strength: number, weaponTags: WeaponTags, armorTags: ArmorTags): Gear {
-	const gear: Gear = {
+export default function inventory(race: RaceData, strength: number, weaponTags: WeaponTags, armorTags: ArmorTags): Inventory {
+	const gear: Inventory = {
 		weapon: weaponList[0],
 		armor: armorList[0],
 		shield: false,
@@ -80,7 +14,7 @@ export default function inventory(race: RaceData, strength: number, weaponTags: 
 	if(race.size === "Small") weaponList.filter(x => !x.properties.includes("heavy"));
 	
 	// Get all of the viable weapons
-	const viableWeapons: Weapon[] = [];
+	const viableWeapons: WeaponData[] = [];
 	for(const weapon of weaponList){
 		if(weaponTags.names.includes(weapon.name)){
 			viableWeapons.push(weapon);
@@ -106,7 +40,7 @@ export default function inventory(race: RaceData, strength: number, weaponTags: 
 	gear.shield = (armorTags.shield && weapon.allowsShield && Math.random() >= 0.5) ? "https://www.dndbeyond.com/equipment/shield" : false;
 	
 	// Get all of the viable armor
-	const viableArmor: Armor[] = [];
+	const viableArmor: ArmorData[] = [];
 	for(const armor of armorList){
 		if(armorTags.types.length === 0) break;
 		if(!armor.isMetal && !armorTags.metal){

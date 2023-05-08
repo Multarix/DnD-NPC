@@ -1,41 +1,4 @@
-interface Stats {
-	strength: number
-	dexterity: number
-	constitution: number
-	intelligence: number
-	wisdom: number
-	charisma: number
-}
-
-
-interface RaceData {
-	name: string
-	link: string
-	disposition: string[]
-	speed: number
-	size: string
-	maxAge: number
-	minAge: number
-	stats: Stats
-}
-
-interface RoleData {
-	name: string
-	link: string
-	stats: Stats
-	inventory: {}
-	disposition: string[]
-	backgrounds: string[]
-}
-
-interface CharacterData {
-	name: string
-	gender: string
-	alignment: string
-	age: number
-	background: string
-	level: number
-}
+import { RaceData, RoleData, CharacterData } from "./interfaces.js";
 
 export default async function charData(race: RaceData, role: RoleData): Promise<CharacterData> {
 

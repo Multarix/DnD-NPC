@@ -1,16 +1,7 @@
+import { Stats } from "../functions/interfaces.js";
+
+
 export default async () => {
-	
-	
-	interface Stats {
-		strength: number
-		dexterity: number
-		constitution: number
-		intelligence: number
-		wisdom: number
-		charisma: number
-	}
-	
-	
 	const data = {
 		name: "Envoy Warforged",
 		link: "https://www.dndbeyond.com/races/warforged#Envoy",

@@ -2,41 +2,7 @@ import raceGen from "./chosenRace.js";
 import roleGen from "./chosenRole.js";
 import charGen from "./charData.js";
 
-
-interface Stat {
-	total: number
-	prof: number
-}
-
-interface StatDistribution {
-	strength: Stat
-	dexterity: Stat
-	constitution: Stat
-	intelligence: Stat
-	wisdom: Stat
-	charisma: Stat
-}
-
-interface Race {
-	name: string
-	link: string
-	speed: number
-	size: string
-}
-
-interface Role {
-	name: string
-	link: string
-	stats: StatDistribution
-}
-
-interface Character {
-	character: any
-	race: Race
-	role: Role
-	inventory: any
-}
-
+import { Stat, Character } from "./interfaces.js";
 
 // Generate the prof bonus for each stat
 function generateProficiency(roleStat: number, raceStat: number): Stat {
@@ -62,7 +28,7 @@ export default async function generateNPC(raceType: string, roleType: string): P
 			size: race.size,
 			speed: race.speed
 		},
-		role: {
+		class: {
 			name: role.name,
 			link: role.link,
 			stats: {

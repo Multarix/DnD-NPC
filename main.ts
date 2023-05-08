@@ -1,13 +1,9 @@
-import rolePicker from "./src/functions/rolePicker.js";
-import racePicker from "./src/functions/racePicker.js";
-import generateNPC from "./src/functions/generate.js";
+import _rolePicker from "./src/functions/rolePicker.js";
+import _racePicker from "./src/functions/racePicker.js";
+import _generateNPC from "./src/functions/generate.js";
+import { StarterObject } from "./src/functions/interfaces.js";
 
 
-interface StarterObject {
-	roleType?: string,
-	raceType?: string,
-	subRace?: string
-}
 
 
 /**
@@ -22,8 +18,8 @@ export default class NPC {
 	
 	constructor(starterObject: StarterObject){
 		const subRace = starterObject?.subRace || "";
-		if(starterObject?.raceType) this.#raceType = racePicker(starterObject.raceType, subRace);
-		if(starterObject?.roleType) this.#roleType = rolePicker(starterObject.roleType);
+		if(starterObject?.raceType) this.#raceType = _racePicker(starterObject.raceType, subRace);
+		if(starterObject?.roleType) this.#roleType = _rolePicker(starterObject.roleType);
 	}
 
 	
@@ -37,7 +33,7 @@ export default class NPC {
 	**/
 	setRace(raceType: string, subRace: string = ""): NPC {
 		if(this.character) return this;
-		this.#raceType = racePicker(raceType, subRace);
+		this.#raceType = _racePicker(raceType, subRace);
 		return this;
 	}
 	/**
@@ -57,9 +53,9 @@ export default class NPC {
 	 * @returns {NPC}
 	 * @description Sets the role of the NPC
 	**/
-	setRole(roleType: string): NPC {
+	setClass(roleType: string): NPC {
 		if(this.character) return this;
-		this.#roleType = rolePicker(roleType);
+		this.#roleType = _rolePicker(roleType);
 		return this;
 	}
 	/**
@@ -67,7 +63,7 @@ export default class NPC {
 	 * @returns {string}
 	 * @description Gets the role of the NPC
 	**/
-	getRole(): string {
+	getClass(): string {
 		return this.#roleType;
 	}
 	
@@ -80,6 +76,6 @@ export default class NPC {
 	**/
 	async generate(){
 		if(this.character) return this;
-		return await generateNPC(this.#raceType, this.#roleType);
+		return await _generateNPC(this.#raceType, this.#roleType);
 	}
 };

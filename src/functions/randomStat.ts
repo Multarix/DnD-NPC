@@ -1,19 +1,6 @@
-type statType = "strength" | "dexterity" | "constitution" | "intelligence" | "wisdom" | "charisma";
-interface AbilityPriority {
-	mainStat: statType
-	secondStat: statType | false
-	saveThrow: statType
-	miscStats: statType[]
-}
 
-interface Stats {
-	strength: number
-	dexterity: number
-	constitution: number
-	intelligence: number
-	wisdom: number
-	charisma: number
-}
+import { AbilityPriority, Stats } from "./interfaces.js";
+
 
 
 class StatRoller {

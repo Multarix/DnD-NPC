@@ -4,33 +4,7 @@ import musical from "../objects/musicalInstruments.json" assert { type: "json" }
 import artisan from "../objects/artisanTools.json" assert { type: "json" };
 
 
-type statType = "strength" | "dexterity" | "constitution" | "intelligence" | "wisdom" | "charisma";
-interface AbilityPriority {
-	mainStat: statType
-	secondStat: statType | false
-	saveThrow: statType
-	miscStats: statType[]
-}
-
-interface Stats {
-	strength: number
-	dexterity: number
-	constitution: number
-	intelligence: number
-	wisdom: number
-	charisma: number
-}
-
-interface RaceData {
-	name: string
-	link: string
-	disposition: string[]
-	speed: number
-	size: string
-	maxAge: number
-	minAge: number
-	stats: Stats
-}
+import { AbilityPriority, RaceData } from "../functions/interfaces.js";
 
 
 const weaponTags = {
