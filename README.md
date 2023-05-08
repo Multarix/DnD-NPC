@@ -5,9 +5,9 @@ DnD-NPC is a [Node.js](https://nodejs.org) module allows you to easily create ra
 <br>
 For a complete list of previous changes, see [here](https://multarix.github.io/DnD-NPC//changelog.html).<br>
 <br>
-__**Version 2.0 updated the entire codebase to be compatible with ES modules, which means you can no longer load it with require(). You must use import instead.**__<br>
+### ⚠️ Version 2.0 updated the entire codebase to be compatible with ES modules, which means you can no longer load it with require(). You must use import instead.<br>
 <br>
-__**v2.0 also has many breaking changes, it's recommended that you read the changelog before updating.**__<br>
+### ⚠️v2.0 also has many breaking changes, it's recommended that you read the changelog before updating<br>
 
 ---
 ## **Usage:**
@@ -57,10 +57,8 @@ const npc = new dnd.npc()
 
 ---
 ## **Output:**
-After using the #generate() method, you'll receive an object like this with all the details of the NPC.
-Without using #generate() all you'll have is an object with a raceType and roleType property.
-
-
+After using the #generate() method, you'll receive an object like this with all the details of the NPC.<br>
+⚠️ You can only use #generate() once per npc instance. Additional uses will simply return the class itself.
 ```js
 {
 	"character": CharacterData,
