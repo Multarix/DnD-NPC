@@ -9,7 +9,7 @@
 		"url": "git+https://github.com/Multarix/DnD-NPC.git"
 	},
 	"license": "MIT",
-	"main": "main.js",
+	"main": "./jsOut/main.js",
 	"keywords": [
 		"d&d",
 		"dnd",
