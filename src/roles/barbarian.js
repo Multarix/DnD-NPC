@@ -1,32 +1,32 @@
-const inventory = require("../npc/functions/inventory.js");
-const statGen = require("../npc/functions/randomStat.js");
-const wTags = {
-	"names": [],
-	"simple": true,
-	"martial": true
+import inventory from "../functions/inventory.js";
+import statGen from "../functions/randomStat.js";
+const weaponTags = {
+    "names": [],
+    "simple": true,
+    "martial": true
 };
-const aTags = {
-	"types": ["light", "medium"],
-	"metal": true,
-	"shield": true
+const armorTags = {
+    "types": ["light", "medium"],
+    "metal": true,
+    "shield": true
 };
 const skills = {
-	mainStat: "strength",
-	secondStat: false,
-	saveThrow: "constitution",
-	miscStats: ["dexterity", "intelligence", "wisdom", "wisdom"]
+    mainStat: "strength",
+    secondStat: false,
+    saveThrow: "constitution",
+    miscStats: ["dexterity", "intelligence", "wisdom", "wisdom"]
 };
-module.exports = (race) => {
-	const stats = statGen(skills);
-	const strength = race.stats.strength + stats.strength;
-	const gear = inventory(race, strength, wTags, aTags);
-	const role = {
-		name: "Barbarian",
-		link: "https://www.dndbeyond.com/classes/barbarian",
-		stats: stats,
-		inventory: gear,
-		disposition: ["Lawful", "Neutral", "Chaotic"],
-		backgrounds: ["Gladiator", "Folk Hero", "Haunted One", "Outlander", "Pirate", "Soldier"]
-	};
-	return role;
+export default (race) => {
+    const stats = statGen(skills);
+    const strength = race.stats.strength + stats.strength;
+    const gear = inventory(race, strength, weaponTags, armorTags);
+    const role = {
+        name: "Barbarian",
+        link: "https://www.dndbeyond.com/classes/barbarian",
+        stats: stats,
+        inventory: gear,
+        disposition: ["Lawful", "Neutral", "Chaotic"],
+        backgrounds: ["Gladiator", "Folk Hero", "Haunted One", "Outlander", "Pirate", "Soldier"]
+    };
+    return role;
 };
