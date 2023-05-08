@@ -3,6 +3,6 @@ export default async () => {
 	const n = Math.floor(Math.random() * types.length);
 	const subrace = types[n];
 
-	const warforged = await import(`./warforged#${subrace}.js`);
-	return await warforged();
+	const warforged = await import(`./warforged_${subrace}.js`);
+	return await warforged.default();
 };

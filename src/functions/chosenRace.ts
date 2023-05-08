@@ -29,5 +29,5 @@ export default async function chosenRace(raceType: string): Promise<RaceData>{
 	}
 	
 	const data = await import(`../races/${raceType}.js`);
-	return await data();
+	return await data.default();
 };

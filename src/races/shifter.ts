@@ -3,6 +3,6 @@ export default async () => {
 	const n = Math.floor(Math.random() * types.length);
 	const subrace = types[n];
 
-	const shifter = await import(`./shifter#${subrace}.js`);
-	return await shifter();
+	const shifter = await import(`./shifter_${subrace}.js`);
+	return await shifter.default();
 };

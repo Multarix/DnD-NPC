@@ -3,6 +3,6 @@ export default async () => {
 	const n = Math.floor(Math.random() * types.length);
 	const subrace = types[n];
 
-	const elf = await import(`./elf#${subrace}.js`);
-	return await elf();
+	const elf = await import(`./elf_${subrace}.js`);
+	return await elf.default();
 };

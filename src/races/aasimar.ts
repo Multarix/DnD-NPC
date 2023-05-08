@@ -3,6 +3,6 @@ export default async () => {
 	const n = Math.floor(Math.random() * types.length);
 	const subrace = types[n];
 
-	const aasimar = await import(`./aasimar#${subrace}.js`);
-	return await aasimar();
+	const aasimar = await import(`./aasimar_${subrace}.js`);
+	return await aasimar.default();
 };

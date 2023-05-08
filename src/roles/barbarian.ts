@@ -46,7 +46,7 @@ const skills: AbilityPriority = {
 	mainStat: "strength",
 	secondStat: false,
 	saveThrow: "constitution",
-	miscStats: ["dexterity", "intelligence", "wisdom", "wisdom"]
+	miscStats: ["dexterity", "intelligence", "wisdom", "charisma"]
 };
 
 export default (race: RaceData) => {

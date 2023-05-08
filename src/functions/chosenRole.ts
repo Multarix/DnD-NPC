@@ -38,6 +38,6 @@ export default async function chosenRole(roleType: string, race: RaceData): Prom
 		roleType = roles[n];
 	}
 	
-	const data = await import(`../../roles/${roleType}.js`);
-	return await data(race);
+	const data = await import(`../roles/${roleType}.js`);
+	return data.default(race);
 };

@@ -54,19 +54,23 @@ export default async function charData(race: RaceData, role: RoleData): Promise<
 	const alignment = (gne === lnc) ? "True Neutral" : `${lnc} ${gne}`;
 
 	
-	let raceName = race.name.toLowerCase().replace("-", "");
+	let raceName = race.name.toLowerCase();
 	const reggie = /\w+$/g;
 	const regMatch = reggie.exec(raceName);
 	if(regMatch === null) throw new Error("No match found, Something went wrong!");
 	raceName = regMatch[0];
 
 	
-	let firstName = await import(`../names/${gender.toLowerCase()}/${raceName}.json`, { assert: { type: "json" } });
-	let lastName = await import(`../names/lastNames/${raceName}.json`, { assert: { type: "json" } });
-	randomNumber = Math.floor(Math.random() * firstName.length);
-	firstName = firstName[randomNumber];
-	randomNumber = Math.floor(Math.random() * lastName.length);
-	lastName = lastName[randomNumber];
+	const jsonFirst = await import(`../names/${gender.toLowerCase()}/${raceName}.json`, { assert: { type: "json" } });
+	const jsonLast = await import(`../names/lastNames/${raceName}.json`, { assert: { type: "json" } });
+	
+	const firstNameJSON = jsonFirst.default;
+	const lastNameJSON = jsonLast.default;
+	
+	randomNumber = Math.floor(Math.random() * firstNameJSON.length);
+	const firstName = firstNameJSON[randomNumber];
+	randomNumber = Math.floor(Math.random() * lastNameJSON.length);
+	const lastName = lastNameJSON[randomNumber];
 	const name = `${firstName} ${lastName}`.replace(/\s$/, "");
 
 	
