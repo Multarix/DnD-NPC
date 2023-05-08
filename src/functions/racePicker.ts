@@ -15,25 +15,25 @@ export default function racePicker(raceType: string, subRace = ""): string {
 		case "aasimar":
 			switch(subRace){
 				case "fallen":
-					raceName = "aasimar#fallen";
+					raceName = "aasimar_fallen";
 					break;
 				case "protector":
-					raceName = "aasimar#protector";
+					raceName = "aasimar_protector";
 					break;
 				case "scourge":
-					raceName = "aasimar#scourge";
+					raceName = "aasimar_scourge";
 					break;
 				default: raceName = "aasimar";
 			}
 			break;
 		case "fallen":
-			raceName = "aasimar#fallen";
+			raceName = "aasimar_fallen";
 			break;
 		case "protector":
-			raceName = "aasimar#protector";
+			raceName = "aasimar_protector";
 			break;
 		case "scourge":
-			raceName = "aasimar#scourge";
+			raceName = "aasimar_scourge";
 			break;
 
 		case "bugbear":
@@ -51,49 +51,49 @@ export default function racePicker(raceType: string, subRace = ""): string {
 		case "dwarf":
 			switch(subRace){
 				case "hill":
-					raceName = "dwarf#hill";
+					raceName = "dwarf_hill";
 					break;
 				case "mountain":
-					raceName = "dwarf#mountain";
+					raceName = "dwarf_mountain";
 					break;
 				default: raceName = "dwarf";
 			}
 			break;
 		case "hill":
-			raceName = "dwarf#hill";
+			raceName = "dwarf_hill";
 			break;
 		case "mountain":
-			raceName = "dwarf#mountain";
+			raceName = "dwarf_mountain";
 			break;
 
 		case "elf":
 			switch(subRace){
 				case "dark":
-					raceName = "elf#dark";
+					raceName = "elf_dark";
 					break;
 				case "eladrin":
-					raceName = "elf#eladrin";
+					raceName = "elf_eladrin";
 					break;
 				case "high":
-					raceName = "elf#high";
+					raceName = "elf_high";
 					break;
 				case "wood":
-					raceName = "elf#wood";
+					raceName = "elf_wood";
 					break;
 				default: raceName = "elf";
 			}
 			break;
 		case "dark":
-			raceName = "elf#dark";
+			raceName = "elf_dark";
 			break;
 		case "eladrin":
-			raceName = "elf#eladrin";
+			raceName = "elf_eladrin";
 			break;
 		case "high":
-			raceName = "elf#high";
+			raceName = "elf_high";
 			break;
 		case "wood":
-			raceName = "elf#wood";
+			raceName = "elf_wood";
 			break;
 
 		case "firbolg":
@@ -103,55 +103,55 @@ export default function racePicker(raceType: string, subRace = ""): string {
 		case "genasi":
 			switch(subRace){
 				case "air":
-					raceName = "genasi#air";
+					raceName = "genasi_air";
 					break;
 				case "earth":
-					raceName = "genasi#earth";
+					raceName = "genasi_earth";
 					break;
 				case "fire":
-					raceName = "genasi#fire";
+					raceName = "genasi_fire";
 					break;
 				case "water":
-					raceName = "genasi#water";
+					raceName = "genasi_water";
 					break;
 				default: raceName = "genasi";
 			}
 			break;
 		case "air":
-			raceName = "genasi#air";
+			raceName = "genasi_air";
 			break;
 		case "earth":
-			raceName = "genasi#earth";
+			raceName = "genasi_earth";
 			break;
 		case "fire":
-			raceName = "genasi#fire";
+			raceName = "genasi_fire";
 			break;
 		case "water":
-			raceName = "genasi#water";
+			raceName = "genasi_water";
 			break;
 
 		case "gnome":
 			switch(subRace){
 				case "deep":
-					raceName = "gnome#deep";
+					raceName = "gnome_deep";
 					break;
 				case "forest":
-					raceName = "gnome#forest";
+					raceName = "gnome_forest";
 					break;
 				case "rock":
-					raceName = "gnome#rock";
+					raceName = "gnome_rock";
 					break;
 				default: raceName = "gnome";
 			}
 			break;
 		case "deep":
-			raceName = "gnome#deep";
+			raceName = "gnome_deep";
 			break;
 		case "forest":
-			raceName = "gnome#forest";
+			raceName = "gnome_forest";
 			break;
 		case "rock":
-			raceName = "gnome#rock";
+			raceName = "gnome_rock";
 			break;
 
 		case "goblin":
@@ -174,19 +174,19 @@ export default function racePicker(raceType: string, subRace = ""): string {
 		case "halfling":
 			switch(subRace){
 				case "lightfoot":
-					raceName = "halfling#lightfoot";
+					raceName = "halfling_lightfoot";
 					break;
 				case "stout":
-					raceName = "halfling#stout";
+					raceName = "halfling_stout";
 					break;
 				default: raceName = "halfling";
 			}
 			break;
 		case "lightfoot":
-			raceName = "halfling#lightfoot";
+			raceName = "halfling_lightfoot";
 			break;
 		case "stout":
-			raceName = "halfling#stout";
+			raceName = "halfling_stout";
 			break;
 
 		case "half-orc":
@@ -226,31 +226,31 @@ export default function racePicker(raceType: string, subRace = ""): string {
 		case "shifter":
 			switch(subRace){
 				case "beasthide":
-					raceName = "shifter#beasthide";
+					raceName = "shifter_beasthide";
 					break;
 				case "longtooth":
-					raceName = "shifter#longtooth";
+					raceName = "shifter_longtooth";
 					break;
 				case "swiftstride":
-					raceName = "shifter#swiftstride";
+					raceName = "shifter_swiftstride";
 					break;
 				case "wildhunt":
-					raceName = "shifter#wildhunt";
+					raceName = "shifter_wildhunt";
 					break;
 				default: raceName = "shifter";
 			}
 			break;
 		case "beasthide":
-			raceName = "shifter#beasthide";
+			raceName = "shifter_beasthide";
 			break;
 		case "longtooth":
-			raceName = "shifter#longtooth";
+			raceName = "shifter_longtooth";
 			break;
 		case "swiftstride":
-			raceName = "shifter#swiftstride";
+			raceName = "shifter_swiftstride";
 			break;
 		case "wildhunt":
-			raceName = "shifter#wildhunt";
+			raceName = "shifter_wildhunt";
 			break;
 
 		case "tabaxi":
@@ -268,25 +268,25 @@ export default function racePicker(raceType: string, subRace = ""): string {
 		case "warforged":
 			switch(subRace){
 				case "envoy":
-					raceName = "warforged#envoy";
+					raceName = "warforged_envoy";
 					break;
 				case "juggernaut":
-					raceName = "warforged#juggernaut";
+					raceName = "warforged_juggernaut";
 					break;
 				case "skirmisher":
-					raceName = "warforged#skirmisher";
+					raceName = "warforged_skirmisher";
 					break;
 				default: raceName = "warforged";
 			}
 			break;
 		case "envoy":
-			raceName = "warforged#envoy";
+			raceName = "warforged_envoy";
 			break;
 		case "juggernaut":
-			raceName = "warforged#juggernaut";
+			raceName = "warforged_juggernaut";
 			break;
 		case "skirmisher":
-			raceName = "warforged#skirmisher";
+			raceName = "warforged_skirmisher";
 			break;
 
 		case "yuan-ti":
