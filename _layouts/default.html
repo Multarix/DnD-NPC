@@ -7,11 +7,15 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/default.css">
-		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/codeblock.css">
 		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/topNav.css">
 		<script defer src="{{ site.baseurl }}/assets/javascript/functions.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+	
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+	<script>hljs.highlightAll();</script>
+	
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
@@ -20,7 +24,7 @@
 					<a id="home" href="{{ site.baseurl }}/index">HOME</a>
 					<a id="qa" href="{{ site.baseurl }}/qa">Q & A</a>
 					<a id ="changelog" href="{{ site.baseurl }}/changelog">CHANGLOG</a>
-					<a id ="class" href="{{ site.baseurl }}/class">CLASSES</a>
+					<a id ="class" href="{{ site.baseurl }}/guide">GUIDE</a>
 					<a href="https://github.com/Multarix/DnD-NPC">GITHUB</a>
 					<a href="javascript:void(0);" class="icon" onclick="topNavMobile()">
 						<i class="fa fa-bars"></i>
