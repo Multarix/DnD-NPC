@@ -75,8 +75,6 @@ export interface AbilityPriority {
 
 
 
-
-
 export interface WeaponData {
 	name: string
 	link: string
