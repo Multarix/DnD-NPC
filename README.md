@@ -12,53 +12,74 @@ v2.0 also has many other breaking changes, it's recommended that you read the ch
 ## **Usage:**
 You can create a new npc in several ways.<br>
 ```js
-import DND from 'dnd-npc';
-const npc = new DND({ raceType: "warforged", subRace: "juggernaut", classType: "fighter"})
+import NPC from 'dnd-npc';
 
-const character = await npc.generate(); // Generates a Warforged-Juggernaut Fighter
+const obj = {
+	raceType: "warforged",
+	subRace: "juggernaut",
+	classType: "fighter"
+}
+
+const npc = new NPC(obj)
+
+// Generates a Warforged-Juggernaut Fighter
+const character = await npc.generate();
 ```
 ```js
-import DND from 'dnd-npc';
-const npc = new DND()
+import NPC from 'dnd-npc';
+const npc = new NPC()
 	.setRace("warforged", "juggernaut")
 	.setClass("fighter");
 
-const character = await npc.generate(); // Generates a Warforged-Juggernaut Fighter
+// Generates a Warforged-Juggernaut Fighter
+const character = await npc.generate();
 ```
 You can also overwrite settings that you have already input.
 ```js
-import DND from 'dnd-npc';
-const npc = new DND({ raceType: "warforged", subRace: "juggernaut", classType: "fighter"})
+import NPC from 'dnd-npc';
+
+const obj = {
+	raceType: "warforged",
+	subRace: "juggernaut",
+	classType: "fighter"
+}
+
+const npc = new NPC(obj)
 	.setRace("human")
 	.setClass("bard");
 	
-const character = await npc.generate(); // Generates a Human Bard (why u make Bard tho?)
+// Generates a Human Bard (why u make Bard tho?)
+const character = await npc.generate();
 ```
 You can also pass a sub-race as the classType and it will generate with the correct race and sub-race.
 ```js
-import DND from 'dnd-npc';
-const npc = new DND({ classType: "juggernaut" });
+import NPC from 'dnd-npc';
+const npc = new NPC({ classType: "juggernaut" });
 
-const character = await npc.generate(); // Generates a Warforged-Juggernaut with a random class.
+// Generates a Warforged-Juggernaut with a random class.
+const character = await npc.generate();
 ```
 Leaving the raceType or classType blank, or passing an invalid type to it, will result in that thing being randomly generated.
 ```js
-import DND from 'dnd-npc';
-const npc = new DND({ raceType: "warforged" });
+import NPC from 'dnd-npc';
+const npc = new NPC({ raceType: "warforged" });
 
-const character = await npc.generate(); // Generates a Warforged with a random sub-race and class.
+// Generates a Warforged with a random sub-race and class.
+const character = await npc.generate();
 ```
 ```js
-import DND from 'dnd-npc';
-const npc = new DND({ classType: "fighter" });
+import NPC from 'dnd-npc';
+const npc = new NPC({ classType: "fighter" });
 
-const character = await npc.generate(); // Generates a fighter with a random race
+// Generates a fighter with a random race
+const character = await npc.generate();
 ```
 ```js
-import DND from 'dnd-npc';
-const npc = new DND();
+import NPC from 'dnd-npc';
+const npc = new NPC();
 
-const character = await npc.generate(); // Generates a completely random character.
+// Generates a completely random character.
+const character = await npc.generate();
 ```
 
 ---
