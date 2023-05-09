@@ -1,6 +1,5 @@
 .git
 node_modules
 .vscode
-jsOut
+dist
 test*.js
-*.js
