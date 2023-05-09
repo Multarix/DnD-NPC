@@ -2,7 +2,7 @@ import raceGen from "./chosenRace.js";
 import roleGen from "./chosenRole.js";
 import charGen from "./charData.js";
 
-import { Stat, Character } from "./interfaces.js";
+import { Stat, Character } from "../../interfaces.js";
 
 // Generate the prof bonus for each stat
 function generateProficiency(roleStat: number, raceStat: number): Stat {

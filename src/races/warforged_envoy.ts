@@ -1,4 +1,4 @@
-import { Stats } from "../functions/interfaces.js";
+import { Stats } from "../../interfaces.js";
 
 
 export default async () => {

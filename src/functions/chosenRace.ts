@@ -1,5 +1,5 @@
 import races from "../races/races.json" assert { type: "json" };
-import { RaceData } from "./interfaces.js";
+import { RaceData } from "../../interfaces.js";
 
 
 export default async function chosenRace(raceType: string): Promise<RaceData>{

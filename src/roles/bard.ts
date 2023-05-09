@@ -3,7 +3,7 @@ import statGen from "../functions/randomStat.js";
 import music from "../objects/musicalInstruments.json" assert { type: "json" };
 
 
-import { AbilityPriority, RaceData } from "../functions/interfaces.js";
+import { AbilityPriority, RaceData } from "../../interfaces.js";
 
 
 const weaponTags = {

@@ -1,7 +1,7 @@
 import _rolePicker from "./src/functions/rolePicker.js";
 import _racePicker from "./src/functions/racePicker.js";
 import _generateNPC from "./src/functions/generate.js";
-import { StarterObject } from "./src/functions/interfaces.js";
+import { StarterObject } from "./interfaces.js";
 
 
 

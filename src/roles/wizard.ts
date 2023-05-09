@@ -2,7 +2,7 @@ import inventory from "../functions/inventory.js";
 import statGen from "../functions/randomStat.js";
 
 
-import { AbilityPriority, RaceData } from "../functions/interfaces.js";
+import { AbilityPriority, RaceData } from "../../interfaces.js";
 
 
 const weaponTags = {

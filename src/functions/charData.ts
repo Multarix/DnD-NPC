@@ -1,4 +1,4 @@
-import { RaceData, RoleData, CharacterData } from "./interfaces.js";
+import { RaceData, RoleData, CharacterData } from "../../interfaces.js";
 
 export default async function charData(race: RaceData, role: RoleData): Promise<CharacterData> {
 

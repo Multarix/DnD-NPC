@@ -4,7 +4,7 @@ import musical from "../objects/musicalInstruments.json" assert { type: "json" }
 import artisan from "../objects/artisanTools.json" assert { type: "json" };
 
 
-import { AbilityPriority, RaceData } from "../functions/interfaces.js";
+import { AbilityPriority, RaceData } from "../../interfaces.js";
 
 
 const weaponTags = {

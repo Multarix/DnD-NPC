@@ -1,5 +1,5 @@
 
-import { AbilityPriority, Stats } from "./interfaces.js";
+import { AbilityPriority, Stats } from "../../interfaces.js";
 
 
 

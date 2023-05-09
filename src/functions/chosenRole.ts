@@ -1,5 +1,5 @@
 import roles from "../roles/roles.json" assert { type: "json" };
-import { RaceData, RoleData } from "./interfaces.js";
+import { RaceData, RoleData } from "../../interfaces.js";
 
 export default async function chosenRole(roleType: string, race: RaceData): Promise<RoleData>{
 	if(roleType === "random"){

@@ -1,6 +1,6 @@
 import weaponList from "../objects/weapons.json" assert { type: "json" };
 import armorList from "../objects/armor.json" assert { type: "json" };
-import { RaceData, WeaponTags, ArmorTags, Inventory, WeaponData, ArmorData } from "./interfaces.js";
+import { RaceData, WeaponTags, ArmorTags, Inventory, WeaponData, ArmorData } from "../../interfaces.js";
 
 export default function inventory(race: RaceData, strength: number, weaponTags: WeaponTags, armorTags: ArmorTags): Inventory {
 	const gear: Inventory = {
