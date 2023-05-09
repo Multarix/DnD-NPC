@@ -25,11 +25,9 @@ export default class NPC {
 	
 	
 	/**
-	 * @name setRace
 	 * @param {string} raceType
 	 * @param {string} [subRace]
 	 * @returns {NPC}
-	 * @description Sets the race of the NPC
 	**/
 	setRace(raceType: string, subRace: string = ""): NPC {
 		if(this.character) return this;
@@ -37,9 +35,7 @@ export default class NPC {
 		return this;
 	}
 	/**
-	 * @name getRace
 	 * @returns {string}
-	 * @description Gets the race of the NPC
 	**/
 	getRace(): string {
 		return this.#raceType;
@@ -48,10 +44,8 @@ export default class NPC {
 	
 	
 	/**
-	 * @name setRole
 	 * @param {string} roleType
 	 * @returns {NPC}
-	 * @description Sets the role of the NPC
 	**/
 	setClass(roleType: string): NPC {
 		if(this.character) return this;
@@ -59,9 +53,7 @@ export default class NPC {
 		return this;
 	}
 	/**
-	 * @name getRole
 	 * @returns {string}
-	 * @description Gets the role of the NPC
 	**/
 	getClass(): string {
 		return this.#roleType;
@@ -70,8 +62,6 @@ export default class NPC {
 	
 	
 	/**
-	 * @name generate
-	 * @description Generates all of the additional the NPC with pseudo-random values
 	 * @returns {Character}
 	**/
 	async generate(): Promise<Character> {
