@@ -1,7 +1,7 @@
 import _rolePicker from "./src/functions/rolePicker.js";
 import _racePicker from "./src/functions/racePicker.js";
 import _generateNPC from "./src/functions/generate.js";
-import { StarterObject } from "./interfaces.js";
+import { StarterObject, Character } from "./interfaces.js";
 
 
 
@@ -13,7 +13,7 @@ import { StarterObject } from "./interfaces.js";
 export default class NPC {
 	#roleType: string = "random";
 	#raceType: string = "random";
-	character: object | undefined = undefined;
+	character: Character | undefined = undefined;
 	
 	
 	constructor(starterObject: StarterObject){
@@ -72,10 +72,11 @@ export default class NPC {
 	/**
 	 * @name generate
 	 * @description Generates all of the additional the NPC with pseudo-random values
-	 * @returns {CharacterObject}
+	 * @returns {Character}
 	**/
-	async generate(){
-		if(this.character) return this;
-		return await _generateNPC(this.#raceType, this.#roleType);
+	async generate(): Promise<Character> {
+		if(this.character) return this.character;
+		this.character = await _generateNPC(this.#raceType, this.#roleType);
+		return this.character;
 	}
 };
