@@ -125,7 +125,7 @@ ArmorData = {
 	name: String,
 	type: String,
 	link: String,
-	strength: Number,
+	strengthReq: Number,
 	isMetal: Boolean,
 	isStealthy: Boolean
 }
