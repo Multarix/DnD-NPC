@@ -13,7 +13,8 @@
 		<a id="2" onclick="showHide('2', '22')">Show</a>
 		<div class="embed qa showHide" id ="22">
 			<p class="description">Magic. Just kidding.<br/>
-		It works by taking user input to determine the character race and/ or class,<br>to then create "random" aspects of an NPC such as their alignment, gender or even weapon.</p></div>
+			It works by taking user input to determine the character race and/ or class,<br>
+			to then create "random" aspects of an NPC such as their alignment, gender or even weapon.</p></div>
 		<br><br>
 		<h2 class="inline gray">I don't like X thing about the NPC this created!</h2>
 		<a id="3" onclick="showHide('3', '33')">Show</a>
