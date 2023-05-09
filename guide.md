@@ -93,57 +93,69 @@
 <hr>
 
 <h2><a class="method" name="examples" href="#examples"><b>Example Usage</b></a></h2>
-<pre><code>/* Generate a Warforged-Juggernaut Fighter */
-import DND from 'dnd-npc';
-const npc = new DND({ raceType: "warforged", subRace: "juggernaut", classType: "fighter"})
+<pre><code>import NPC from 'dnd-npc';
 
+const obj = {
+	raceType: "warforged",
+	subRace: "juggernaut",
+	classType: "fighter"
+}
+
+const npc = new NPC(obj)
+
+// Generates a Warforged-Juggernaut Fighter
 const character = await npc.generate();
 </code></pre>
-<pre><code class="language-javascript">/* Generate a Warforged-Juggernaut Fighter */
-import DND from 'dnd-npc';
-const npc = new DND()
-   .setRace("warforged", "juggernaut")
-   .setClass("fighter");
+<pre><code class="language-javascript">import NPC from 'dnd-npc';
+const npc = new NPC()
+	.setRace("warforged", "juggernaut")
+	.setClass("fighter");
 
+// Generates a Warforged-Juggernaut Fighter
 const character = await npc.generate();
 </code></pre>
 
 <p>You can overwrite settings that you have already input.</p>
-<pre><code class="language-javascript">/* Generate a Human Bard (why u make Bard tho?) */
-import DND from 'dnd-npc';
-const npc = new DND({ raceType: "warforged", subRace: "juggernaut", classType: "fighter"})
-   .setRace("human")
-   .setClass("bard");
-   
+<pre><code class="language-javascript">import NPC from 'dnd-npc';
+
+const obj = {
+	raceType: "warforged",
+	subRace: "juggernaut",
+	classType: "fighter"
+}
+
+const npc = new NPC(obj)
+	.setRace("human")
+	.setClass("bard");
+	
+// Generates a Human Bard (why u make Bard tho?)
 const character = await npc.generate();
 </code></pre>
 
 <p>Passing a sub-race as the raceType and it will generate with the correct race and sub-race.</p>
-<pre><code class="language-javascript">/* Generate a Warforged-Juggernaut with a random class. */
-const obj = { raceType: "Juggernaut" }
+<pre><code class="language-javascript">import NPC from 'dnd-npc';
+const npc = new NPC({ classType: "juggernaut" });
 
-import NPC from 'dnd-npc';
-const npc = new NPC(obj);
-
+// Generates a Warforged-Juggernaut with a random class.
 const character = await npc.generate();
 </code></pre>
 
 <p>Leaving the raceType or classType blank, or passing an invalid type to it, will result in that thing being randomly generated.</p>
-<pre><code class="language-javascript">/* Generate a Warforged with a random sub-race and class */
-import DND from 'dnd-npc';
-const npc = new DND({ raceType: "warforged" });
+<pre><code class="language-javascript">import NPC from 'dnd-npc';
+const npc = new NPC({ raceType: "warforged" });
 
+// Generates a Warforged with a random sub-race and class.
 const character = await npc.generate();
 </code></pre>
-<pre><code class="language-javascript">/* Generates a fighter with a random race */
-import DND from 'dnd-npc';
-const npc = new DND({ classType: "fighter" });
+<pre><code class="language-javascript">import NPC from 'dnd-npc';
+const npc = new NPC({ classType: "fighter" });
 
+// Generates a fighter with a random race
 const character = await npc.generate();
 </code></pre>
-<pre><code class="language-javascript">/* Generates a completely random character. */
-import DND from 'dnd-npc';
-const npc = new DND();
+<pre><code class="language-javascript">import NPC from 'dnd-npc';
+const npc = new NPC();
 
+// Generates a completely random character.
 const character = await npc.generate();
 </code></pre>
