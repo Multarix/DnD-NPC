@@ -87,7 +87,7 @@
 <div class="embed">
 	<p>Use this method when you're ready to generate all aspects of your NPC.<br>
 		After using this, you'll recieve an NPC object.<br><br>
-		⚠️ Generate can only be used once per instance of the NPC Class, further uses will simply return the original NPC object</p>
+		⚠️ You can only use #generate() once per npc instance. Additional uses will simply return the same character.</p>
 	<p>Returns: <a href="{{ site.baseurl }}/objects">Promise&lt;Character: Object&gt;</a></p>
 </div><br>
 <hr>
