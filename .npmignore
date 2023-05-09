@@ -1,8 +1,7 @@
 .git
 .github
+.vscode
 docs
-monster
 node_modules
 .eslintrc.json
-test.js
-src/classes/monster.js
+test*.js
