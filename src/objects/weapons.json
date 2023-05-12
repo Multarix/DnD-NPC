@@ -1,115 +1,29 @@
 [
 	{
-		"name": "Club",
-		"link": "https://www.dndbeyond.com/equipment/club",
-		"damageType": "bludgeoning",
-		"damage": "1×d4",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["light", "melee"]
-	},
-	{
-		"name": "Dagger",
-		"link": "https://www.dndbeyond.com/equipment/dagger",
-		"damageType": "piercing",
-		"damage": "1×d4",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["finesse", "light", "thrown"]
-	},
-	{
-		"name": "Greatclub",
-		"link": "https://www.dndbeyond.com/equipment/greatclub",
-		"damageType": "bludgeoning",
+		"name": "Battleaxe",
+		"link": "https://www.dndbeyond.com/equipment/battleaxe",
+		"damageType": "slashing",
 		"damage": "1×d8",
-		"simple": true,
+		"versatileDamage": "1×d10",
+		"simple": false,
 		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"versatile"
+		]
+	},
+	{
+		"name": "Blowgun",
+		"link": "https://www.dndbeyond.com/equipment/blowgun",
+		"damageType": "piercing",
+		"damage": "1×1",
+		"simple": false,
+		"ranged": true,
 		"allowsShield": false,
-		"properties": ["two-handed"]
-	},
-	{
-		"name": "Handaxe",
-		"link": "https://www.dndbeyond.com/equipment/handaxe",
-		"damageType": "slashing",
-		"damage": "1×d6",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["light", "thrown"]
-	},
-	{
-		"name": "Javelin",
-		"link": "https://www.dndbeyond.com/equipment/javelin",
-		"damageType": "piercing",
-		"damage": "1×d6",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["thrown"]
-	},
-	{
-		"name": "Light Hammer",
-		"link": "https://www.dndbeyond.com/equipment/light-hammer",
-		"damageType": "bludgeoning",
-		"damage": "1×d4",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["light", "thrown"]
-	},
-	{
-		"name": "Mace",
-		"link": "https://www.dndbeyond.com/equipment/mace",
-		"damageType": "bludgeoning",
-		"damage": "1×d6",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": []
-	},
-	{
-		"name": "Quarterstaff",
-		"link": "https://www.dndbeyond.com/equipment/quarterstaff",
-		"damageType": "bludgeoning",
-		"damage": "1×d6",
-		"versatileDamage": "1×d8",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["versatile"]
-	},
-	{
-		"name": "Sickle",
-		"link": "https://www.dndbeyond.com/equipment/sickle",
-		"damageType": "slashing",
-		"damage": "1×d4",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["light"]
-	},
-	{
-		"name": "Spear",
-		"link": "https://www.dndbeyond.com/equipment/spear",
-		"damageType": "piercing",
-		"damage": "1×d6",
-		"versatileDamage": "1×d8",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["thrown", "versatile"]
-	},
-	{
-		"name": "Yklwa",
-		"link": "https://www.dndbeyond.com/equipment/yklwa",
-		"damageType": "piercing",
-		"damage": "1×d8",
-		"simple": true,
-		"ranged": false,
-		"allowsShield": true,
-		"properties": ["thrown"]
+		"properties": [
+			"ammunition",
+			"loading"
+		]
 	},
 	{
 		"name": "Boomerang",
@@ -119,18 +33,36 @@
 		"simple": true,
 		"ranged": true,
 		"allowsShield": true,
-		"properties": ["thrown"]
+		"properties": [
+			"thrown"
+		]
 	},
 	{
-		"name": "Light Crossbow",
-		"aliases": ["lightcrossbow", "light-crossbow"],
-		"link": "https://www.dndbeyond.com/equipment/crossbow-light",
-		"damageType": "piercing",
-		"damage": "1×d8",
+		"name": "Club",
+		"link": "https://www.dndbeyond.com/equipment/club",
+		"damageType": "bludgeoning",
+		"damage": "1×d4",
 		"simple": true,
-		"ranged": true,
-		"allowsShield": false,
-		"properties": ["anmunition", "loading", "two-handed"]
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"light",
+			"melee"
+		]
+	},
+	{
+		"name": "Dagger",
+		"link": "https://www.dndbeyond.com/equipment/dagger",
+		"damageType": "piercing",
+		"damage": "1×d4",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"finesse",
+			"light",
+			"thrown"
+		]
 	},
 	{
 		"name": "Dart",
@@ -140,38 +72,23 @@
 		"simple": true,
 		"ranged": true,
 		"allowsShield": true,
-		"properties": ["finesse", "thrown"]
+		"properties": [
+			"finesse",
+			"thrown"
+		]
 	},
 	{
-		"name": "Shortbow",
-		"link": "https://www.dndbeyond.com/equipment/shortbow",
-		"damageType": "piercing",
-		"damage": "1×d6",
-		"simple": true,
-		"ranged": true,
-		"allowsShield": false,
-		"properties": ["ammunition", "two-handed"]
-	},
-	{
-		"name": "Sling",
-		"link": "https://www.dndbeyond.com/equipment/sling",
-		"damageType": "bludgeoning",
-		"damage": "1×d4",
-		"simple": true,
-		"ranged": true,
-		"allowsShield": false,
-		"properties": ["ammunition"]
-	},
-	{
-		"name": "Battleaxe",
-		"link": "https://www.dndbeyond.com/equipment/battleaxe",
+		"name": "Double-Bladed Scimitar",
+		"link": "https://www.dndbeyond.com/equipment/double-bladed-scimitar",
 		"damageType": "slashing",
-		"damage": "1×d8",
-		"versatileDamage": "1×d10",
+		"damage": "2×d4",
 		"simple": false,
 		"ranged": false,
-		"allowsShield": true,
-		"properties": ["versatile"]
+		"allowsShield": false,
+		"properties": [
+			"two-handed",
+			"special"
+		]
 	},
 	{
 		"name": "Flail",
@@ -191,7 +108,11 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": false,
-		"properties": ["heavy", "reach", "two-handed"]
+		"properties": [
+			"heavy",
+			"reach",
+			"two-handed"
+		]
 	},
 	{
 		"name": "Greataxe",
@@ -201,7 +122,22 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": false,
-		"properties": ["heavy", "two-handed"]
+		"properties": [
+			"heavy",
+			"two-handed"
+		]
+	},
+	{
+		"name": "Greatclub",
+		"link": "https://www.dndbeyond.com/equipment/greatclub",
+		"damageType": "bludgeoning",
+		"damage": "1×d8",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": false,
+		"properties": [
+			"two-handed"
+		]
 	},
 	{
 		"name": "Greatsword",
@@ -211,7 +147,10 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": false,
-		"properties": ["heavy", "two-handed"]
+		"properties": [
+			"heavy",
+			"two-handed"
+		]
 	},
 	{
 		"name": "Halberd",
@@ -221,7 +160,94 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": false,
-		"properties": ["heavy", "reach", "two-handed"]
+		"properties": [
+			"heavy",
+			"reach",
+			"two-handed"
+		]
+	},
+	{
+		"name": "Hand Crossbow",
+		"link": "https://www.dndbeyond.com/equipment/crossbow-hand",
+		"damageType": "piercing",
+		"damage": "1×d6",
+		"simple": false,
+		"ranged": true,
+		"allowsShield": false,
+		"properties": [
+			"ammunition",
+			"light",
+			"loading"
+		]
+	},
+	{
+		"name": "Handaxe",
+		"link": "https://www.dndbeyond.com/equipment/handaxe",
+		"damageType": "slashing",
+		"damage": "1×d6",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"light",
+			"thrown"
+		]
+	},
+	{
+		"name": "Hoopak",
+		"link": "https://www.dndbeyond.com/equipment/hoopak",
+		"damageType": "peircing",
+		"damage": "1×d6",
+		"simple": false,
+		"ranged": false,
+		"allowsShield": false,
+		"properties": [
+			"finesse",
+			"special",
+			"two-handed"
+		]
+	},
+		{
+		"name": "Hoopak (Ranged)",
+		"link": "https://www.dndbeyond.com/equipment/hoopak",
+		"damageType": "bludgeoning",
+		"damage": "1×d4",
+		"simple": false,
+		"ranged": false,
+		"allowsShield": false,
+		"properties": [
+			"ammunition",
+			"finesse",
+			"special",
+			"two-handed"
+		]
+	},
+	{
+		"name": "Heavy Crossbow",
+		"link": "https://www.dndbeyond.com/equipment/crossbow-heavy",
+		"damageType": "piercing",
+		"damage": "1×d10",
+		"simple": false,
+		"ranged": true,
+		"allowsShield": false,
+		"properties": [
+			"ammunition",
+			"heavy",
+			"loading",
+			"two-handed"
+		]
+	},
+	{
+		"name": "Javelin",
+		"link": "https://www.dndbeyond.com/equipment/javelin",
+		"damageType": "piercing",
+		"damage": "1×d6",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"thrown"
+		]
 	},
 	{
 		"name": "Lance",
@@ -231,7 +257,55 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": false,
-		"properties": ["reach", "special"]
+		"properties": [
+			"reach",
+			"special"
+		]
+	},
+	{
+		"name": "Light Crossbow",
+		"aliases": [
+			"lightcrossbow",
+			"light-crossbow"
+		],
+		"link": "https://www.dndbeyond.com/equipment/crossbow-light",
+		"damageType": "piercing",
+		"damage": "1×d8",
+		"simple": true,
+		"ranged": true,
+		"allowsShield": false,
+		"properties": [
+			"anmunition",
+			"loading",
+			"two-handed"
+		]
+	},
+	{
+		"name": "Light Hammer",
+		"link": "https://www.dndbeyond.com/equipment/light-hammer",
+		"damageType": "bludgeoning",
+		"damage": "1×d4",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"light",
+			"thrown"
+		]
+	},
+	{
+		"name": "Longbow",
+		"link": "https://www.dndbeyond.com/equipment/longbow",
+		"damageType": "piercing",
+		"damage": "1×d8",
+		"simple": false,
+		"ranged": true,
+		"allowsShield": false,
+		"properties": [
+			"ammunition",
+			"heavy",
+			"two-handed"
+		]
 	},
 	{
 		"name": "Longsword",
@@ -242,7 +316,19 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": true,
-		"properties": ["versatile"]
+		"properties": [
+			"versatile"
+		]
+	},
+	{
+		"name": "Mace",
+		"link": "https://www.dndbeyond.com/equipment/mace",
+		"damageType": "bludgeoning",
+		"damage": "1×d6",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": []
 	},
 	{
 		"name": "Maul",
@@ -252,7 +338,10 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": false,
-		"properties": ["heavy", "two-handed"]
+		"properties": [
+			"heavy",
+			"two-handed"
+		]
 	},
 	{
 		"name": "Morningstar",
@@ -267,12 +356,29 @@
 	{
 		"name": "Pike",
 		"link": "https://www.dndbeyond.com/equipment/pike",
-		"damageType": "slashing",
+		"damageType": "piercing",
 		"damage": "1×d10",
 		"simple": false,
 		"ranged": false,
 		"allowsShield": false,
-		"properties": ["heavy", "reach", "two-handed"]
+		"properties": [
+			"heavy",
+			"reach",
+			"two-handed"
+		]
+	},
+	{
+		"name": "Quarterstaff",
+		"link": "https://www.dndbeyond.com/equipment/quarterstaff",
+		"damageType": "bludgeoning",
+		"damage": "1×d6",
+		"versatileDamage": "1×d8",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"versatile"
+		]
 	},
 	{
 		"name": "Rapier",
@@ -282,7 +388,9 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": true,
-		"properties": ["finesse"]
+		"properties": [
+			"finesse"
+		]
 	},
 	{
 		"name": "Scimitar",
@@ -292,7 +400,23 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": true,
-		"properties": ["finesse", "light"]
+		"properties": [
+			"finesse",
+			"light"
+		]
+	},
+	{
+		"name": "Shortbow",
+		"link": "https://www.dndbeyond.com/equipment/shortbow",
+		"damageType": "piercing",
+		"damage": "1×d6",
+		"simple": true,
+		"ranged": true,
+		"allowsShield": false,
+		"properties": [
+			"ammunition",
+			"two-handed"
+		]
 	},
 	{
 		"name": "Shortsword",
@@ -302,7 +426,48 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": true,
-		"properties": ["finesse", "light"]
+		"properties": [
+			"finesse",
+			"light"
+		]
+	},
+	{
+		"name": "Sickle",
+		"link": "https://www.dndbeyond.com/equipment/sickle",
+		"damageType": "slashing",
+		"damage": "1×d4",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"light"
+		]
+	},
+	{
+		"name": "Sling",
+		"link": "https://www.dndbeyond.com/equipment/sling",
+		"damageType": "bludgeoning",
+		"damage": "1×d4",
+		"simple": true,
+		"ranged": true,
+		"allowsShield": false,
+		"properties": [
+			"ammunition"
+		]
+	},
+	{
+		"name": "Spear",
+		"link": "https://www.dndbeyond.com/equipment/spear",
+		"damageType": "piercing",
+		"damage": "1×d6",
+		"versatileDamage": "1×d8",
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"thrown",
+			"versatile"
+		]
 	},
 	{
 		"name": "Trident",
@@ -313,12 +478,15 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": true,
-		"properties": ["thrown", "versatile"]
+		"properties": [
+			"thrown",
+			"versatile"
+		]
 	},
 	{
 		"name": "War Pick",
 		"link": "https://www.dndbeyond.com/equipment/war-pick",
-		"damageType": "slashing",
+		"damageType": "piercing",
 		"damage": "1×d8",
 		"simple": false,
 		"ranged": false,
@@ -334,7 +502,9 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": true,
-		"properties": ["versatile"]
+		"properties": [
+			"versatile"
+		]
 	},
 	{
 		"name": "Whip",
@@ -344,46 +514,21 @@
 		"simple": false,
 		"ranged": false,
 		"allowsShield": true,
-		"properties": ["finesse", "reach"]
+		"properties": [
+			"finesse",
+			"reach"
+		]
 	},
 	{
-		"name": "Blowgun",
-		"link": "https://www.dndbeyond.com/equipment/blowgun",
-		"damageType": "piercing",
-		"damage": "1×1",
-		"simple": false,
-		"ranged": true,
-		"allowsShield": false,
-		"properties": ["ammunition", "loading"]
-	},
-	{
-		"name": "Hand Crossbow",
-		"link": "https://www.dndbeyond.com/equipment/crossbow-hand",
-		"damageType": "piercing",
-		"damage": "1×d6",
-		"simple": false,
-		"ranged": true,
-		"allowsShield": false,
-		"properties": ["ammunition", "light", "loading"]
-	},
-	{
-		"name": "Heavy Crossbow",
-		"link": "https://www.dndbeyond.com/equipment/crossbow-heavy",
-		"damageType": "piercing",
-		"damage": "1×d10",
-		"simple": false,
-		"ranged": true,
-		"allowsShield": false,
-		"properties": ["ammunition", "heavy", "loading", "two-handed"]
-	},
-	{
-		"name": "Longbow",
-		"link": "https://www.dndbeyond.com/equipment/longbow",
+		"name": "Yklwa",
+		"link": "https://www.dndbeyond.com/equipment/yklwa",
 		"damageType": "piercing",
 		"damage": "1×d8",
-		"simple": false,
-		"ranged": true,
-		"allowsShield": false,
-		"properties": ["ammunition", "heavy", "two-handed"]
+		"simple": true,
+		"ranged": false,
+		"allowsShield": true,
+		"properties": [
+			"thrown"
+		]
 	}
 ]

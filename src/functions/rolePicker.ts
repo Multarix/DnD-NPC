@@ -5,6 +5,10 @@ export default function rolePicker(roleType: string){
 
 	let roleName: string;
 	switch(roleType){
+		case "artificer":
+			roleName = "artificer";
+			break;
+
 		case "barb":
 		case "barbarian":
 			roleName = "barbarian";
