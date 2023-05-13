@@ -1,9 +1,14 @@
 import inventory from "../functions/inventory.js";
 import statGen from "../functions/randomStat.js";
-import music from "../objects/musicalInstruments.json" assert { type: "json" };
+import fs from "fs";
 
 
 import { AbilityPriority, RaceData } from "../../interfaces.js";
+
+
+// Rather than rely on "import assert", just use fs and JSON.parse()
+const musicalText = fs.readFileSync("./src/objects/musicalInstruments.json", "utf8")
+const music = JSON.parse(musicalText);
 
 
 const weaponTags = {

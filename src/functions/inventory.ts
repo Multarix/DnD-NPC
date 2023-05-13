@@ -1,6 +1,14 @@
-import weaponList from "../objects/weapons.json" assert { type: "json" };
-import armorList from "../objects/armor.json" assert { type: "json" };
 import { RaceData, WeaponTags, ArmorTags, Inventory, WeaponData, ArmorData } from "../../interfaces.js";
+import fs from "fs";
+
+
+// Rather than rely on "import assert", just use fs and JSON.parse()
+const weaponText = fs.readFileSync("./src/objects/weapons.json", "utf8")
+const weaponList = JSON.parse(weaponText);
+
+const armorText = fs.readFileSync("./src/objects/armor.json", "utf8")
+const armorList = JSON.parse(armorText);
+
 
 export default function inventory(race: RaceData, strength: number, weaponTags: WeaponTags, armorTags: ArmorTags, isDruid: Boolean = false): Inventory {
 	const gear: Inventory = {
@@ -11,7 +19,7 @@ export default function inventory(race: RaceData, strength: number, weaponTags: 
 	};
 	
 	// Filter out the weapons that are too heavy for for small characters
-	if(race.size === "Small") weaponList.filter(x => !x.properties.includes("heavy"));
+	if(race.size === "Small") weaponList.filter((x: WeaponData) => !x.properties.includes("heavy"));
 	
 	// Get all of the viable weapons
 	const viableWeapons: WeaponData[] = [];

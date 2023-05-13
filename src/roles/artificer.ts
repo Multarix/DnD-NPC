@@ -1,9 +1,14 @@
 import inventory from "../functions/inventory.js";
 import statGen from "../functions/randomStat.js";
-import artisanTools from "../objects/artisanTools.json" assert { type: "json" };
+import fs from "fs";
 
 
 import { AbilityPriority, RaceData } from "../../interfaces.js";
+
+
+// Rather than rely on "import assert", just use fs and JSON.parse()
+const artisanText = fs.readFileSync("./src/objects/artisanTools.json", "utf8")
+const artisanTools = JSON.parse(artisanText);
 
 
 const weaponTags = {

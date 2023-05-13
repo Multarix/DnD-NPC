@@ -1,5 +1,11 @@
-import roles from "../roles/roles.json" assert { type: "json" };
 import { RaceData, RoleData } from "../../interfaces.js";
+import fs from "fs";
+
+
+// Rather than rely on "import assert", just use fs and JSON.parse()
+const roleText = fs.readFileSync("./src/roles/roles.json", "utf8")
+const roles = JSON.parse(roleText);
+
 
 export default async function chosenRole(roleType: string, race: RaceData): Promise<RoleData>{
 	if(roleType === "random"){

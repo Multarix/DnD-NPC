@@ -1,10 +1,17 @@
 import inventory from "../functions/inventory.js";
 import statGen from "../functions/randomStat.js";
-import musical from "../objects/musicalInstruments.json" assert { type: "json" };
-import artisan from "../objects/artisanTools.json" assert { type: "json" };
+import fs from "fs";
 
 
 import { AbilityPriority, RaceData } from "../../interfaces.js";
+
+
+// Rather than rely on "import assert", just use fs and JSON.parse()
+const musicalText = fs.readFileSync("./src/objects/musicalInstruments.json", "utf8")
+const musical = JSON.parse(musicalText);
+
+const artisanText = fs.readFileSync("./src/objects/artisanTools.json", "utf8")
+const artisan = JSON.parse(artisanText);
 
 
 const weaponTags = {
@@ -38,11 +45,11 @@ export default (race: RaceData) => {
 		backgrounds: ["Acoylte", "Haunted One", "Hermit", "Sage"]
 	};
 
-	let n = Math.floor(Math.random() * artisan.length);
-	const tool = artisan[n];
-	n = Math.floor(Math.random() * musical.length);
-	const instrument = musical[n];
-	const item = (Math.random() > 0.5) ? instrument : tool;
-	role.inventory.tools.push(item);
+	const toolList = (Math.random() > 0.5) ? musical : artisan;
+	const n = Math.floor(Math.random() * toolList.length);
+	
+	const tool = toolList[n];
+
+	role.inventory.tools.push(tool);
 	return role;
 };

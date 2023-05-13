@@ -1,4 +1,6 @@
 import { RaceData, RoleData, CharacterData } from "../../interfaces.js";
+import fs from "fs";
+
 
 export default async function charData(race: RaceData, role: RoleData): Promise<CharacterData> {
 
@@ -24,11 +26,12 @@ export default async function charData(race: RaceData, role: RoleData): Promise<
 	raceName = regMatch[0];
 
 	
-	const jsonFirst = await import(`../names/${gender.toLowerCase()}/${raceName}.json`, { assert: { type: "json" } });
-	const jsonLast = await import(`../names/lastNames/${raceName}.json`, { assert: { type: "json" } });
+	// Rather than rely on "import assert", just use fs and JSON.parse()
+	const firstNameText = fs.readFileSync(`./src/names/${gender.toLowerCase()}/${raceName}.json`, "utf8");
+	const lastNameText = fs.readFileSync(`./src/names/lastNames/${raceName}.json`, "utf8");
 	
-	const firstNameJSON = jsonFirst.default;
-	const lastNameJSON = jsonLast.default;
+	const firstNameJSON = JSON.parse(firstNameText);
+	const lastNameJSON = JSON.parse(lastNameText);
 	
 	randomNumber = Math.floor(Math.random() * firstNameJSON.length);
 	const firstName = firstNameJSON[randomNumber];

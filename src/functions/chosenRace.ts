@@ -1,5 +1,10 @@
-import races from "../races/races.json" assert { type: "json" };
 import { RaceData } from "../../interfaces.js";
+import fs from "fs";
+
+
+// Rather than rely on "import assert", just use fs and JSON.parse()
+const raceText = fs.readFileSync("./src/races/races.json", "utf8");
+const races = JSON.parse(raceText);
 
 
 export default async function chosenRace(raceType: string): Promise<RaceData>{
