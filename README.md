@@ -84,8 +84,8 @@ const character = await npc.generate();
 
 ---
 ## **Output:**
-After using the #generate() method, you'll receive an object like this with all the details of the NPC.<br>
-⚠️ You can only use #generate() once per npc instance. Additional uses will simply return the same character.
+After using the `#generate()` method, you'll receive an object like this with all the details of the NPC.<br>
+⚠️ You can only use `#generate()` once per npc instance. Additional uses will simply return the same character.
 ```js
 {
 	"character": CharacterData,
