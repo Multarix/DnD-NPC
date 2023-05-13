@@ -1,98 +1,142 @@
 [
 	{
-		"name": "Padded Armor",
-		"type": "light",
-		"link": "https://www.dndbeyond.com/equipment/padded",
-		"strengthReq": 0,
-		"isMetal": false,
-		"isStealthy": false
-	},
-	{
-		"name": "Leather Armor",
-		"type": "light",
-		"link": "https://www.dndbeyond.com/equipment/leather",
-		"strengthReq": 0,
-		"isMetal": false,
-		"isStealthy": true
-	},
-	{
-		"name": "Studded Leather Armor",
-		"type": "light",
-		"link": "https://www.dndbeyond.com/equipment/studded-leather",
-		"strengthReq": 0,
-		"isMetal": false,
-		"isStealthy": true
-	},
-	{
-		"name": "Hide Armor",
-		"type": "medium",
-		"link": "https://www.dndbeyond.com/equipment/hide",
-		"strengthReq": 0,
-		"isMetal": false,
-		"isStealthy": true
-	},
-	{
-		"name": "Chain Shirt Armor",
-		"type": "medium",
-		"link": "https://www.dndbeyond.com/equipment/chain-shirt",
-		"strengthReq": 0,
-		"isMetal": true,
-		"isStealthy": true
-	},
-	{
-		"name": "Scale Mail Armor",
-		"type": "medium",
-		"link": "https://www.dndbeyond.com/equipment/scale-mail",
-		"strengthReq": 0,
-		"isMetal": true,
-		"isStealthy": false
-	},
-	{
-		"name": "Breastplate Armor",
+		"name": "Breastplate",
 		"type": "medium",
 		"link": "https://www.dndbeyond.com/equipment/breastplate",
 		"strengthReq": 0,
-		"isMetal": true,
+		"armorClass": 14,
+		"scalesWithDex": true,
+		"maxDexBonus": 2,
 		"isStealthy": true
 	},
 	{
-		"name": "Half Plate Armor",
-		"type": "medium",
-		"link": "https://www.dndbeyond.com/equipment/half-plate",
-		"strengthReq": 0,
-		"isMetal": true,
-		"isStealthy": false
-	},
-	{
-		"name": "Ring Mail Armor",
-		"type": "heavy",
-		"link": "https://www.dndbeyond.com/equipment/ring-mail",
-		"strengthReq": 0,
-		"isMetal": true,
-		"isStealthy": false
-	},
-	{
-		"name": "Chain Mail Armor",
+		"name": "Chain Mail",
 		"type": "heavy",
 		"link": "https://www.dndbeyond.com/equipment/chain-mail",
 		"strengthReq": 13,
-		"isMetal": true,
+		"armorClass": 16,
+		"scalesWithDex": false,
+		"maxDexBonus": 0,
 		"isStealthy": false
 	},
 	{
-		"name": "Splint Armor",
-		"type": "heavy",
-		"link": "https://www.dndbeyond.com/equipment/splint",
-		"strengthReq": 15,
-		"isMetal": true,
+		"name": "Chain Shirt",
+		"type": "medium",
+		"link": "https://www.dndbeyond.com/equipment/chain-shirt",
+		"strengthReq": 0,
+		"armorClass": 13,
+		"scalesWithDex": true,
+		"maxDexBonus": 2,
+		"isStealthy": true
+	},
+	{
+		"name": "Half Plate",
+		"type": "medium",
+		"link": "https://www.dndbeyond.com/equipment/half-plate",
+		"strengthReq": 0,
+		"armorClass": 15,
+		"scalesWithDex": true,
+		"maxDexBonus": 2,
 		"isStealthy": false
 	},
 	{
-		"name": "Plate Armor",
+		"name": "Hide",
+		"type": "medium",
+		"link": "https://www.dndbeyond.com/equipment/hide",
+		"strengthReq": 0,
+		"armorClass": 12,
+		"scalesWithDex": true,
+		"maxDexBonus": 2,
+		"isStealthy": true
+	},
+	{
+		"name": "Leather",
+		"type": "light",
+		"link": "https://www.dndbeyond.com/equipment/leather",
+		"strengthReq": 0,
+		"armorClass": 11,
+		"scalesWithDex": true,
+		"maxDexBonus": -1,
+		"isStealthy": true
+	},
+	{
+		"name": "Padded",
+		"type": "light",
+		"link": "https://www.dndbeyond.com/equipment/padded",
+		"strengthReq": 0,
+		"armorClass": 11,
+		"scalesWithDex": true,
+		"maxDexBonus": -1,
+		"isStealthy": false
+	},
+	{
+		"name": "Plate",
 		"type": "heavy",
 		"link": "https://www.dndbeyond.com/equipment/plate",
 		"strengthReq": 15,
-		"isMetal": true,
+		"armorClass": 18,
+		"scalesWithDex": false,
+		"maxDexBonus": 0,
 		"isStealthy": false
+	},
+	{
+		"name": "Pride Silk Outfit",
+		"type": "light",
+		"link": "https://www.dndbeyond.com/equipment/pride-silk-outfit",
+		"strengthReq": 0,
+		"armorClass": 11,
+		"scalesWithDex": true,
+		"maxDexBonus": -1,
+		"isStealthy": true
+	},
+	{
+		"name": "Ring Mail",
+		"type": "heavy",
+		"link": "https://www.dndbeyond.com/equipment/ring-mail",
+		"strengthReq": 0,
+		"armorClass": 14,
+		"scalesWithDex": false,
+		"maxDexBonus": 0,
+		"isStealthy": false
+	},
+	{
+		"name": "Scale Mail",
+		"type": "medium",
+		"link": "https://www.dndbeyond.com/equipment/scale-mail",
+		"strengthReq": 0,
+		"armorClass": 14,
+		"scalesWithDex": true,
+		"maxDexBonus": 2,
+		"isStealthy": false
+	},
+	{
+		"name": "Spiked Armor",
+		"type": "medium",
+		"link": "https://www.dndbeyond.com/equipment/spiked-armor",
+		"strengthReq": 0,
+		"armorClass": 14,
+		"scalesWithDex": true,
+		"maxDexBonus": 2,
+		"isStealthy": false
+	},
+	{
+		"name": "Splint",
+		"type": "heavy",
+		"link": "https://www.dndbeyond.com/equipment/splint",
+		"strengthReq": 15,
+		"armorClass": 17,
+		"scalesWithDex": false,
+		"maxDexBonus": 0,
+		"isStealthy": false
+	},
+	{
+		"name": "Studded Leather",
+		"type": "light",
+		"link": "https://www.dndbeyond.com/equipment/studded-leather",
+		"strengthReq": 0,
+		"armorClass": 12,
+		"scalesWithDex": true,
+		"maxDexBonus": -1,
+		"isStealthy": true
 	}
 ]
