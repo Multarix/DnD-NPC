@@ -2,11 +2,17 @@ import { RaceData, WeaponTags, ArmorTags, Inventory, WeaponData, ArmorData } fro
 import fs from "fs";
 
 
+import path, { dirname } from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+
 // Rather than rely on "import assert", just use fs and JSON.parse()
-const weaponText = fs.readFileSync("./src/objects/weapons.json", "utf8")
+const weaponText = fs.readFileSync(path.resolve(__dirname, "./src/objects/weapons.json"), "utf8")
 const weaponList = JSON.parse(weaponText);
 
-const armorText = fs.readFileSync("./src/objects/armor.json", "utf8")
+const armorText = fs.readFileSync(path.resolve(__dirname, "./src/objects/armor.json"), "utf8")
 const armorList = JSON.parse(armorText);
 
 

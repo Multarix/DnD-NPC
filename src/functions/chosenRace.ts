@@ -2,8 +2,14 @@ import { RaceData } from "../../interfaces.js";
 import fs from "fs";
 
 
+import path, { dirname } from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+
 // Rather than rely on "import assert", just use fs and JSON.parse()
-const raceText = fs.readFileSync("./src/races/races.json", "utf8");
+const raceText = fs.readFileSync(path.resolve(__dirname, "./src/races/races.json"), "utf8");
 const races = JSON.parse(raceText);
 
 

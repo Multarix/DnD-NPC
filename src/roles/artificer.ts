@@ -6,8 +6,14 @@ import fs from "fs";
 import { AbilityPriority, RaceData } from "../../interfaces.js";
 
 
+import path, { dirname } from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+
 // Rather than rely on "import assert", just use fs and JSON.parse()
-const artisanText = fs.readFileSync("./src/objects/artisanTools.json", "utf8")
+const artisanText = fs.readFileSync(path.resolve(__dirname, "./src/objects/artisanTools.json"), "utf8")
 const artisanTools = JSON.parse(artisanText);
 
 

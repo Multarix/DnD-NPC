@@ -2,6 +2,12 @@ import { RaceData, RoleData, CharacterData } from "../../interfaces.js";
 import fs from "fs";
 
 
+import path, { dirname } from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+
 export default async function charData(race: RaceData, role: RoleData): Promise<CharacterData> {
 
 	const age = Math.round(Math.random() * (race.maxAge - race.minAge) + race.minAge);
@@ -27,8 +33,8 @@ export default async function charData(race: RaceData, role: RoleData): Promise<
 
 	
 	// Rather than rely on "import assert", just use fs and JSON.parse()
-	const firstNameText = fs.readFileSync(`./src/names/${gender.toLowerCase()}/${raceName}.json`, "utf8");
-	const lastNameText = fs.readFileSync(`./src/names/lastNames/${raceName}.json`, "utf8");
+	const firstNameText = fs.readFileSync(path.resolve(__dirname, `./src/names/${gender.toLowerCase()}/${raceName}.json`), "utf8");
+	const lastNameText = fs.readFileSync(path.resolve(__dirname, `./src/names/lastNames/${raceName}.json`), "utf8");
 	
 	const firstNameJSON = JSON.parse(firstNameText);
 	const lastNameJSON = JSON.parse(lastNameText);
