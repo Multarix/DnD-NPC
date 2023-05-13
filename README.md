@@ -224,6 +224,7 @@ ToolData = {
 - Yuanti
 ---
 ## **Valid `classType`**
+- Artificer
 - Barbarian
 - Bard
 - Cleric
