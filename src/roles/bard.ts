@@ -13,7 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 
 // Rather than rely on "import assert", just use fs and JSON.parse()
-const musicalText = fs.readFileSync(path.resolve(__dirname, "./src/objects/musicalInstruments.json"), "utf8")
+const musicalText = fs.readFileSync(path.resolve(__dirname, "../objects/musicalInstruments.json"), "utf8")
 const music = JSON.parse(musicalText);
 
 

@@ -33,8 +33,8 @@ export default async function charData(race: RaceData, role: RoleData): Promise<
 
 	
 	// Rather than rely on "import assert", just use fs and JSON.parse()
-	const firstNameText = fs.readFileSync(path.resolve(__dirname, `./src/names/${gender.toLowerCase()}/${raceName}.json`), "utf8");
-	const lastNameText = fs.readFileSync(path.resolve(__dirname, `./src/names/lastNames/${raceName}.json`), "utf8");
+	const firstNameText = fs.readFileSync(path.resolve(__dirname, `../names/${gender.toLowerCase()}/${raceName}.json`), "utf8");
+	const lastNameText = fs.readFileSync(path.resolve(__dirname, `../names/lastNames/${raceName}.json`), "utf8");
 	
 	const firstNameJSON = JSON.parse(firstNameText);
 	const lastNameJSON = JSON.parse(lastNameText);

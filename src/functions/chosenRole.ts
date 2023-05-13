@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 
 // Rather than rely on "import assert", just use fs and JSON.parse()
-const roleText = fs.readFileSync(path.resolve(__dirname, "./src/roles/roles.json"), "utf8")
+const roleText = fs.readFileSync(path.resolve(__dirname, "../roles/roles.json"), "utf8")
 const roles = JSON.parse(roleText);
 
 
