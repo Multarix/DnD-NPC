@@ -132,9 +132,9 @@ StatData = {
 
 InventoryData = {
 	weapon: WeaponData,
-	armor: ArmorData,
+	armor: ArmorData || undefined,
 	shield: Boolean,
-	tools: [ToolData]
+	tools: ToolData[]
 }
 
 WeaponData = {
@@ -146,7 +146,7 @@ WeaponData = {
 	simple: Boolean,
 	ranged: Boolean,
 	allowsShield: Boolean,
-	properties: [String]
+	properties: String[]
 }
 
 ArmorData = {
