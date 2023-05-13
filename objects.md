@@ -60,7 +60,7 @@
 <h2><a class="method" name="InventoryData" href="#InventoryData"><b>Inventory Data</b></a></h2>
 <pre><code class="language-javascript">InventoryData = {
    weapon: WeaponData,
-   armor: ArmorData,
+   armor: ArmorData || undefined,
    shield: Boolean || String,
    tools: ToolData[]
 }
@@ -88,7 +88,9 @@
    type: String,
    link: String,
    strengthReq: Number,
-   isMetal: Boolean,
+   armorClass: Number,
+   scalesWithDex: Boolean,
+   maxDexBonus: Number,
    isStealthy: Boolean
 }
 </code></pre>
