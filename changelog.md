@@ -3,7 +3,7 @@
 <h1 class="title center"><b>Changelog</b></h1>
 <p class= "center">All of the changes that have been made to the package, in a somewhat organized list.</p>
 
-<h1><a class="method" name="2.0.5" href="#2.0.5"><b>v2.0.5</b></a><small><span class="gray"><i> Current Version</i></span></small></h1>
+<h1><a class="method" name="2.0.8" href="#2.0.8"><b>v2.0.8</b></a><small><span class="gray"><i> Current Version</i></span></small></h1>
 
 <h2><b>Changes</b></h2>
 <div class="embed">
