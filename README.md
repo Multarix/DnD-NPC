@@ -154,7 +154,9 @@ ArmorData = {
 	type: String,
 	link: String,
 	strengthReq: Number,
-	isMetal: Boolean,
+	armorClass: Number,
+	scalesWithDex: Boolean,
+	maxDexBonus: Number,
 	isStealthy: Boolean
 }
 
