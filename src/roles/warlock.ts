@@ -13,7 +13,6 @@ const weaponTags = {
 
 const armorTags = {
 	"types": ["light"],
-	"metal": true,
 	"shield": false
 };
 

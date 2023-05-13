@@ -13,7 +13,6 @@ const weaponTags = {
 
 const armorTags = {
 	"types": ["light", "medium"],
-	"metal": false,
 	"shield": true
 };
 
@@ -27,7 +26,7 @@ const skills: AbilityPriority = {
 export default (race: RaceData) => {
 	const stats = statGen(skills);
 	const strength = race.stats.strength + stats.strength;
-	const gear = inventory(race, strength, weaponTags, armorTags);
+	const gear = inventory(race, strength, weaponTags, armorTags, true);
 	const role = {
 		name: "Druid",
 		link: "https://www.dndbeyond.com/classes/druid",

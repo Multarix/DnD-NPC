@@ -14,7 +14,6 @@ const weaponTags = {
 
 const armorTags = {
 	"types": ["light"],
-	"metal": true,
 	"shield": false
 };
 
@@ -38,8 +37,7 @@ export default (race: RaceData) => {
 		backgrounds: ["Charlatan", "Entertainer", "Hermit", "Urchin"]
 	};
 
-	const musical = [...music];
-	const items = [];
+	const musical = [...music]; // Make a copy
 	for(let i = 0; i < 3; i++){
 		const n = Math.floor(Math.random() * musical.length);
 		const instrument = musical[n];
