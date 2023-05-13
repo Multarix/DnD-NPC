@@ -133,7 +133,7 @@ StatData = {
 InventoryData = {
 	weapon: WeaponData,
 	armor: ArmorData || undefined,
-	shield: Boolean,
+	shield: Boolean || String,
 	tools: ToolData[]
 }
 
