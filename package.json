@@ -1,7 +1,7 @@
 {
 	"author": "Multarix",
 	"name": "dnd-npc",
-	"version": "2.0.2",
+	"version": "2.0.5",
 	"description": "Generate random D&D NPCs",
 	"type": "module",
 	"repository": {
