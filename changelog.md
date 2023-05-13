@@ -2,7 +2,35 @@
 
 <h1 class="title center"><b>Changelog</b></h1>
 <p class= "center">All of the changes that have been made to the package, in a somewhat organized list.</p>
-<h1><a class="method" name="2.0.0" href="#2.0.0"><b>v2.0.0</b></a><small><span class="gray"><i> Current Version</i></span></small></h1>
+
+<h1><a class="method" name="2.0.5" href="#2.0.5"><b>v2.0.5</b></a><small><span class="gray"><i> Current Version</i></span></small></h1>
+
+<h2><b>Changes</b></h2>
+<div class="embed">
+<h3 style="font-size: 16px"><b>Armor</b></h3>
+<p>Added 'Pride Silk Outfit' as a new type of possible armor<br>
+
+Removed <span class="literal">&lt;Armor&gt;#isMetal</span><br>
+Added <span class="literal">&lt;Armor&gt;#armorClass</span><br>
+Added <span class="literal">&lt;Armor&gt;#scalesWithDex</span><br>
+Added <span class="literal">&lt;Armor&gt;#maxDexBonus</span>
+<pre class ="diff">
+<span class="red">- Armor.isMetal</span>
+<span class="green">+ Armor.armorClass</span>
+<span class="green">+ Armor.scalesWithDex</span>
+<span class="green">+ Armor.maxDexBonus</span>
+</pre></p>
+</div><br>
+
+<h2><b>Additions</b></h2>
+<div class="embed"><h3 style="font-size: 16px"><b>Classes</b></h3>
+<p>Added the Artificer class<br>
+Click <a href="{{ site.baseurl }}/class/classTypes/artificer" >here</a> for more details on the class</p>
+</div><br>
+
+<hr>
+
+<h1><a class="method" name="2.0.0" href="#2.0.0"><b>v2.0.0</b></a></h1>
 <h2><b>Class Changes</b></h2>
 <div class="embed">
 <h3 style="font-size: 16px"><b>E6 Module Conversion</b></h3>
@@ -134,35 +162,35 @@ As such it returns a promise instead of an object - Use <span class="literal">aw
 		<div class="embedLeft">
 			<ul>
 			<li><a onclick="textHide(false)">Aasimar</a></li>
-			<ul><li><a href="{{ site.baseurl }}/class/npc/raceTypes/aasimar-fallen">Fallen</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/aasimar-protector">Protector</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/aasimar-scourge">Scourge</a></li></ul>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/bugbear">Bugbear</a></li>
+			<ul><li><a href="{{ site.baseurl }}/class/raceTypes/aasimar-fallen">Fallen</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/aasimar-protector">Protector</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/aasimar-scourge">Scourge</a></li></ul>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/bugbear">Bugbear</a></li>
 			<li><a onclick="textHide(false)">Elf</a></li>
-			<ul><li><a href="{{ site.baseurl }}/class/npc/raceTypes/elf-dark">Dark</a></li></ul>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/firbolg">Firbolg</a></li>
+			<ul><li><a href="{{ site.baseurl }}/class/raceTypes/elf-dark">Dark</a></li></ul>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/firbolg">Firbolg</a></li>
 			<li><a onclick="textHide(false)">Gnome</a></li>
-			<ul><li><a href="{{ site.baseurl }}/class/npc/raceTypes/gnome-deep">Deep</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/gnome-forest">Forest</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/gnome-rock">Rock</a></li></ul>
+			<ul><li><a href="{{ site.baseurl }}/class/raceTypes/gnome-deep">Deep</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/gnome-forest">Forest</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/gnome-rock">Rock</a></li></ul>
 			</ul>
 		</div>
 		<div class="embedRight">
 			<ul>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/goblin">Goblin</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/grung">Grung</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/hobgoblin">Hobgoblin</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/kenku">Kenku</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/kobold">Kobold</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/lizardfolk">Lizardfolk</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/orc">Orc</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/tabaxi">Tabaxi</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/triton">Triton</a></li>
-			<li><a href="{{ site.baseurl }}/class/npc/raceTypes/yuanti">Yuan-Ti</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/goblin">Goblin</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/grung">Grung</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/hobgoblin">Hobgoblin</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/kenku">Kenku</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/kobold">Kobold</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/lizardfolk">Lizardfolk</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/orc">Orc</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/tabaxi">Tabaxi</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/triton">Triton</a></li>
+			<li><a href="{{ site.baseurl }}/class/raceTypes/yuanti">Yuan-Ti</a></li>
 			</ul>
 		</div>
 	</div>
-	<br><p>For a full list of available races, <a href="{{ site.baseurl }}/class/npc/raceTypes">click here</a></p>
+	<br><p>For a full list of available races, <a href="{{ site.baseurl }}/class/raceTypes">click here</a></p>
 </div><br>
 
 

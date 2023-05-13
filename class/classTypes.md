@@ -3,6 +3,7 @@
 <h1 class="center title"><b>Classes</b></h1>
 <p class= "center">For all your class generation needs, this is a list of all classes that can be used.</p>
 <p class="center"><br>
+	<a href="{{ site.baseurl }}/class/classTypes/artificer">Artificer</a><br>
 	<a href="{{ site.baseurl }}/class/classTypes/barbarian">Barbarian</a><br>
 	<a href="{{ site.baseurl }}/class/classTypes/bard">Bard</a><br>
 	<a href="{{ site.baseurl }}/class/classTypes/cleric">Cleric</a><br>
