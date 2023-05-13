@@ -1,6 +1,6 @@
 export interface StarterObject {
-	classType?: string,
-	raceType?: string,
+	classType?: string
+	raceType?: string
 	subRace?: string
 }
 
@@ -36,7 +36,6 @@ export interface WeaponTags {
 
 export interface ArmorTags {
 	types: string[]
-	metal: boolean
 	shield: boolean
 }
 
@@ -91,8 +90,10 @@ export interface ArmorData {
 	name: string
 	link: string
 	type: string
-	isMetal: boolean
-	isStealthy: boolean
+	armorClass: number
+	scalesWithDex: Boolean
+	maxDexBonus: number
+	isStealthy: Boolean
 	strengthReq: number
 }
 
@@ -127,7 +128,7 @@ export interface Role {
 
 export interface Inventory {
 	weapon: WeaponData
-	armor: ArmorData
+	armor: ArmorData | undefined
 	shield: string | false
 	tools: ToolData[]
 }
