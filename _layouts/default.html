@@ -2,44 +2,54 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>D&D NPC</title>
-		<meta content="Embed Title" property="og:title"/>
-		<meta content="Projects & Stuff by Multarix" property="og:description"/>
-		<meta content="https://multarix.com" property="og:url" />
-		<!-- <meta content="https://embed.com/embedimage.png" property="og:image"/> -->
+		<!-- Embed Stuff Start -->
+		<title>Multarix</title>
+		<meta property="og:title" content="Projects by Multarix"/>
+		<meta property="og:description" content="All relevant projects and information by Multarix"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:site_name" content="multarix.com"/>
+		<meta property="og:url" content="https://multarix.com"/>
+		<meta content="{{ site.baseurl }}/assets/images/dndlogo.png" property="og:image"/>
 		<meta content="#11bb31" data-react-helmet="true" name="theme-color"/>
-	  
+		<!-- Embed Stuff End -->
+		
+		<!-- Style Sheets/ favicon -->
 		<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon/favicon.ico">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/default.css">
 		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/topNav.css">
+		
+		<!-- Scripts/ Css -->
 		<script defer src="{{ site.baseurl }}/assets/javascript/functions.js"></script>
-		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-		<script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    	<script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
 	
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.min.css">
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 		<script>hljs.highlightAll();</script>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	
+    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	</head>
+	<!-- end header -->
 	<body>
+		<!-- Top Nav -->
 		<div name="top" class="topnav" id="topNav">
 			<div class="topCenter">
-				<a id="home" href="{{ site.baseurl }}/index">HOME</a>
-				<a id="qa" href="{{ site.baseurl }}/qa">Q & A</a>
-				<a id ="changelog" href="{{ site.baseurl }}/changelog">CHANGLOG</a>
-				<a id ="class" href="{{ site.baseurl }}/guide">GUIDE</a>
-				<a href="https://github.com/Multarix/DnD-NPC">GITHUB</a>
-				<a href="javascript:void(0);" class="icon" onclick="topNavMobile()"><i class="fa fa-bars"></i></a>
+				<a id="home" href="{{ site.baseurl }}/">HOME</a>
+				<a id="projects" href="{{ site.baseurl }}/projects">PROJECTS</a>
+				<!-- <a id ="something" href="{{ site.baseurl }}/something">SOMETHING?!?!</a> -->
+				<a id ="about" href="{{ site.baseurl }}/about">ABOUT ME</a>
+				<a href="https://github.com/Multarix/">GITHUB</a>
+				<a href="javascript:void(0);" class="icon" onclick="topNavMobile()">
+				<i class="fa fa-bars"></i></a>
 			</div>
 		</div>
-<!-- end header -->
-		<div id="wrapper" class="wrapper">
+		<!-- Rest of the content goes here -->
+    	<div id="wrapper" class="wrapper">
 			<script>document.getElementById("wrapper").style.maxWidth = "750px";</script>
 			<br>
-			{{ content }}
-		</div>
+        	{{ content }}
+    	</div>
 	</body>
 </html>
