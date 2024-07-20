@@ -22,8 +22,8 @@ export default async () => {
 	const type = ["strength", "dexterity", "constitution", "intelligence", "charisma"];
 	const n = Math.floor(Math.random() * type.length);
 	const stat = type[n];
-	
-	
+
+
 	data.stats[stat as keyof Stats] += 1;
 	return data;
 };

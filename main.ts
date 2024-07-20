@@ -4,8 +4,6 @@ import _generateNPC from "./src/functions/generate.js";
 import { StarterObject, Character } from "./interfaces.js";
 
 
-
-
 /**
  * @class NPC
  * @description A class for generating pseudo NPCs
@@ -14,16 +12,16 @@ export default class NPC {
 	#roleType: string = "random";
 	#raceType: string = "random";
 	character: Character | undefined = undefined;
-	
-	
-	constructor(starterObject: StarterObject){
+
+
+	constructor(starterObject: StarterObject) {
 		const subRace = starterObject?.subRace || "";
 		if(starterObject?.raceType) this.#raceType = _racePicker(starterObject.raceType, subRace);
 		if(starterObject?.classType) this.#roleType = _rolePicker(starterObject.classType);
 	}
 
-	
-	
+
+
 	/**
 	 * @param {string} raceType
 	 * @param {string} [subRace]
@@ -41,8 +39,8 @@ export default class NPC {
 		return this.#raceType;
 	}
 
-	
-	
+
+
 	/**
 	 * @param {string} roleType
 	 * @returns {NPC}
@@ -58,9 +56,9 @@ export default class NPC {
 	getClass(): string {
 		return this.#roleType;
 	}
-	
-	
-	
+
+
+
 	/**
 	 * @returns {Character}
 	**/
@@ -69,4 +67,8 @@ export default class NPC {
 		this.character = await _generateNPC(this.#raceType, this.#roleType);
 		return this.character;
 	}
+}
+
+export {
+	StarterObject, Character
 };

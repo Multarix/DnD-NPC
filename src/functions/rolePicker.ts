@@ -1,5 +1,5 @@
-export default function rolePicker(roleType: string){
-	
+export default function rolePicker(roleType: string) {
+
 	if(typeof roleType !== "string") throw new TypeError("roleType must be a string");
 	roleType = roleType.toLowerCase();
 

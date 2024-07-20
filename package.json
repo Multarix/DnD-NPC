@@ -1,6 +1,6 @@
 {
-	"author": "Multarix",
 	"name": "dnd-npc",
+	"author": "Multarix",
 	"version": "2.0.10",
 	"description": "Generate random D&D NPCs",
 	"type": "module",
@@ -23,15 +23,21 @@
 		"creator"
 	],
 	"devDependencies": {
-		"@types/node": "^20.1.0",
-		"@typescript-eslint/eslint-plugin": "^5.59.2",
-		"@typescript-eslint/parser": "^5.59.2",
-		"eslint": "^8.40.0",
+		"@eslint/js": "^9.7.0",
+		"electron": "^31.1.0",
+		"eslint": "^8.56.0",
+		"globals": "^15.8.0",
+		"typescript": "^5.5.3",
+		"typescript-eslint": "^7.16.1",
 		"tsc-hooks": "^1.1.2"
+
 	},
 	"prepublish": "tsc",
+	"scripts": {
+		"build": "tsc"
+	},
 	"bugs": {
 		"url": "https://github.com/Multarix/DnD-NPC/issues"
 	},
-	"homepage": "https://multarix.github.io/DnD-NPC/"
+	"homepage": "https://multarix.com/projects/npc/"
 }

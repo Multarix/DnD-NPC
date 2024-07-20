@@ -13,7 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 
 // Rather than rely on "import assert", just use fs and JSON.parse()
-const artisanText = fs.readFileSync(path.resolve(__dirname, "../objects/artisanTools.json"), "utf8")
+const artisanText = fs.readFileSync(path.resolve(__dirname, "../objects/artisanTools.json"), "utf8");
 const artisanTools = JSON.parse(artisanText);
 
 
@@ -47,16 +47,16 @@ export default (race: RaceData) => {
 		disposition: ["Lawful", "Neutral", "Chaotic"],
 		backgrounds: ["Guild Artisan", "Hermit", "Outlander", "Sage", "Soldier"] // Couldn't find much on the Artificer's backgrounds
 	};
-	
-	const items = [...artisanTools] // Make a copy
+
+	const items = [...artisanTools]; // Make a copy
 	const thievesTools = { name: "Thieves' Tools", link: "https://www.dndbeyond.com/equipment/thieves-tools" };
 	const tinkersTools = artisanTools[14];
 	items.splice(14, 1);
-	
+
 	const n = Math.floor(Math.random() * items.length);
 	const randomTool = items[n];
-	
+
 	role.inventory.tools.push(thievesTools, tinkersTools, randomTool);
-	
+
 	return role;
 };

@@ -10,8 +10,8 @@ function generateProficiency(roleStat: number, raceStat: number): Stat {
 	const total = roleStat + raceStat;
 	const prof = Math.floor((total - 10) / 2);
 	const totalProf = { total, prof };
-	
-	return totalProf
+
+	return totalProf;
 }
 
 
@@ -42,4 +42,4 @@ export default async function generateNPC(raceType: string, roleType: string): P
 		},
 		inventory: role.inventory
 	};
-};
+}

@@ -4,6 +4,7 @@
 docs
 tsconfig.json
 .eslintrc.json
+eslint.config.js
 test*.js
 
 

@@ -1,8 +1,8 @@
 export default function racePicker(raceType: string, subRace = ""): string {
-	
+
 	if(typeof raceType !== "string") throw new TypeError("raceType must be a string");
 	raceType = raceType.toLowerCase();
-	
+
 	if(typeof subRace !== "string") throw new TypeError("subRace must be a string");
 	subRace = subRace.toLowerCase();
 
@@ -297,4 +297,4 @@ export default function racePicker(raceType: string, subRace = ""): string {
 		default: raceName = "random";
 	}
 	return raceName;
-};
+}
