@@ -40,7 +40,7 @@
 		"isStealthy": false
 	},
 	{
-		"name": "Hide",
+		"name": "Hide Armor",
 		"type": "medium",
 		"link": "https://www.dndbeyond.com/equipment/hide",
 		"strengthReq": 0,
@@ -50,7 +50,7 @@
 		"isStealthy": true
 	},
 	{
-		"name": "Leather",
+		"name": "Leather Armor",
 		"type": "light",
 		"link": "https://www.dndbeyond.com/equipment/leather",
 		"strengthReq": 0,
@@ -60,7 +60,7 @@
 		"isStealthy": true
 	},
 	{
-		"name": "Padded",
+		"name": "Padded Armor",
 		"type": "light",
 		"link": "https://www.dndbeyond.com/equipment/padded",
 		"strengthReq": 0,
@@ -70,7 +70,7 @@
 		"isStealthy": false
 	},
 	{
-		"name": "Plate",
+		"name": "Plate Armor",
 		"type": "heavy",
 		"link": "https://www.dndbeyond.com/equipment/plate",
 		"strengthReq": 15,

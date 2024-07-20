@@ -6,7 +6,6 @@
 		"resolveJsonModule": false,								/* Enable importing .json files. */
 		"declaration": true,                              		/* Generate .d.ts files from TypeScript and JavaScript files in your project. */
 		"outDir": "./dist",                                 	/* Specify an output folder for all emitted files. */
-		"rootDir": "./",
 		"useUnknownInCatchVariables": false,
 		"removeComments": false,                             	/* Disable emitting comments. */
 		"esModuleInterop": true,								/* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
@@ -15,9 +14,10 @@
 		"skipLibCheck": true,									/* Skip type checking all .d.ts files. */
 	},
 	
-	// "include": [],											/* Process everything except .txt files */
-	"exclude": [ "./dist" ],									/* Exclude node_modules, dist, docs, and .github */
+	
 	"hooks": [ "copy-files" ], 							 		/* This tells tsc to run the hook during/after building */
+	// "include": [],
+	"exclude": [ "dist", ".github", "node_modules", "docs" ],	/* Exclude node_modules, dist, docs, and .github */
 	"watchOptions": {
 		"watchFile": "useFsEvents",
 		"watchDirectory": "useFsEvents",
